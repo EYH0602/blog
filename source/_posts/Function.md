@@ -234,6 +234,27 @@ We often use $\mathbb{1}$ to denote the identity.
 
 > Isn't this definition familiar?
 
+### Binary Operation on List
+
+There are two major binary operator of lists.
+Since there are no lists in real math,
+I will just write the Haskell type signature.
+
+`:` is the operator that joint a element and a list of the same type,
+and `++` joints two lists of same type.
+
+```haskell
+(:) :: a -> [a] -> [a]
+(++) :: [a] -> [a] -> [a]
+```
+
+```haskell
+Prelude> 1 : [2..10]
+[1,2,3,4,5,6,7,8,9,10]
+Prelude> [1..5] ++ [6..10]
+[1,2,3,4,5,6,7,8,9,10]
+```
+
 ## Function on Vectors
 
 Recall the idea of vector spaces $\mathbb{R}^n$.
