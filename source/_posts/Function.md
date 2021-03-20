@@ -1,5 +1,5 @@
 ---
-title: Functional 01
+title: Think about Functions
 date: 2021-03-19 12:14:50
 tags:
   - Note
@@ -74,7 +74,7 @@ so we use `::` in the function definition.
 * Function is *left-associative*, 
     so we can ignore the parenthesis when function application,
     as what Haskell did in its syntax.
-    That is, $fx$ is equivalent as $f(x)$.
+    That is, $fx$ is equivalent to $f(x)$.
 
 
 # Common Functions
@@ -292,11 +292,100 @@ $$ \\{ \mathbb{1}, x, x^2, x^3, x^4, y, xy, x^2y, x^3y, x^4y \\}. $$
 
 ## Function on Functions
 
-ToDo.
+When we talk about functional programming,
+there is a feature called function as **first-class citizenship**.
+That means function is just data, no difference than other types of data.
+Therefore, of course we can pass function as parameters
+and return a function as output.
+
+> JavaScript supports this feature as well.
+
+**Definition:**
+A **higher-order function** is a function that either (can be both)
+* takes function as input parameter,
+* return function as output.
+
+This design is for another true purpose of function programming:
+reuse the existing functions as much as possible 
+to reduce the complexity of code.
+
+### Composition
+
+One great example is the **composition operator**.
+Composition is just a binary operation between functions/
+Let $A,B,C$ be sets, then
+$$ \circ : (B \rightarrow C) \rightarrow (A \rightarrow B) 
+\rightarrow (A \rightarrow C) $$
+where $f \circ g\ x = f(gx)$.
+That is, the operator $\circ$ takes 
+a function that map $A$ to $B$ and
+a function that map $B$ to $C$,
+then return a function that map $A$ to $C$.
+
+In Haskell, we define the composition operator as
+```haskell
+(.) :: (b -> c) -> (a -> b) -> a -> c
+f . g x = f (g x) 
+```
+
+### Applying Function on List
+
+Haskell also provides other useful higher-order functions.
 
 
+One is 
+$$ map : (A \rightarrow B) \rightarrow [A] \rightarrow [B]. $$
+As this type signature suggests, 
+it takes a function and map $A$ to $B$ and a list $A$,
+apply this function to all elements of $A$ to get a list of $B$.
 
+```haskell
+map :: (a -> b) -> [a] -> [b]
+```
 
+which runs as
 
+```haskell
+Prelude> map (1+) [1..10]
+[2,3,4,5,6,7,8,9,10,11]
+Prelude> map (read :: String -> Int) ["1","2","3","4","5"]
+[1,2,3,4,5]
+Prelude> map (show :: Int -> String) [1..5]
+["1","2","3","4","5"]
+```
+
+Another one is
+$$ filter : (A \rightarrow Bool) \rightarrow [A] \rightarrow [A] $$
+takes two parameters
+* a function map from type $A$ to a boolean
+* and a list of $A$.
+
+When a function outputs a boolean value,
+we can view it as a "condition".
+If the condition is satisfied (i.e. `True`),
+`filter` takes this value.
+
+In Haskell, `filter` is defined as
+```haskell
+filter :: (a -> Bool) -> [a] -> [a]
+```
+
+```haskell
+Prelude> filter even [1..10]
+[2,4,6,8,10]
+Prelude> filter odd [1..10]
+[1,3,5,7,9]
+```
+
+Using three of them together, we can get
+
+```haskell
+Prelude> map (even . read) ["1", "2", "3", "4", "5"]
+[False,True,False,True,False]
+Prelude> filter (even . read) ["1", "2", "3", "4", "5"]
+["2","4"]
+Prelude> filter id (map (even . read) ["1", "2", "3", "4", "5"])
+[True,True]
+```
 
 
