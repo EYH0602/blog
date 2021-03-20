@@ -47,7 +47,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: '    '
   wrap: true
   hljs: false
 prismjs:
@@ -113,3 +113,11 @@ deploy:
   type: git
   repo : https://github.com/EYH0602/eyh0602.github.io.git
   branch: main
+
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    # src: custom_mathjax_source
+    config:
+      # MathJax config
+

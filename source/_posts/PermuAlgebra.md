@@ -20,7 +20,7 @@ pip3 install permualgebra
 
 ## Permutation
 
-Let $S$ be a set of n distinct elements. 
+Let $S$ be a set of $n$ distinct elements. 
 A **permutation** of $S$ is a *bijection*
 
 $$

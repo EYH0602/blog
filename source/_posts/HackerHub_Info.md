@@ -9,7 +9,7 @@ category: HackerHub
 
 # HackerHub Info 
 
-![Info Session Flyer](/imgaes/HackerHub_Info_Meeting_Facebook_Cover_-_Final.png)
+![Info Session Flyer](/imgaes/HackerHub_Info_Meeting.png)
 
 
 Hello everyone!!! We are having an info session for our new upcoming CS club, HackerHub. The club focuses on bi-weekly Code Jams based on a provided theme or technology. We aim to create a relaxed, educational environment and atmosphere that is conducive for networking, learning, and project creation. Anyone is welcome to join our zoom meeting to learn more about who we are and what our plans for this upcoming quarter are! NO EXPERIENCE IN CS/PROGRAMMING IS NEEDED! 
