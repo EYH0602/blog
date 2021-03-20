@@ -1,3 +1,3 @@
 hexo clean
 hexo g
-hexo s -p 4001
+hexo s # -p 4001
