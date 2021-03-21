@@ -19,11 +19,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/favicon.png
+favicon: /images/favicon.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/favicon.png
+apple_touch_icon: # /img/favicon.png
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -642,11 +642,19 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    type: disqus
+    type: gitalk
+    gitalk:
+      enable: true
+      client_id: 8f9e007ebb5862fc4a45
+      client_secret: af07e1768840bea8439985489dc60c6726f22279
+      repo: blog
+      owner: EYH0602
+      admin: EYH0602
+      distractionFreeMode: false
 
 
 #---------------------------
