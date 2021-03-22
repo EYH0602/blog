@@ -231,6 +231,18 @@ Prelude> flip combineStr 1 3
 Prelude> 
 ```
 
+And the most important one is composition of functions!
+That is the reason why we talk about functional programming.
+Define the **Bluebird**
+$$ B = \lambda fga . f(ga) $$
+to be the composition combinator.
+
+In Haskell, as shown in last post, is
+
+```haskell
+(.) :: (b -> c) -> (a -> b) -> a -> c
+```
+
 Theoretically,
 using Kestrel and Cardinal we can get all the possible combinators.
 So there might be a way to compile any functional program into these two combinators.
