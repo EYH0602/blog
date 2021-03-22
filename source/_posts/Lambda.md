@@ -2,6 +2,10 @@
 title: Introduction to Lambda Calculus
 date: 2021-03-20 20:55:17
 tags: 
+  - Note
+  - math
+  - algebra
+  - Haskell
   - functional
   - programming
   - logic
@@ -61,6 +65,9 @@ we want out function to take as much inputs as we want.
 mathematician [Haskell Brooks Curry](https://en.wikipedia.org/wiki/Haskell_Curry)
 develops an idea to solve this problem.
 
+> There are three programming languages name after him,
+> Haskell, Brook, and Curry.
+
 The idea is that,
 for the function to take two inputs,
 iwe can to define a function that takes one input
@@ -102,7 +109,7 @@ In this way, we can also define our own functions with defining the inputs
 
 ```haskell
 getEven :: Integral a => [a] -> [a]
-getEven = filter . even
+getEven = filter even
 ```
 
 This way of defining function is called **wholemeal programming**,
@@ -127,6 +134,10 @@ $$
 After we fully evaluate the function, we call it a **$\beta$-normal** form.
 
 ## Combinatory Logic
+
+**Definition:**
+A **combinator** is a lambda expression that has no *free variable*.
+That is, the output can only be its inputs.
 
 Recall that we can pass a function as argument.
 Let's define a **self-application** function
@@ -179,7 +190,7 @@ with identity, Mockingbird, and Kestrel, we can create the world.
 
 What if we want the the second parameter instead of the first one?
 In the trivial way, we might define the function as $\lambda ab. b$.
-But if we think about this, we can compose Kestrel and identity
+But if we think about this, we can identity as  Kestrel's input
 $$ KIx = (\lambda ab. a)(\lambda a. a)x = \lambda x.x = I  $$
 which is the identity!
 Then we can try to apply this function to some value
@@ -188,7 +199,7 @@ Let's call the function $KI$  **Kite**.
 
 ```haskell
 kite :: a -> b -> b
-kite = const . id
+kite = const id
 ```
 then 
 ``` haskell
@@ -199,4 +210,10 @@ Prelude> kite 3 2
 Prelude> kite 3 1
 1
 ```
+
+
+
+
+
+
 
