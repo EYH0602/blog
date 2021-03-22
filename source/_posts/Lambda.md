@@ -211,9 +211,38 @@ Prelude> kite 3 1
 1
 ```
 
+Another fundamental combinator is the **Cardinal**, 
+$$ C = \lambda fab. fba $$
+which is the *reverse application*.
+This is defined as the `flip` function in haskell.
 
+```haskell
+flip :: (a -> b -> c) -> b -> a -> c
+```
 
+```haskell
+Prelude> combineStr a b = show a ++ show b
+Prelude> :t combineStr 
+combineStr :: (Show a1, Show a2) => a1 -> a2 -> [Char]
+Prelude> combineStr 1 3
+"13"
+Prelude> flip combineStr 1 3
+"31"
+Prelude> 
+```
 
+Theoretically,
+using Kestrel and Cardinal we can get all the possible combinators.
+So there might be a way to compile any functional program into these two combinators.
+> Can we build a working computer with only Kestrel and Cardinal?
+For more information, visit
+* [Functional Programming with Combinators](https://core.ac.uk/download/pdf/82459455.pdf).
+* [Lambda Calculus - Fullstack Academy](https://www.youtube.com/watch?v=3VQ382QG-y4&t=561s).
+
+**Note.**
+If yuo want to try out the bird names in Haskell,
+there is a library for that
+[Data.Aviary.Birds](https://hackage.haskell.org/package/data-aviary-0.4.0/docs/Data-Aviary-Birds.html)
 
 
 
