@@ -343,5 +343,5 @@ it is looping!
 
 For more information, visit
 * [Lambda Calculus Part I](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/1.LAMBDA-CALCULUS.html)
-* [Lambda Calculus Part I](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/2.LAMBDA-CALCULUS-PART2.html)
+* [Lambda Calculus Part II](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/2.LAMBDA-CALCULUS-PART2.html)
 
