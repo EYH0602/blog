@@ -85,7 +85,9 @@ Let
 $$ \mathrm{And} = \lambda xy. xyF $$
 then $\mathrm{And}$ satisfies the description above.
 
-> Think about the case when $x$ is false, can we have another definition of $\mathrm{And}$?
+{% note primary %}
+Think about the case when $x$ is false, can we have another definition of $\mathrm{And}$?
+{% endnote %}
 
 |$x$|$y$|$\mathrm{Or}\ x y$|
 |:--:|:--:|:--:|
@@ -101,7 +103,9 @@ $\mathrm{Or}$ is very similar to $\mathrm{And}$.
 Then we can give the $\mathrm{Or}$ function
 $$ \mathrm{Or} = \lambda xy. xTy $$
 
-> Like $\mathrm{And}$, is there another way to define $\mathrm{Or}$?
+{% note primary %}
+Like $\mathrm{And}$, is there another way to define $\mathrm{Or}$?
+{% endnote %}
 
 |$x$|$y$|$\mathrm{Xor}\ x y$|
 |:--:|:--:|:--:|
@@ -122,7 +126,10 @@ This also the $\neq$ operator.
 
 In conclusion, when defining binary boolean functions,
 we use the first input as a selector.
-> How to define $\equiv$ the `beq` operator using lambda calculus?
+
+{% note primary %}
+How to define $\equiv$ the `beq` operator using lambda calculus?
+{% endnote %}
 
 ## Numerals
 
@@ -188,7 +195,9 @@ $$ \begin{align}
 Then to prove $\mathrm{Succ}$ works for all Church numeral is trivial.
 Thus, we have a way to define Peano numbers in lambda calculus!
 
-> Can we define $\mathrm{Succ}$ with the birds combinator we already seen?
+{% note primary %}
+Can we define $\mathrm{Succ}$ with the birds combinator we already seen?
+{% endnote %}
 
 We also define arithmetic!
 In the field of natural numbers,
@@ -204,11 +213,15 @@ So we define multiplication as
 $$ \mathrm{Mult} = \lambda xyf. x(yf) = B $$
 which is the composition Bluebird!
 
-> Can we define $\mathrm{Mult}$ as what we did for $\mathrm{Add}$?
+{% note primary %}
+Can we define $\mathrm{Mult}$ as what we did for $\mathrm{Add}$?
+{% endnote %}
 
-> As we defined successor, how can we have the presuccessor function?
-> Can the presuccessor function $\mathrm{PreSucc}$ lead us to subtraction
-> $\mathrm{Subs}$?
+{% note primary %}
+As we defined successor, how can we have the presuccessor function? 
+Can the presuccessor function $\mathrm{PreSucc}$ lead us to subtraction 
+$\mathrm{Subs}$?
+{% endnote %}
 
 ## "Data Structure"
 
@@ -218,7 +231,9 @@ Two fundamental data structures in programming are pairs and lists.
 And in functional programming,
 lists are defined with sets.
 
-> I still don't understand why Java does not provide pair.
+{% note secondary %}
+I still don't understand why Java does not provide pair.
+{% endnote %}
 
 What is a pair?
 A pair by definition is a storage of two values, like `(a,b)`.
@@ -277,10 +292,12 @@ a list is defined as a set of numbers with some order,
 and a function (morphism) defined on each pair of them.
 In this case `[]` is the accumulator.
 
-> In functional programming, given any list,
-> we can replace its accumulator and morphism defined on it,
-> then get a new list defined with the new morphism and new accumulator.
-> This way of list action is called **fold**.
+{% note secondary %}
+In functional programming, given any list,
+we can replace its accumulator and morphism defined on it,
+then get a new list defined with the new morphism and new accumulator.
+This way of list action is called **fold**.
+{% endnote %}
 
 Thus, to define out list in lambda calculus,
 $$ \mathrm{List} = \lambda ilf. fil $$
@@ -341,7 +358,8 @@ it is looping!
 > Therefore, when writing function programs,
 > try to use tail recursion as possible.
 
+{% note info %}
 For more information, visit
 * [Lambda Calculus Part I](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/1.LAMBDA-CALCULUS.html)
 * [Lambda Calculus Part II](http://pages.cs.wisc.edu/~horwitz/CS704-NOTES/2.LAMBDA-CALCULUS-PART2.html)
-
+{% endnote %}

@@ -22,9 +22,11 @@ That is also called the "anonymous function".
 This is a concept borrowed from functional programming
 (the word "function" kind of indicates that LOL).
 
-> When I first encounter the idea of "anonymous function",
-> I did not understand the meaning of it.
-> To me, it is more like a quick way to define simple method when I was too lazy.
+{% note secondary %}
+When I first encounter the idea of "anonymous function",
+I did not understand the meaning of it.
+To me, it is more like a quick way to define simple method when I was too lazy.
+{% endnote %}
 
 But what really is Lambda calculus?
 It is a simple **notation system** developed by 
@@ -65,8 +67,10 @@ we want out function to take as much inputs as we want.
 mathematician [Haskell Brooks Curry](https://en.wikipedia.org/wiki/Haskell_Curry)
 develops an idea to solve this problem.
 
-> There are three programming languages name after him,
-> Haskell, Brook, and Curry.
+{% note secondary %}
+There are three programming languages name after him,
+Haskell, Brook, and Curry.
+{% endnote %}
 
 The idea is that,
 for the function to take two inputs,
@@ -152,12 +156,14 @@ which is often called the **Mockingbirds**.
 > $$ Mx = xx $$
 > the bird $M$'s response to any bird $x$ is the same as $x$'s response to itself.
 > It *mimics* $x$ as far as $x$'s response to $x$ goes.
->
-> This idea comes from the book 
-> ["To Mock a Mockingbird"](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird)
-> by Raymond Smullyan.
-> It is a great book about combinatory logic and some other logic puzzles, 
-> very recommended.
+
+{% note info %}
+This idea comes from the book 
+["To Mock a Mockingbird"](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird)
+by Raymond Smullyan.
+It is a great book about combinatory logic and some other logic puzzles, 
+very recommended.
+{% endnote %}
 
 Then we define **Kestrel**,
 $$ K = \lambda ab. a $$

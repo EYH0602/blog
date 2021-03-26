@@ -159,14 +159,19 @@ That is, let $f : A \rightarrow \mathbb{R}$ be continuous on $A$.
 If $K \subseteq A$ is compact (or connected, or have other structures), 
 then the set $fK$ is also compact (or connected, or have other structures).
 
-> If you are interested in this topic, 
-> go find some resources on Real Analysis and basic Topology.
-> Also, I may write blog posts about this in the future.
+{% note secondary %}
+If you are interested in this topic, 
+go find some resources on Real Analysis and basic Topology.
+Also, I may write blog posts about this in the future.
+{% endnote %}
 
 A **permutation** is also this kind of function,
 which is a *bijection* defined on a set of $n$ distinct elements $S$,
 $$ p : S \rightarrow S. $$
+
+{% note info %}
 For more information of permutation, see [Permualgebra](/2020/12/20/PermuAlgebra/index.html).
+{% endnote %}
 
 ### Binary Operations (Composition)
 
@@ -182,8 +187,11 @@ a binary operations is just some function that
 <u>takes two inputs and returns one output.</u>
 For example, addition, multiplication, function composition, are all binary operations.
 
-> Discussion:
-> Is division a binary operation?
+{% note primary %}
+Discussion: 
+Is division a binary operation?
+{% endnote %}
+
 
 There is another notation system for functions with more than 1 parameters in math,
 called [Currying](https://en.wikipedia.org/wiki/Currying), 
@@ -196,8 +204,11 @@ $$ + : \mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}, $$
 which can also be express as
 $$ + :  \mathbb{Z} \rightarrow \mathbb{Z} \rightarrow \mathbb{Z}. $$
 
-> There is a little difference between this two notation,
-> we will discuss the details in [some future post].
+{% note secondary %}
+There is a little difference between this two notation,
+we will discuss the details in post [Introduction to Lambda Calculus](/2021/03/20/Lambda/index.html).
+{% endnote %}
+
 
 In haskell, we can define function in the currying way,
 
@@ -239,7 +250,9 @@ s an *unique* element $e \in S$ such that
 $$ ae = a = ea $$ for all $a \in S$.
 We often use $\mathbb{1}$ to denote the identity.
 
-> Isn't this definition familiar?
+{% note secondary %}
+Isn't this definition familiar?
+{% endnote %}
 
 #### Binary Operation on List
 
@@ -275,7 +288,9 @@ is a **linear transformation** or **linear operator** of $\mathbb{R}^n$ if
 $$ T(x + y) = Tx + Ty $$ for all $x,y \in \mathbb{R}^n$
 and  $T(cx) = cTx$ for all $c \in \mathbb{R}, x \in \mathbb{R}^n$.
 
-> In this case, a matrix is function!
+{% note secondary %}
+In this case, a matrix is function!
+{% endnote %}
 
 **Definition:**
 Let $T : \mathbb{R}^n \rightarrow \mathbb{R}^n$ be a linear transformation.
@@ -305,7 +320,7 @@ which rotate the pentagon by $2\pi/n$ around its center.
 Define $$ y : Pentagon \rightarrow Pentagon $$
 which rotate the pentagon by $\pi$ about vertical.
 
-![Picture of pentagon ToDo]()
+![Picture of pentagon](/images/P5.jpg)
 
 Let $x^2$ be the composition of two $x$, then same idea for all $x^n$, $y^n$.
 Then we notice that
@@ -327,7 +342,9 @@ That means function is just data, no difference than other types of data.
 Therefore, of course we can pass function as parameters
 and return a function as output.
 
-> JavaScript supports this feature as well.
+{% note secondary %}
+JavaScript supports this feature as well.
+{% endnote %}
 
 **Definition:**
 A **higher-order function** is a function that either (can be both)
