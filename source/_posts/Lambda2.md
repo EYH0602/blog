@@ -10,7 +10,7 @@ tags:
   - programming
   - logic
   - HackerHub
-category: "Science 👨‍💻"
+category: Science
 
 ---
 

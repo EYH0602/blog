@@ -9,7 +9,7 @@ tags:
   - programming
   - functional
   - HackerHub
-category: "Science 👨‍💻"
+category: Science
 
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Note
   - assembly
   - HackerHub
-category: "Science 👨‍💻"
+category: Science
 ---
 
 # Binary Representation

@@ -7,7 +7,7 @@ tags:
   - algebra
   - Python
   - programming
-category: "Science 👨‍💻"
+category: Science
 ---
 
 # Permualgebra
