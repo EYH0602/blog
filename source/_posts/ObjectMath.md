@@ -259,22 +259,22 @@ However, with monad involved,
 we get a problem (as last time we try to compose with `Maybe` monad).
 
 Consider two general functions, 
-* $f : A \rightarrow B$,
-* $g : B \rightarrow C$.
+* $f : B \rightarrow C$,
+* $g : A \rightarrow B$.
 
 Then there is a function $h = f \circ g$ as the composition of $f$ and $g$ such that
 $$ h : A \rightarrow C. $$
 
 But now with monad $M$, type of our two functions becomes
-* $f : A \rightarrow MB$,
-* $g : B \rightarrow MC$.
+* $f : B \rightarrow MC$,
+* $g : A \rightarrow MB$.
 
 Then the types of two functions do not line up.
 $f$ returns a $MB$ type, but $g$ takes a $B$ type,
 so we cannot compose $f$ and $g$.
 
 Recall in [Maybe Another Way of Error Handling ...](/2021/03/24/Maybe/index.html)
-we use `>>=` the bind operator to solve this problem.
+je use `>>=` the bind operator to solve this problem.
 How does this work?
 
 As defined, a monad is a functor, which is a mapping.
@@ -282,17 +282,76 @@ Consider the mapping
 $$
 \begin{matrix}
     & & A & \rightarrow & MA \\\\
-    & & \downarrow & & \downarrow \\\\
-    C & \leftarrow & B & \rightarrow & MB \\\\
-    \downarrow & & \downarrow & & \\\\
-    MC & \leftarrow & MB & & \\\\
+    & & \downarrow & \swarrow & \downarrow \\\\
+    B & \rightarrow & MB & \leftarrow & MMB \\\\
+    \downarrow & \swarrow & \downarrow & & \\\\
+    MC & \leftarrow & MMC & & 
 \end{matrix}
 $$
 
 this map is called the **monadic map**,
 which is how `>>=` compose two monadic functions.
 
+{% note secondary %}
+Can ypu tell how `>>=` compose two monadic functions?
+{% endnote %}
 
+Back to the question we propose in [Maybe Another Way of Error Handling ...](/2021/03/24/Maybe/index.html)
+
+{% note secondary %}
+We said `>>=` is a composition operator,
+but why it does not take two functions?
+{% endnote %}
+
+We said binary operator should be symmetric,
+but `>>=` is not.
+The current `>>=` works as
+
+Let's redefine $f$ and $g$ in Haskell code since `>>=` is a Haskell operator.
+
+```haskell
+g :: a -> M b
+f :: b -> M c
+```
+
+Then the definition of `>>=` is
+
+```haskell
+(>>=) :: Monad m => m a -> (a -> m b) -> m b
+```
+
+and we use it as
+
+```haskell
+M b >>= (b -> M c)
+```
+
+which returns a `M c`.
+
+But our goal is to compose a function that maps `a -> Mc`,
+whereas our bind function is not taking an `a` as input.
+
+Consider this way, the type signature indicates that `>>=` works as
+
+```haskell
+(ga) >>= \b -> (fb)
+```
+
+But if we make the expression an lambda expression,
+i.e. add lambda to left,
+it becomes 
+
+```haskell
+\a -> [(ga) >>= \b -> (fb)]
+\a -> (ga) >>= \b -> (fb)
+```
+
+then `>>=` is actually symmetric as our normal composition operator:
+takes two functions
+* `g :: a -> M b`
+* `f :: b -> M c`
+
+and returns a function `h :: a -> M c`.
 
 
 
