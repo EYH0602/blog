@@ -20,3 +20,6 @@ I also love music (from an audiophile perspective) and [photography](https://www
 Photography in games is also a force that pushed me to look into computer graphics simulating a "real world".
 
 [Résumé](./resume.pdf)
+
+[Résumé_cn](./resume_cn.pdf)
+
