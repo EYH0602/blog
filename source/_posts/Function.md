@@ -227,13 +227,23 @@ $$ X \times Y = \\{ (x,y): x \in X, y \in Y \\}. $$
 we can define it very easily using Haskell **list comprehensions**.
 
 ```haskell
-cartesian :: a -> b -> [(a,b)]
+cartesian :: [a] -> [b] -> [(a,b)]
 cartesian xs ys = [(x, y) | x <- xs, y <- ys]
 ```
-Haskell also support infix operator definition,
+Haskell also support infix operator definition automatically,
+for example
 
 ```haskell
-cartesian :: a -> b -> [(a,b)]
+Prelude> cartesian [1..3] [1..3]
+[(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)]
+Prelude> [1..3] `cartesian` [1..3]
+[(1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)]
+```
+
+You can also define the function the infix way
+
+```haskell
+cartesian :: [a] -> [b] -> [(a,b)]
 xs `cartesian` ys = [(x, y) | x <- xs, y <- ys]
 ```
 which is equivalent to the first definition.
@@ -306,7 +316,7 @@ $$ T = \begin{bmatrix}
     0 & -1
 \end{bmatrix},
 $$
-then $Tu$  would be the reflection uf $u$ around the x-axis.
+then $Tu$ would be the reflection uf $u$ around the x-axis.
 
 A 3-by-3 matrix would be the function that
 map a 3D vector to another vector in 3D space.
