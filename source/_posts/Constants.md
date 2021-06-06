@@ -42,7 +42,7 @@ $$
 f \text{ is integrable} \iff f \in \mathrm{im} D.
 $$
 
-Since $D$ is em epimorphism, by the First Isomorphism Theorem,
+Since $D$ is an epimorphism, by the First Isomorphism Theorem,
 there exists an unique isomorphism 
 $$
 \phi : C^1(\mathbb{R}) \big/ \ker D \rightarrow \mathrm{im}D
