@@ -34,10 +34,13 @@ $$
 
 satisfies that
 
-$$
-FG = \mathrm{id}_{\mathcal{C}_{2}, \ 
-GF = \mathrm{id}_{\mathcal{C}_{1}
-$$
+$$ FG = \mathrm{id}_{\mathcal{C}_2} $$
+
+and
+
+$$ GF = \mathrm{id}_{\mathcal{C}_1}. $$
+
+<!-- = \mathrm{id}_{\mathcal{C}}_{2}$$ -->
 
 we say that $F$ is a isomorphism between categories, and $G$ is its inverse.
 
@@ -56,10 +59,11 @@ then $f$, $g$, and $h$ are all isomorphic.
 *Proof*.
 Assume, for contraction, that
 $A \xrightarrow{gf} C$ and $B \xrightarrow{hg} D$ are isomorphisms but $g$ is not.
-Then either $gg^{-1} \neq {id}_{C}$ or $g^{-1}g \neq \mathrm{id}_{B}$
+Then either $g g^{-1} \neq \mathrm{id}_C$ or $g^{-1}g \neq \mathrm{id}_B$.
 
-1. If $gg^{-1} \neq \mathrm{id}_{C}$, then $f^{-1}g^{-1}gf \neq \mathrm{id}_{A}$.
-2. If $g^{-1}g \neq \mathrm{id}_{B}$, note the commutative property of natural transformation, $g^{-1}h^{-1}hg \neq \mathrm{id}_{B}$.
+1. If $gg^{-1} \neq \mathrm{id}_C$, then $f^{-1}g^{-1}gf \neq \mathrm{id}_A$.
+2. If $g^{-1}g \neq \mathrm{id}_B$, note the commutative property of natural transformation,
+   $g^{-1}h^{-1}hg \neq \mathrm{id}_B$.
 
 The step to show if $f$ or $h$ are not isomorphic then there is a contradiction
 based on the commutative property of functors is similar.
