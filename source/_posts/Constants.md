@@ -11,7 +11,7 @@ category: Science
 
 # What should we add a constant after getting the Antiderivative of first order functions?
 
-Few days ago, I saw this question under [@Phenomene Bizarre](https://www.zhihu.com/people/likeyong)'s 
+Few days ago, I saw this question under [@Phenomene Bizarre](https://www.zhihu.com/people/likeyong)'s
 post [如何正确理解群论中的同态基本定理？](https://www.zhihu.com/question/54508642/answer/154155831).
 I thought this different approach to explain a simple question is really interesting.
 So here comes this blog.
@@ -43,7 +43,7 @@ f \text{ is integrable} \iff f \in \mathrm{im} D.
 $$
 
 Since $D$ is an epimorphism, by the First Isomorphism Theorem,
-there exists an unique isomorphism 
+there exists an unique isomorphism
 $$
 \phi : C^1(\mathbb{R}) \big/ \ker D \rightarrow \mathrm{im}D
 $$
