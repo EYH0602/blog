@@ -324,8 +324,8 @@ navbar:
           { key: 'Canvas', link: 'https://canvas.ucdavis.edu/' },
           { key: 'GREE', link: 'https://canvas.instructure.com/' },
           { key: 'Gmail', link: 'https://mail.google.com/mail/u/0/#inbox' },
-          { key: 'UCD Applied Math', link: 'https://ucdavis.pubs.curricunet.com/Catalog/applied-mathematics' },
-          { key: 'UCD Computer Science', link: 'https://ucdavis.pubs.curricunet.com/Catalog/computer-science' },
+          { key: 'UCD Applied Math', link: 'https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/applied-mathematics-bs/#informationtext' },
+          { key: 'UCD Computer Science', link: 'https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-bs/' },
           { key: 'Schedule Builder', link: 'https://my.ucdavis.edu/schedulebuilder/index.cfm?termCode=202003&amp;helpTour=' },
           { key: 'OASIS', link: 'https://students.ucdavis.edu/student/courses.aspx?sv=true' }
       ]
