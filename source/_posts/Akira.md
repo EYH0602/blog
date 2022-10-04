@@ -1,5 +1,5 @@
 ---
-title: Akila
+title: Akira
 date: 2022-10-04 
 tags: manga
 category: "Anime"
