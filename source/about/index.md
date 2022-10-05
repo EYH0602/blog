@@ -23,6 +23,5 @@ Photography in games is also a force that pushed me to look into computer graphi
 
 Genshin Impact uid: 188322866 欢迎加好友。
 
-[Résumé](./resume.pdf)
+Here is a copy of my [CV](./yfhe-cv.pdf) if you are interested.
 
-[Résumé_cn](./resume_cn.pdf)
