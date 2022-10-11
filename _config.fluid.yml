@@ -322,7 +322,6 @@ navbar:
         icon: "iconfont icon-link-fill",
         submenu: [
           { key: 'Canvas', link: 'https://canvas.ucdavis.edu/' },
-          { key: 'GREE', link: 'https://canvas.instructure.com/' },
           { key: 'Gmail', link: 'https://mail.google.com/mail/u/0/#inbox' },
           { key: 'UCD Applied Math', link: 'https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/applied-mathematics-bs/#informationtext' },
           { key: 'UCD Computer Science', link: 'https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-bs/' },
