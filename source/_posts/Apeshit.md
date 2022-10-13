@@ -5,7 +5,7 @@ tags:
     - Music
     - "Hip-hop"
     - Popular Culture
-category: "Music 🎵"
+category: "Literature 📖"
 ---
 
 # Apes**t

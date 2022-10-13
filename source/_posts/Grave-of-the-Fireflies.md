@@ -4,7 +4,7 @@ date: 2022-10-11 15:49:17
 tags:
     - Popular Culture
     - Anime
-category: Anime
+category: "Literature 📖"
 ---
 
 # Grave of the Fireflies
