@@ -46,7 +46,8 @@ Mark Anderson mentions in his paper that “science and technology (including co
 
 If I could remake the film's ending, I would further highlight the contradictions of modernity and how modernity could be overcome by further modernization. In this case, Godzilla would survive the Oxygen Destroyer but is in a coma and will be studied by the scientists led by Dr. Yamane. The research group funded by the army uses Godzilla’s body to build the defense of the country and the stairway to achieve the highest technology in the world. The scientists will build a new era of technology on Godzilla’s body flesh. Then, the country will start a new world war with the most advanced tech and weapons, which are powerful but cannot be fully controlled by a human. As a result, not only the country in the film, the human race will be eliminated by destructive weapons. Godzilla’s soul, who, of course, died from all the experiments on it, watches the consequences and the extinction of humans, then go back to the ocean and disappears.
 
-**NOTE** the idea of this section are from the album 冀西南林路行 by relating/referring Godzilla to the Taihang Shan 太行山.
+**NOTE** the idea of this section are from the album 冀西南林路行 by relating/referring Godzilla to the Taihang Shan 太行山,
+especially on the song 采石.
 
 ### Reference
 
