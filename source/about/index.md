@@ -24,11 +24,11 @@ Genshin Impact uid: 188322866 欢迎加好友。
 
 # Curriculum vitae
 
-Here is a pdf copy of my [CV](./yfhe-cv.pdf) if you are interested.
+[pdf](./yfhe-cv.pdf)
 
 * Cell: (530) 302-6806
 * Email: yfhe@ucdavis.edu
-* WWW: eyh0602.github.io
+* WWW: [https://eyh0602.github.io/](https://eyh0602.github.io/)
 
 ## Education
 
