@@ -39,10 +39,10 @@ Genshin Impact uid: 188322866 欢迎加好友。
 ## Research 
 
 **Computer Security Lab at UC Davis**   10/2022 - present 
-* Work with one PhD student members on the frontend of language embedding 
-* Find the error message in compilation and analyze the error reasons 
-* Modify the data set in POJ-104 by writing a data preprocessor to 
-* Find suitable Input-Output (IO) pairs to represent the function of compilable programs
+* Work with PhD student members and Prof. Hao Chen on the frontend of language embedding and clustering 
+* Find the compile error message, analyze and categorize the error reasons 
+* Create a data preprocessor to modify the POJ-104 dataset by syntax and semantic rules of C++ 
+* Find suitable Input-Output (IO) pairs to represent the characteristics of compilable programs by fuzzing
 * Vectorized the IO pairs to embedding vector for model training 
 * Train BERT model on IO pairs and then use trained BERT for clustering 
 
@@ -51,7 +51,7 @@ Genshin Impact uid: 188322866 欢迎加好友。
 * Conducted research on neural network and its application in AI under the supervision of Prof. Pavlos Protopapas from Harvard 
 * Attended workshops on gradient descent algorithm, neural network optimizers, regularization of neural network, and other related concepts and architecture 
 * Analyzed and compared models of deep learning algorithms application, 
-* Made automatic differentiation to activation function using backpropagation, visualized receptive fields through max-pooling
+* Made automatic differentiation to activation functions by hand, visualized receptive fields through max-pooling
 * Composed independently the research paper for the IEEE international conference 
 
 ## Internship
