@@ -7,8 +7,9 @@ category: Tech
 
 # Use Proxytunnel on M1 Mac
 
-When trying to connect from my M1 mac t the lab's servers,
+When trying to connect from my M1 mac to the lab's servers,
 I failed multiple times and had to use my old windows laptop to connect from WSL.
+
 Our server requires a proxy jump for security reasons,
 so we use the following lines in the `ssh_config` file
 
