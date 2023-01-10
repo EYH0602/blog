@@ -118,6 +118,6 @@ Co-founder, President, Technical Officer
 **Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022
 
 ### Publications
-**He, Y**, *Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems*, ICCASIT 2022.
-
-[pdf](./ICCASIT_2022.pdf)
+**Y. He**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems,"
+*2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)*,
+Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
