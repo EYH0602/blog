@@ -35,7 +35,7 @@ In fact, for Dedekind, such a system is not limited to $\{1, 2, 3, \ldots\}$,
 it is whatever satisfies axioms, for example
 
 - $\{0, 1, 2, \ldots\}$,
-- $\{ \emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \ldots \}$,
+- $\{ \emptyset, \\{\emptyset\\}, \\{\\{\emptyset\\}\\}, \ldots \}$,
 - $\{\lambda f. \lambda x.x, \lambda f. \lambda x.fx, \lambda f. \lambda x.f(fx), \ldots\}$,
 
 or any $\omega$-sequence satisfies the axioms are natural numbers.
