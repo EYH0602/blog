@@ -583,8 +583,8 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: false
-    content: 'All blog follow <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 licenses</a>, please cite the creator when reprinting.'
+    enable: true
+    content: 'All blog follow <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener">CC BY-SA 4.0 licenses</a>, please cite the creator when reprinting.'
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post
