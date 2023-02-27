@@ -645,16 +645,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    type: gitalk
-    gitalk:
-      enable: true
-      client_id: 8f9e007ebb5862fc4a45
-      client_secret: af07e1768840bea8439985489dc60c6726f22279
-      repo: blog
-      owner: EYH0602
-      admin: EYH0602
-      distractionFreeMode: false
-
+    type: utterances
 
 #---------------------------
 # 评论插件
@@ -669,11 +660,11 @@ post:
 # Based on GitHub Issues
 # See: https://utteranc.es
 utterances:
-  repo:
+  repo: EYH0602/blog
   issue_term: pathname
   label: utterances
   theme: github-light
-  theme_dark: github-dark
+  theme_dark: photon-dark
   crossorigin: anonymous
 
 # Disqus
