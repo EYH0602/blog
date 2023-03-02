@@ -14,12 +14,14 @@ I'll try it and see if ChatGPT's plan actually works.
 
 ## Week 1-2:
 
-**Day 1:**
+~~**Day 1:**~~
 
 - Warm up with dynamic stretches.
 - 3 sets of 5 reps at 70% of 1RM.
 - 3 sets of 3 reps at 80% of 1RM.
 - 2 sets of 1 rep at 90% of 1RM.
+
+Week 1 Day 1: New PR 355lb
 
 **Day 2:**
 
