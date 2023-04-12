@@ -8,9 +8,13 @@ layout: about
 # About Me
 
 Greetings! My name is 贺一峰 (He, Yifeng).
-I am an undergrad student at [UC Davis](https://www.ucdavis.edu),
+I am an undergrad student at [UC Davis](https://www.ucdavis.edu), 
 double major in Applied Math and Computer Science.
-My current study interests are Functional programming, Language Theory, and Machine learning/Deep learning and their mixed applications.
+I'm also a incoming Ph. D. student at UC Davis starting Fall 2023, 
+my advisor is [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
+My current study interests are Program Analysis, static analysis based on type theory/functional paradigms
+ and dynamic analysis on fuzzing and property-based testing, 
+and their application on/for LLM code understanding.
 Currently, I am the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
 
 Apart from academics, my interests cover more topics.
@@ -19,8 +23,6 @@ I am a gamer. My favorite games are The Witcher 3, Monster Hunter, and Clash of 
 I recommend all of you visiting this page to try it!
 I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)!
 Photography in games is also a force that pushed me to look into computer graphics simulating a "real world".
-
-Genshin Impact uid: 188322866 欢迎加好友。
 
 # Curriculum vitae
 
@@ -33,7 +35,7 @@ Genshin Impact uid: 188322866 欢迎加好友。
 ## Education
 
 **University of California, Davis**
-* B.S., Computer Science and Applied Mathematics, 2019 -- Present
+* B. S., Computer Science and Applied Mathematics, 2019 -- Present
 * GPA: 3.887
 
 ## Research 
@@ -45,7 +47,6 @@ Genshin Impact uid: 188322866 欢迎加好友。
 * Find suitable Input-Output (IO) pairs to represent the characteristics of compilable programs by fuzzing
 * Vectorized the IO pairs to embedding vector for model training 
 * Train BERT model on IO pairs and then use trained BERT for clustering 
-
 
 **Path Academics**  02/2022 - 07/2022
 * Conducted research on neural network and its application in AI under the supervision of Prof. Pavlos Protopapas from Harvard 
@@ -63,7 +64,6 @@ Software Engineering Intern in Income Platform Team
 * Used microservice tech to connect parts of the author income settlement bushiness
 * Transformed author-relation data architecture design from relational database (SQL) to graph database (Gremlin) to allow better eﬀiciency for the business model
 * Refactored the income calculation control process with visitor design pattern using Python 3
-
 
 **Xigua Video**, Beijing, China 05/2021 – 06/2021
 
@@ -101,7 +101,6 @@ Software Engineering Intern in Author Experience Team
 * Stored data into local database automatically, wrote into excel for data analysis by option
 * Generated text or graph visualization report from data analyze results
 
-
 ## Activities
 
 **HackerHub Club**, UC Davis    07/2020 – present
@@ -112,12 +111,17 @@ Co-founder, President, Technical Officer
 * Organize and lead the Code Jam Competition on data visualization, AI, augmented reality and virtual reality, and machine learning 
 * Coach in introductory programming workshops, including Assembly, functional programming, recommender system, generative adversarial network, etc. 
 
-
 ## Honors and Awards
 
 **Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022
 
-### Publications
-**Y. He**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems,"
-*2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)*,
+## Publications
+
+**Y. He**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems, "
+*2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)*, 
 Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
+
+## Teaching
+
+* ECS 36C Data Structure
+  + TA, Spring 2023
