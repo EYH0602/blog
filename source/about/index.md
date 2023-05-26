@@ -122,7 +122,7 @@ Co-founder, President, Technical Officer
 ## Publications
 
 Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H. _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
-Findings of Association for Computational Linguistics (ACL), 2023.
+Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
 
 **He, Y.**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems, "
 _2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)_,
