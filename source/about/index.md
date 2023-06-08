@@ -21,9 +21,7 @@ Currently, I am the president of [HackerHub](https://hackerhub-ucdavis.github.io
 I am a gamer. My favorite games are Pokemon(s), The Witcher 3, Monster Hunter, Clash of Clans, and Genshin Impact.
 I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 
-# Curriculum vitae
-
-[pdf](./yfhe-cv.pdf)
+# Curriculum vitae [pdf](./yfhe-cv.pdf)
 
 - Cell: (530) 302-6806
 - Email: yfhe@ucdavis.edu
@@ -35,6 +33,15 @@ I also love music (from an audiophile perspective) and [photography](https://www
 
 - B. S., Computer Science and Applied Mathematics, 2019 -- Present
 - GPA: 3.879
+
+## Publications
+
+Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H. _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
+Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
+
+**He, Y.**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems, "
+_2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)_,
+Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 
 ## Research
 
@@ -53,6 +60,17 @@ I also love music (from an audiophile perspective) and [photography](https://www
 - Analyzed and compared models of deep learning algorithms application,
 - Made automatic differentiation to activation functions by hand, visualized receptive fields through max-pooling
 - Composed independently the research paper for the IEEE international conference
+
+## Honors and Awards
+
+**Citation For Outstanding Performance**, Dept. Mathematics, UC Davis
+
+**Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022, College of L&S, UC Davis
+
+## Teaching
+
+- ECS 36C Data Structure
+  - TA, Spring 2023
 
 ## Internship
 
@@ -114,21 +132,3 @@ Co-founder, President, Technical Officer
 - Design and maintain a course recommendation system, CourseReco, for UC Davis students
 - Organize and lead the Code Jam Competition on data visualization, AI, augmented reality and virtual reality, and machine learning
 - Coach in introductory programming workshops, including Assembly, functional programming, recommender system, generative adversarial network, etc.
-
-## Honors and Awards
-
-**Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022
-
-## Publications
-
-Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H. _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
-Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
-
-**He, Y.**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems, "
-_2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)_,
-Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
-
-## Teaching
-
-- ECS 36C Data Structure
-  - TA, Spring 2023
