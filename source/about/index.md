@@ -11,7 +11,7 @@ Greetings! My name is 贺一峰 (He, Yifeng).
 I am an undergrad student at [UC Davis](https://www.ucdavis.edu),
 double major in Applied Math and Computer Science.
 I'm also a incoming Ph. D. student at UC Davis starting Fall 2023,
-my advisor is [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
+supervised by [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
 My current study interests are Program Analysis, static analysis based on type theory/functional paradigms
 and dynamic analysis on fuzzing and property-based testing,
 and their application on/for LLM code understanding.
