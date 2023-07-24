@@ -31,8 +31,8 @@ I also love music (from an audiophile perspective) and [photography](https://www
 
 **University of California, Davis**
 
-- B. S., Computer Science and Applied Mathematics, 2019 -- Present
-- GPA: 3.879
+- Ph.D., Computer Science, 2023 -- 2028 (expected)
+- B. S., Computer Science and Applied Mathematics, 2019 -- 2023
 
 ## Publications
 
