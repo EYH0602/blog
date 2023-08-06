@@ -79,7 +79,7 @@ Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 Software Engineering Intern in Income Platform Team
 
 - Used microservice tech to connect parts of the author income settlement bushiness
-- Transformed author-relation data architecture design from relational database (SQL) to graph database (Gremlin) to allow better eﬀiciency for the business model
+- Transformed author-relation data architecture design from relational database (SQL) to graph database (Gremlin) to allow better efficiency for the business model
 - Refactored the income calculation control process with visitor design pattern using Python 3
 
 **Xigua Video**, Beijing, China 05/2021 – 06/2021
