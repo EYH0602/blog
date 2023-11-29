@@ -8,14 +8,14 @@ layout: about
 # About Me
 
 Greetings! My name is 贺一峰 (He, Yifeng).
-I am an undergrad student at [UC Davis](https://www.ucdavis.edu),
-double major in Applied Math and Computer Science.
-I'm also a incoming Ph. D. student at UC Davis starting Fall 2023,
+I am a Ph.D. student at [UC Davis](https://www.ucdavis.edu),
 supervised by [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
+Previously, I obtained my Bachelor of Science degree at UC Davis,
+double majored in Applied Math and Computer Science.
 My current study interests are Program Analysis, static analysis based on type theory/functional paradigms
-and dynamic analysis on fuzzing and property-based testing,
-and their application on/for LLM code understanding.
-Currently, I am the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
+and dynamic analysis with random testing (including fuzzing and property-based testing (QuickCheck)).
+I'm also working on the application of program analysis on LLM code understanding and code generation.
+During undergrad, I was the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
 
 <!-- Apart from academics, my interests cover more topics.
 I am a gamer. My favorite games are Pokemon(s), The Witcher 3, Monster Hunter, Clash of Clans, and Genshin Impact.
@@ -35,6 +35,10 @@ I also love music (from an audiophile perspective) and [photography](https://www
 - B. S., Computer Science and Applied Mathematics, 2019 -- 2023
 
 ## Publications
+Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
+_Code Representation Pre-training with Complements from Program Executions_,
+International Conference of Learning Representation (ICLR), 2024. _Under Review_.
+https://arxiv.org/abs/2309.09980
 
 Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H. _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
@@ -43,7 +47,7 @@ Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv
 _2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)_,
 Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 
-## Research
+<!-- ## Research
 
 **Computer Security Lab at UC Davis** 10/2022 - present
 
@@ -59,7 +63,7 @@ Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 - Attended workshops on gradient descent algorithm, neural network optimizers, regularization of neural network, and other related concepts and architecture
 - Analyzed and compared models of deep learning algorithms application,
 - Made automatic differentiation to activation functions by hand, visualized receptive fields through max-pooling
-- Composed independently the research paper for the IEEE international conference
+- Composed independently the research paper for the IEEE international conference -->
 
 ## Honors and Awards
 
@@ -71,6 +75,7 @@ Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 
 - ECS 36C Data Structure
   - TA, Spring 2023
+  - TA, Fall 2023
 
 ## Internship
 
@@ -120,7 +125,7 @@ Software Engineering Intern in Income Platform Team
 
 ## Activities
 
-**HackerHub Club**, UC Davis 07/2020 – present
+**HackerHub Club**, UC Davis 07/2020 – 06/2023
 
 Co-founder, President, Technical Officer
 
