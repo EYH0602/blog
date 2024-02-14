@@ -12,9 +12,8 @@ I am a Ph.D. student at [UC Davis](https://www.ucdavis.edu),
 supervised by [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
 Previously, I obtained my Bachelor of Science degree at UC Davis,
 double majored in Applied Math and Computer Science.
-My current study interests are Program Analysis, static analysis based on type theory/functional paradigms
-and dynamic analysis with random testing (including fuzzing and property-based testing (QuickCheck)).
-I'm also working on the application of program analysis on LLM code understanding and code generation.
+My current study interest is neural program analysis,
+which includes (program analysis, testing, programming languages) for/by machine learning code understanding and generation.
 During undergrad, I was the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
 
 <!-- Apart from academics, my interests cover more topics.
@@ -35,16 +34,24 @@ I also love music (from an audiophile perspective) and [photography](https://www
 - B. S., Computer Science and Applied Mathematics, 2019 -- 2023
 
 ## Publications
+
+**He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
+_UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
+International Conference on Machine Learning (ICML), 2024. _Under Review_.
+https://arxiv.org/abs/2402.03396
+
 Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
 _Code Representation Pre-training with Complements from Program Executions_,
-International Conference of Learning Representation (ICLR), 2024. _Under Review_.
+Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. _Under Review_.
 https://arxiv.org/abs/2309.09980
 
-Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H. _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
+Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
+_Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
 
-**He, Y.**, "Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems, "
-_2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT)_,
+**He, Y.**,
+_Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
+2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
 Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
 
 <!-- ## Research
