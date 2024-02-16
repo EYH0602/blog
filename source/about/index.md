@@ -52,7 +52,7 @@ Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv
 **He, Y.**,
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
 2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
-Dali, China, 2022, pp. 1119-1124, doi: 10.1109/ICCASIT55263.2022.9986837.
+Dali, China, 2022, pp. 1119-1124, [doi: 10.1109/ICCASIT55263.2022.9986837](https://ieeexplore.ieee.org/document/9986837).
 
 <!-- ## Research
 
