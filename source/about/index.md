@@ -44,9 +44,14 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 
 ## Publications
 
+Zhang, H, Rong, Y, **He, Y**, Chen, H.
+_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_
+International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
+https://arxiv.org/abs/2406.07714
+
 **He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
-International Conference on Machine Learning (ICML), 2024. _Under Review_.
+International Symposium on Software Testing and Analysis  (ISSTA), 2024. _Under Review_.
 https://arxiv.org/abs/2402.03396
 
 Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
