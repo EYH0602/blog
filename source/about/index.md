@@ -44,6 +44,17 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 
 ## Publications
 
+
+**He, Y.**, Wang, E., Rong, Y., Cheng, Z., Chen, H.
+_Security of AI Agents_,
+Symposium on Security and Privacy (S&P), 2025. _Under Review_.
+https://arxiv.org/abs/2406.08689
+
+**He, Y.**, Wang, J., Rong, Y., Chen, H.
+_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_
+International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
+https://arxiv.org/abs/2406.08665
+
 Zhang, H, Rong, Y, **He, Y**, Chen, H.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_
 International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
@@ -67,24 +78,6 @@ Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
 2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
 Dali, China, 2022, pp. 1119-1124, [doi: 10.1109/ICCASIT55263.2022.9986837](https://ieeexplore.ieee.org/document/9986837).
-
-<!-- ## Research
-
-**Computer Security Lab at UC Davis** 10/2022 - present
-
-- Work with one PhD candidate, researchers from Tencent AI Lab, and Prof. Hao Chen on the frontend of programming language embedding.
-- Generate fuzzing data (program-level IO pairs) for fine-tuning (Fuzz-tuning) LLM and achieved SOTA on downstream tasks.
-- Generate fuzzing data (program-level IO pairs) for pre-training (Fuzz-pretrain) LLM.
-- Proposed new tasks for evaluating testcase generation by LLM.
-- Instrument open-source projects to generate function-level fuzzing IO-pairs via LLVM Pass.
-
-**Path Academics** 02/2022 - 07/2022
-
-- Conducted research on neural network and its application in AI under the supervision of Prof. Pavlos Protopapas from Harvard
-- Attended workshops on gradient descent algorithm, neural network optimizers, regularization of neural network, and other related concepts and architecture
-- Analyzed and compared models of deep learning algorithms application,
-- Made automatic differentiation to activation functions by hand, visualized receptive fields through max-pooling
-- Composed independently the research paper for the IEEE international conference -->
 
 ## Honors and Awards
 
