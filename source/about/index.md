@@ -14,7 +14,7 @@ Previously, I obtained my Bachelor of Science degree (with Honors) from UC Davis
 double majored in Applied Math and Computer Science.
 During undergrad, I was the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
 My current study interests are artificial intelligence (AI) and software engineering (SE).
-We research topics include AI for SE, SE for AI, SE for (AI for SE).
+My research topics include AI for SE, SE for AI, SE for (AI for SE).
 For AI, my main research topic is (large) language model.
 For SE, my main research topics are security, software testing/verification/analysis, and (safe/secured/functional) programming languages. 
 
@@ -24,7 +24,7 @@ The Witcher 3, Clash of Clans (World top #169 in April 2018!),
 and Genshin Impact (haven't play much since 4.4, I blame miHoYo for this).
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 I also enjoy powerlifting.
-I have trained for a little over two years
+I have trained for a little over two years.
 My (training) personal records are Squad 405lb (184kg), Bench 230lb (104kg), Deadlift 455lb (206kg),
 summing up to 1090lb (494kg) @ 85kg body weight.
 
