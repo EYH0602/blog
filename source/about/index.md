@@ -44,6 +44,23 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 
 ## Publications
 
+### Conference Papers
+
+**He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
+_UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
+International Symposium on Software Testing and Analysis  (ISSTA), 2024.
+https://arxiv.org/abs/2402.03396
+
+Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
+_Understanding Programs by Exploiting (Fuzzing) Test Cases_,
+Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
+
+**He, Y.**,
+_Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
+2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
+Dali, China, 2022, pp. 1119-1124, [doi: 10.1109/ICCASIT55263.2022.9986837](https://ieeexplore.ieee.org/document/9986837).
+
+### Preprints
 
 **He, Y.**, Wang, E., Rong, Y., Cheng, Z., Chen, H.
 _Security of AI Agents_,
@@ -60,24 +77,11 @@ _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_
 International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
 https://arxiv.org/abs/2406.07714
 
-**He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
-_UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
-International Symposium on Software Testing and Analysis  (ISSTA), 2024. _Under Review_.
-https://arxiv.org/abs/2402.03396
-
 Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
 _Code Representation Pre-training with Complements from Program Executions_,
 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. _Under Review_.
 https://arxiv.org/abs/2309.09980
 
-Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
-_Understanding Programs by Exploiting (Fuzzing) Test Cases_,
-Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
-
-**He, Y.**,
-_Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
-2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
-Dali, China, 2022, pp. 1119-1124, [doi: 10.1109/ICCASIT55263.2022.9986837](https://ieeexplore.ieee.org/document/9986837).
 
 ## Honors and Awards
 
