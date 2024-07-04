@@ -34,6 +34,7 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 - Cell: (530) 302-6806
 - Email: yfhe@ucdavis.edu
 - WWW: [https://eyh0602.github.io/](https://eyh0602.github.io/)
+- [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
 ## Education
 
