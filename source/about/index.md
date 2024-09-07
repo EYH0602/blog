@@ -50,16 +50,19 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 **He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis  (ISSTA), 2024.
-https://arxiv.org/abs/2402.03396
+[pdf](/publications/he2024unitsyn.pdf)
 
 Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
-Findings of Association for Computational Linguistics (ACL), 2023. https://arxiv.org/abs/2305.13592
+Findings of Association for Computational Linguistics (ACL), 2023.
+[doi](https://doi.org/10.18653/v1/2023.findings-acl.678)
+[pdf](https://aclanthology.org/2023.findings-acl.678.pdf)
 
 **He, Y.**,
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
 2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
-Dali, China, 2022, pp. 1119-1124, [doi: 10.1109/ICCASIT55263.2022.9986837](https://ieeexplore.ieee.org/document/9986837).
+Dali, China, 2022, pp. 1119-1124.
+[doi](https://doi.org/10.1109/ICCASIT55263.2022.9986837)
 
 ### Preprints
 
