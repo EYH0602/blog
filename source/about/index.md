@@ -70,19 +70,19 @@ Dali, China, 2022, pp. 1119-1124.
 ### Preprints
 
 **He, Y.**, Wang, E., Rong, Y., Cheng, Z., Chen, H.
-_Security of AI Agents_, Under Review.
+_Security of AI Agents_.
 https://arxiv.org/abs/2406.08689
 
 **He, Y.**, Wang, J., Rong, Y., Chen, H.
-_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_, Under Review.
+_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_.
 https://arxiv.org/abs/2406.08665
 
 Zhang, H, Rong, Y, **He, Y**, Chen, H.
-_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_, Under Review.
+_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 https://arxiv.org/abs/2406.07714
 
 Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
-_Code Representation Pre-training with Complements from Program Executions_, Under Review.
+_Code Representation Pre-training with Complements from Program Executions_.
 https://arxiv.org/abs/2309.09980
 
 
