@@ -74,7 +74,7 @@ _Security of AI Agents_.
 https://arxiv.org/abs/2406.08689
 
 **He, Y.**, Wang, J., Rong, Y., Chen, H.
-_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_.
+_FuzzAug: Data Augmentation by Fuzzing for Neural Test Generation_.
 https://arxiv.org/abs/2406.08665
 
 Zhang, H, Rong, Y, **He, Y**, Chen, H.
