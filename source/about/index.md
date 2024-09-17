@@ -8,8 +8,8 @@ layout: about
 # About Me
 
 Greetings! My name is 贺一峰 (He, Yifeng).
-I am a Ph.D. student at [UC Davis](https://www.ucdavis.edu),
-supervised by [Prof. Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
+I am a second year Ph.D. student at [UC Davis](https://www.ucdavis.edu).
+My advisor is Professor [Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
 Previously, I obtained my Bachelor of Science degree (with Honors) from UC Davis,
 double majored in Applied Math and Computer Science.
 During undergrad, I was the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
@@ -50,43 +50,39 @@ summing up to 1090lb (494kg) @ 85kg body weight.
 **He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis  (ISSTA), 2024.
-[doi](https://doi.org/10.1145/3650212.3680342)
-[pdf](/publications/he2024unitsyn.pdf)
-[code](https://github.com/SecurityLab-UCD/UniTSyn)
+[doi](https://doi.org/10.1145/3650212.3680342),
+[pdf](/publications/he2024unitsyn.pdf),
+[code](https://github.com/SecurityLab-UCD/UniTSyn).
 
 Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023.
-[doi](https://doi.org/10.18653/v1/2023.findings-acl.678)
-[pdf](https://aclanthology.org/2023.findings-acl.678.pdf)
-[code](https://github.com/rabbitjy/FuzzTuning)
+[doi](https://doi.org/10.18653/v1/2023.findings-acl.678),
+[pdf](https://aclanthology.org/2023.findings-acl.678.pdf),
+[code](https://github.com/rabbitjy/FuzzTuning).
 
 **He, Y.**,
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
 2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
 Dali, China, 2022, pp. 1119-1124.
-[doi](https://doi.org/10.1109/ICCASIT55263.2022.9986837)
+[doi](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 ### Preprints
 
 **He, Y.**, Wang, E., Rong, Y., Cheng, Z., Chen, H.
-_Security of AI Agents_,
-Symposium on Security and Privacy (S&P), 2025. _Under Review_.
+_Security of AI Agents_, Under Review.
 https://arxiv.org/abs/2406.08689
 
 **He, Y.**, Wang, J., Rong, Y., Chen, H.
-_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_
-International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
+_FuzzAug: Exploring Fuzzing as Data Augmentation for Neural Test Generation_, Under Review.
 https://arxiv.org/abs/2406.08665
 
 Zhang, H, Rong, Y, **He, Y**, Chen, H.
-_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_
-International Conference on Automated Software Engineering (ASE), 2024. _Under Review_.
+_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_, Under Review.
 https://arxiv.org/abs/2406.07714
 
 Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
-_Code Representation Pre-training with Complements from Program Executions_,
-Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024. _Under Review_.
+_Code Representation Pre-training with Complements from Program Executions_, Under Review.
 https://arxiv.org/abs/2309.09980
 
 
