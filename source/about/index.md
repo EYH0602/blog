@@ -25,8 +25,8 @@ and Genshin Impact (haven't play much since 4.4, I blame miHoYo for this).
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 I also enjoy powerlifting.
 I have trained for a little over two years.
-My (training) personal records are Squad 405lb (184kg), Bench 230lb (104kg), Deadlift 455lb (206kg),
-summing up to 1090lb (494kg) @ 85kg body weight.
+My (training) personal records are Squad 405lb (184kg), Bench Press 245lb (111kg), Deadlift 455lb (206kg),
+summing up to 1105lb (501kg) @ 85kg body weight.
 
 
 # Curriculum vitae [pdf](./yfhe-cv.pdf)
