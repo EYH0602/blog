@@ -47,41 +47,44 @@ summing up to 1105lb (501kg) @ 85kg body weight.
 
 ### Conference Papers
 
-**He, Y.**, Huang, J., Rong, Y., Guo, Y., Wang, E., Chen, H.
+**Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis  (ISSTA), 2024.
 [doi](https://doi.org/10.1145/3650212.3680342),
 [pdf](/publications/he2024unitsyn.pdf),
 [code](https://github.com/SecurityLab-UCD/UniTSyn).
 
-Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
+Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023.
 [doi](https://doi.org/10.18653/v1/2023.findings-acl.678),
 [pdf](https://aclanthology.org/2023.findings-acl.678.pdf),
 [code](https://github.com/rabbitjy/FuzzTuning).
 
-**He, Y.**,
+**Yifeng He.**,
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
-2022 IEEE 4th International Conference on Civil Aviation Safety and Information Technology (ICCASIT),
-Dali, China, 2022, pp. 1119-1124.
+International Conference on Civil Aviation Safety and Information Technology (ICCASIT), 2022.
 [doi](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 ### Preprints
 
-**He, Y.**, Wang, E., Rong, Y., Cheng, Z., Chen, H.
+Jicheng Wang, **Yifeng He**, Hao Chen.
+_RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
+https://arxiv.org/abs/2409.13122
+
+**Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_.
 https://arxiv.org/abs/2406.08689
 
-**He, Y.**, Wang, J., Rong, Y., Chen, H.
+**Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Fuzzing for Neural Test Generation_.
 https://arxiv.org/abs/2406.08665
 
-Zhang, H, Rong, Y, **He, Y**, Chen, H.
+Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 https://arxiv.org/abs/2406.07714
 
-Huang, J., Zhao, J., Rong, Y., Guo, Y., **He, Y.**, Chen, H.
+Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 https://arxiv.org/abs/2309.09980
 
