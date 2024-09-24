@@ -52,7 +52,8 @@ _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Langua
 International Symposium on Software Testing and Analysis  (ISSTA), 2024.
 [doi](https://doi.org/10.1145/3650212.3680342),
 [pdf](/publications/he2024unitsyn.pdf),
-[code](https://github.com/SecurityLab-UCD/UniTSyn).
+[code](https://github.com/SecurityLab-UCD/UniTSyn),
+[slides](/publications/he2024unitsyn_slides.pdf).
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
