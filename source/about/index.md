@@ -25,7 +25,7 @@ and Genshin Impact (haven't play much since 4.4, I blame miHoYo for this).
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 I also enjoy powerlifting.
 I have trained for a little over two years.
-My (training) personal records are Squad 405lb (184kg), Bench Press 245lb (111kg), Deadlift 455lb (206kg),
+My (training) personal records are Squat 405lb (184kg), Bench Press 245lb (111kg), Deadlift 455lb (206kg)
 summing up to 1105lb (501kg) @ 85kg body weight.
 
 
@@ -40,7 +40,7 @@ summing up to 1105lb (501kg) @ 85kg body weight.
 
 **University of California, Davis**
 
-- Ph.D., Computer Science, 2023 -- 2028 (expected)
+- Ph.D., Computer Science, 2023 -- 2029 (expected)
 - B. S. with Honor, Computer Science and Applied Mathematics, 2019 -- 2023
 
 ## Publications
