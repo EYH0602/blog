@@ -38,10 +38,13 @@ summing up to 1105lb (501kg) @ 85kg body weight.
 
 ## Education
 
-**University of California, Davis**
+**Ph.D. in Computer Science**
 
-- Ph.D., Computer Science, 2023 -- 2029 (expected)
-- B. S. with Honor, Computer Science and Applied Mathematics, 2019 -- 2023
+University of California, Davis (2023 -- present)
+
+**B.S. in Computer Science and Applied Mathematics**
+
+University of California, Davis (2019 -- 2023)
 
 ## Publications
 
