@@ -56,7 +56,8 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 [doi](https://doi.org/10.1145/3650212.3680342),
 [pdf](/publications/he2024unitsyn.pdf),
 [code](https://github.com/SecurityLab-UCD/UniTSyn),
-[slides](/publications/he2024unitsyn_slides.pdf).
+[slides](/publications/he2024unitsyn_slides.pdf),
+[poster](/publications/he2024unitsyn_poster.pdf).
 
 
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
