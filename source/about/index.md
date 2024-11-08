@@ -63,7 +63,8 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
-[arxiv](https://arxiv.org/abs/2309.09980).
+[pdf](https://haochen.org/publications/huang2024.pdf),
+[arXiv](https://arxiv.org/abs/2309.09980).
 
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
