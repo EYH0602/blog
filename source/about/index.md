@@ -22,6 +22,7 @@ For SE, my main research topics are security, software testing/verification/anal
 I like video games. My favorite games are Pokemon (recently: Sword :(, Violet, and Arceus:)), 
 The Witcher 3, Clash of Clans (World top #169 in April 2018!), 
 and Genshin Impact (haven't play much since 4.4, I blame miHoYo for this).
+I also like cozy-style role-playing games like Whimel Academy to reset my mind after research, experiments, and paper writing..
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 I also enjoy powerlifting.
 I have trained for a little over two years.
@@ -48,7 +49,7 @@ University of California, Davis (2019 -- 2023)
 
 ## Publications
 
-### Conference Papers
+### Peer-reviewed Papers
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
@@ -63,8 +64,9 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
-[pdf](https://haochen.org/publications/huang2024.pdf),
-[arXiv](https://arxiv.org/abs/2309.09980).
+[doi](https://aclanthology.org/2024.emnlp-industry.21/),
+[pdf](https://aclanthology.org/2024.emnlp-industry.21.pdf),
+[poster](/publications/huang2024code_poster.pdf)
 
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
@@ -116,7 +118,7 @@ https://arxiv.org/abs/2406.07714
 
 ## Internship
 
-**ByteDance**, Beijing, China 04/2021 – 08/2021
+**ByteDance**, Beijing, China 04/2021 - 08/2021
 
 Software Engineering Intern in Income Platform Team
 
@@ -129,32 +131,32 @@ Software Engineering Intern in Income Platform Team
 
 ## Projects
 
-**CourseReco** 06/2022 – 09/2022
+**CourseReco** 06/2022 - 09/2022
 
 - Designed the overall system architecture
 - Led the programming for API server and recommender engine
 - Negotiated with the third-party provider, SchedGo, for data service
 - Provided technical leadership to teammates
 
-**Music Genre Classifier** 05/2022 – 06/2022
+**Music Genre Classifier** 05/2022 - 06/2022
 
 - Processed music samples into spectrogram by Short-time Fourier transform
 - Designed the appropriate model (CNN) to classify spectrograms into category
 - Analyzed the resulting model and test outputs with saliency maps
 
-**ImageOrientation** 03/2022 – 04/2022
+**ImageOrientation** 03/2022 - 04/2022
 
 - Pre-processed image data by rotating them with random generated angles, and assigned these angles as label
 - Designed the appropriate CNN for regression task, tested and improved the model
 - Applied Hyper-parameter tuning based on train, validation, and tested results
 
-**Dcash-server** 05/2021 – 07/2021
+**Dcash-server** 05/2021 - 07/2021
 
 - Created a multi-threaded API server using C++ to allow users to create accounts to make deposit and transfer
 - Used MySQL to store and maintain user data
 - Made API calls to the Stripe API server to handle credit card information
 
-**Genshine Impact Gacha Analyzer** 08/2021 – 09/2021
+**Genshine Impact Gacha Analyzer** 08/2021 - 09/2021
 
 - Designed fetching process of gacha data from MiHoYo and categorized the process
 - Stored data into local database automatically, wrote into excel for data analysis by option
@@ -162,7 +164,7 @@ Software Engineering Intern in Income Platform Team
 
 ## Activities
 
-**HackerHub Club**, UC Davis 07/2020 – 06/2023
+**HackerHub Club**, UC Davis 07/2020 - 06/2023
 
 Co-founder, President, Technical Officer
 
