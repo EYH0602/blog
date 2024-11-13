@@ -66,7 +66,7 @@ _Code Representation Pre-training with Complements from Program Executions_.
 Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
 [doi](https://aclanthology.org/2024.emnlp-industry.21/),
 [pdf](https://aclanthology.org/2024.emnlp-industry.21.pdf),
-[poster](/publications/huang2024code_poster.pdf)
+[poster](/publications/huang2024code_poster.pdf).
 
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
