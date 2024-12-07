@@ -33,8 +33,8 @@ summing up to 1105lb (501kg) @ 85kg body weight.
 # Curriculum vitae [pdf](./yfhe-cv.pdf)
 
 - Cell: (530) 302-6806
-- Email: yfhe@ucdavis.edu
-- WWW: [https://eyh0602.github.io/](https://eyh0602.github.io/)
+- Email: yfhe at ucdavis 
+- WWW: [https://yfhe.net/](https://yfhe.net/)
 - [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
 ## Education
