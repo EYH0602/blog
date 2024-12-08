@@ -13,6 +13,8 @@ author: Boqi Zhao
 
 # ResVote: A Scalable and Secure Online Voting System Built on ResilientDB
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aHThfkBDVPg?si=L9O4tg5dqE4qONS_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Our Motivation
 
 * Traditional voting systems, such as in-person voting and mail-in ballots, are often slow, prone to errors, and vulnerable to fraud. These methods are labor-intensive and struggle to handle large-scale elections efficiently.
