@@ -38,7 +38,7 @@ Key objectives of our project include:
 
 To build **Resilient Vote**, we designed a secure, scalable, and user-friendly system by leveraging modern technologies and distributed database solutions. Our approach integrates a web-based front end, a robust back-end API, and a fault-tolerant database system powered by **ResilientDB**.
 
-![Resilient Vote](./images/ResVote.png)
+![Resilient Vote](/images/ResVote/ResVote.png)
 
 ### System Architecture
 
@@ -48,7 +48,7 @@ The system is divided into three main components:
    - The user interface is built using **React**, ensuring a responsive and interactive experience for voters, administrators, and general users.
    - For communication between the front end and the back end, we use **XML-RPC** (Extensible Markup Language Remote Procedure Call). XML-RPC allows the front-end React application to interact with the back-end services securely and efficiently. By using this protocol, the system can send method calls to the server and receive responses, ensuring smooth data exchange and integration between the user interface and the database.
    - This approach provides a lightweight solution for data transmission, making it easy to implement in a distributed environment while maintaining high security and reliability.
-   ![ResVote React Frontend](./images/ResVote_React.png)
+   ![ResVote React Frontend](/images/ResVote/ResVote_React.png)
 
 
 2. **Back-End (ResilientDB Crow Service & ORM)**:
@@ -168,23 +168,23 @@ The system includes a powerful **data visualization** component that provides a 
 - **Real-Time Election Results**: As votes are cast, the system displays real-time updates in the form of bar charts, pie charts, and line graphs.
 - **Voter Demographics**: The system visualizes the distribution of votes across different voter demographics, such as age groups, gender, regions, race, education level and other attributes. For each attribute, we make overall visualization based on total voters.
 
-| <img src="./images/candidate_distribution.png" alt="Candidate Distribution" style="width:150px; height:150px;"> | <img src="./images/age_attribute_distribution.png" alt="Age Distribution" style="width:150px; height:auto;"> | <img src="./images/gender_attribute_distribution.png" alt="Gender Distribution" style="width:150px; height:auto;"> |
+| <img src="/images/ResVote/candidate_distribution.png" alt="Candidate Distribution" style="width:150px; height:150px;"> | <img src="/images/ResVote/age_attribute_distribution.png" alt="Age Distribution" style="width:150px; height:auto;"> | <img src="/images/ResVote/gender_attribute_distribution.png" alt="Gender Distribution" style="width:150px; height:auto;"> |
 |:---------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
 | Candidate Distribution                                                                                          | Age Distribution                                                                                               | Gender Distribution                                                                                           |
 
-| <img src="./images/region_attribute_distribution.png" alt="Region Distribution" style="width:150px; height:auto;"> | <img src="./images/race_attribute_distribution.png" alt="Race Distribution" style="width:150px; height:auto;"> | <img src="./images/education_attribute_distribution.png" alt="Education Distribution" style="width:150px; height:auto;"> |
+| <img src="/images/ResVote/region_attribute_distribution.png" alt="Region Distribution" style="width:150px; height:auto;"> | <img src="/images/ResVote/race_attribute_distribution.png" alt="Race Distribution" style="width:150px; height:auto;"> | <img src="/images/ResVote/education_attribute_distribution.png" alt="Education Distribution" style="width:150px; height:auto;"> |
 |:-------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
 | Region Distribution                                                                                          | Race Distribution                                                                                               | Education Distribution                                                                                           |
 
    And we also make grouped analysis of different candidates for better comparison.
 
-| <img src="./images/age_grouped_bar_chart.png" alt="Age Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/gender_grouped_bar_chart.png" alt="Gender Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/region_grouped_bar_chart.png" alt="Region Grouped Bar Chart" style="width:150px; height:auto;"> |
+| <img src="/images/ResVote/age_grouped_bar_chart.png" alt="Age Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="/images/ResVote/gender_grouped_bar_chart.png" alt="Gender Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="/images/ResVote/region_grouped_bar_chart.png" alt="Region Grouped Bar Chart" style="width:150px; height:auto;"> |
 |:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
 | Age Grouped Bar Chart                                                                                         | Gender Grouped Bar Chart                                                                                         | Region Grouped Bar Chart                                                                                         |
 
 <div style="display: flex; justify-content: center;">
 
-| <img src="./images/race_grouped_bar_chart.png" alt="Race Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/education_grouped_bar_chart.png" alt="Education Grouped Bar Chart" style="width:150px; height:auto;"> |
+| <img src="/images/ResVote/race_grouped_bar_chart.png" alt="Race Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="/images/ResVote/education_grouped_bar_chart.png" alt="Education Grouped Bar Chart" style="width:150px; height:auto;"> |
 |:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
 | Race Grouped Bar Chart                                                                                         | Education Grouped Bar Chart                                                                                       |
 
@@ -193,7 +193,7 @@ The system includes a powerful **data visualization** component that provides a 
 
 
 - **Trend Analysis**: The visualizations show trends in voting over time, helping administrators understand voter participation patterns.
-![Time Series Analysis](./images/time_series.png)
+![Time Series Analysis](/images/ResVote/time_series.png)
 
 These visualizations not only enhance the transparency of the voting process but also make it easier to interpret the results and track the progress of elections.
 
