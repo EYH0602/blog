@@ -38,7 +38,7 @@ Key objectives of our project include:
 
 To build **Resilient Vote**, we designed a secure, scalable, and user-friendly system by leveraging modern technologies and distributed database solutions. Our approach integrates a web-based front end, a robust back-end API, and a fault-tolerant database system powered by **ResilientDB**.
 
-![Resilient Vote](/images/ResVote.png)
+![Resilient Vote](/images/ResVote/ResVote.png)
 
 ### System Architecture
 
@@ -48,7 +48,7 @@ The system is divided into three main components:
    - The user interface is built using **React**, ensuring a responsive and interactive experience for voters, administrators, and general users.
    - For communication between the front end and the back end, we use **XML-RPC** (Extensible Markup Language Remote Procedure Call). XML-RPC allows the front-end React application to interact with the back-end services securely and efficiently. By using this protocol, the system can send method calls to the server and receive responses, ensuring smooth data exchange and integration between the user interface and the database.
    - This approach provides a lightweight solution for data transmission, making it easy to implement in a distributed environment while maintaining high security and reliability.
-   ![ResVote React Frontend](/images/ResVote_React.png)
+   ![ResVote React Frontend](/images/ResVote/ResVote_React.png)
 
 
 2. **Back-End (ResilientDB Crow Service & ORM)**:
@@ -170,6 +170,19 @@ The system includes a powerful **data visualization** component that provides a 
 These visualizations not only enhance the transparency of the voting process but also make it easier to interpret the results and track the progress of elections.
 
 By combining these two powerful features—automated voting simulations and real-time, interactive data visualizations—**Resilient Vote** provides a robust platform for conducting scalable, transparent, and efficient elections.
+
+![age_attribute_distribution](/images/ResVote/age_attribute_distribution.png)
+![candidate_distribution](/images/ResVote/candidate_distribution.png)
+![education_grouped_bar_chart](/images/ResVote/education_grouped_bar_chart.png)
+![gender_grouped_bar_chart](/images/ResVote/gender_grouped_bar_chart.png)
+![race_grouped_bar_chart](/images/ResVote/race_grouped_bar_chart.png)
+![region_grouped_bar_chart](/images/ResVote/region_grouped_bar_chart.png)
+![age_grouped_bar_chart](/images/ResVote/age_grouped_bar_chart.png)
+![education_attribute_distribution](/images/ResVote/education_attribute_distribution.png)
+![gender_attribute_distribution](/images/ResVote/gender_attribute_distribution.png)
+![race_attribute_distribution](/images/ResVote/race_attribute_distribution.png)
+![region_attribute_distribution](/images/ResVote/region_attribute_distribution.png)
+![time_series](/images/ResVote/time_series.png)
 
 ## Future Plans
 
