@@ -38,7 +38,7 @@ Key objectives of our project include:
 
 To build **Resilient Vote**, we designed a secure, scalable, and user-friendly system by leveraging modern technologies and distributed database solutions. Our approach integrates a web-based front end, a robust back-end API, and a fault-tolerant database system powered by **ResilientDB**.
 
-![Resilient Vote](/images/ResVote/ResVote.png)
+![Resilient Vote](./images/ResVote.png)
 
 ### System Architecture
 
@@ -48,7 +48,7 @@ The system is divided into three main components:
    - The user interface is built using **React**, ensuring a responsive and interactive experience for voters, administrators, and general users.
    - For communication between the front end and the back end, we use **XML-RPC** (Extensible Markup Language Remote Procedure Call). XML-RPC allows the front-end React application to interact with the back-end services securely and efficiently. By using this protocol, the system can send method calls to the server and receive responses, ensuring smooth data exchange and integration between the user interface and the database.
    - This approach provides a lightweight solution for data transmission, making it easy to implement in a distributed environment while maintaining high security and reliability.
-   ![ResVote React Frontend](/images/ResVote/ResVote_React.png)
+   ![ResVote React Frontend](./images/ResVote_React.png)
 
 
 2. **Back-End (ResilientDB Crow Service & ORM)**:
@@ -151,11 +151,13 @@ The development of **Resilient Vote** has yielded significant progress in both t
 
 ### Virtual Vote Generator
 
-One of the key innovations of our project is the **Virtual Vote Generator**, developed using the **Hypothesis** library. This tool simulates large-scale election events by automatically generating random voting data. It creates virtual voters, assigns them different identity attributes (such as age, gender, region, etc.), and simulates voting in various election scenarios.
+One of the key innovations of our project is the **Virtual Vote Generator**, developed using the **Hypothesis** library. This tool simulates large-scale election events by automatically generating random voting data. It creates virtual voters, assigns them different identity attributes (such as age, gender, region, race, education level, timestamp etc.), and simulates voting in various election scenarios.
 
 The **Virtual Vote Generator** serves three main purposes:
 1. **Stress Testing**: It helps simulate high volumes of votes to ensure the system can handle large-scale elections without performance degradation.
 2. **System Validation**: The generator validates that the system handles diverse voting scenarios correctly, ensuring data consistency across distributed nodes.
+
+3. **Demographic Analysis**: By generating voters with varied attributes, the system can examine how different demographics might influence election outcomes, thus guiding more informed decision-making.
 
 This feature is essential for testing the resilience and scalability of the system before it's deployed in real-world elections.
 
@@ -164,25 +166,46 @@ This feature is essential for testing the resilience and scalability of the syst
 The system includes a powerful **data visualization** component that provides a clear and interactive view of the election results. The visualizations include a variety of charts and graphs that are automatically updated as votes are cast. Key features of the data visualization component include:
 
 - **Real-Time Election Results**: As votes are cast, the system displays real-time updates in the form of bar charts, pie charts, and line graphs.
-- **Voter Demographics**: The system visualizes the distribution of votes across different voter demographics, such as age groups, regions, and other attributes.
+- **Voter Demographics**: The system visualizes the distribution of votes across different voter demographics, such as age groups, gender, regions, race, education level and other attributes. For each attribute, we make overall visualization based on total voters.
+
+| <img src="./images/candidate_distribution.png" alt="Candidate Distribution" style="width:150px; height:150px;"> | <img src="./images/age_attribute_distribution.png" alt="Age Distribution" style="width:150px; height:auto;"> | <img src="./images/gender_attribute_distribution.png" alt="Gender Distribution" style="width:150px; height:auto;"> |
+|:---------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+| Candidate Distribution                                                                                          | Age Distribution                                                                                               | Gender Distribution                                                                                           |
+
+| <img src="./images/region_attribute_distribution.png" alt="Region Distribution" style="width:150px; height:auto;"> | <img src="./images/race_attribute_distribution.png" alt="Race Distribution" style="width:150px; height:auto;"> | <img src="./images/education_attribute_distribution.png" alt="Education Distribution" style="width:150px; height:auto;"> |
+|:-------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
+| Region Distribution                                                                                          | Race Distribution                                                                                               | Education Distribution                                                                                           |
+
+   And we also make grouped analysis of different candidates for better comparison.
+
+| <img src="./images/age_grouped_bar_chart.png" alt="Age Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/gender_grouped_bar_chart.png" alt="Gender Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/region_grouped_bar_chart.png" alt="Region Grouped Bar Chart" style="width:150px; height:auto;"> |
+|:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| Age Grouped Bar Chart                                                                                         | Gender Grouped Bar Chart                                                                                         | Region Grouped Bar Chart                                                                                         |
+
+<div style="display: flex; justify-content: center;">
+
+| <img src="./images/race_grouped_bar_chart.png" alt="Race Grouped Bar Chart" style="width:150px; height:auto;"> | <img src="./images/education_grouped_bar_chart.png" alt="Education Grouped Bar Chart" style="width:150px; height:auto;"> |
+|:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+| Race Grouped Bar Chart                                                                                         | Education Grouped Bar Chart                                                                                       |
+
+</div>
+
+
+
 - **Trend Analysis**: The visualizations show trends in voting over time, helping administrators understand voter participation patterns.
-  
+![Time Series Analysis](./images/time_series.png)
+
 These visualizations not only enhance the transparency of the voting process but also make it easier to interpret the results and track the progress of elections.
 
 By combining these two powerful features—automated voting simulations and real-time, interactive data visualizations—**Resilient Vote** provides a robust platform for conducting scalable, transparent, and efficient elections.
 
-![age_attribute_distribution](/images/ResVote/age_attribute_distribution.png)
-![candidate_distribution](/images/ResVote/candidate_distribution.png)
-![education_grouped_bar_chart](/images/ResVote/education_grouped_bar_chart.png)
-![gender_grouped_bar_chart](/images/ResVote/gender_grouped_bar_chart.png)
-![race_grouped_bar_chart](/images/ResVote/race_grouped_bar_chart.png)
-![region_grouped_bar_chart](/images/ResVote/region_grouped_bar_chart.png)
-![age_grouped_bar_chart](/images/ResVote/age_grouped_bar_chart.png)
-![education_attribute_distribution](/images/ResVote/education_attribute_distribution.png)
-![gender_attribute_distribution](/images/ResVote/gender_attribute_distribution.png)
-![race_attribute_distribution](/images/ResVote/race_attribute_distribution.png)
-![region_attribute_distribution](/images/ResVote/region_attribute_distribution.png)
-![time_series](/images/ResVote/time_series.png)
+### Feasibility Analysis
+
+While the Virtual Vote Generator was initially designed to produce synthetic data for stress-testing and validation, its underlying structure closely mirrors that of real-world voting data. By leveraging randomized yet controlled attribute assignments—gender, region, age, race, education level—the generator ensures broad coverage of realistic scenarios. This design principle allows the transition from testing scenarios to actual election data to be seamless.
+
+In practice, once real votes start coming in, the same code paths and visualization routines used for generated data can be directly applied to genuine voting records. Since the generator’s outputs and real votes share the same data schema, all existing analytic and graphical methods remain valid. The rich set of demographic and temporal charts that clarify patterns in synthetic elections will likewise provide meaningful insights when applied to real voter populations. In other words, the visualizations that help us pinpoint unexpected trends or correlations in randomized testing scenarios are just as effective in highlighting authentic voter behaviors, preferences, and participation patterns.
+
+By maintaining this consistent data format and analysis approach, **Resilient Vote** ensures that lessons learned from simulation inform actual voting events. As a result, insights gained during development translate into actionable understanding and enhanced transparency once real ballots are being cast.
 
 ## Future Plans
 
