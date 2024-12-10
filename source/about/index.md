@@ -51,6 +51,11 @@ University of California, Davis (2019 -- 2023)
 
 ### Peer-reviewed Papers
 
+**Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
+_Security of AI Agents_,
+International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
+[preprint](https://arxiv.org/abs/2406.08689).
+
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis (ISSTA), 2024.
@@ -91,9 +96,7 @@ Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
 https://arxiv.org/abs/2409.13122
 
-**Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
-_Security of AI Agents_.
-https://arxiv.org/abs/2406.08689
+
 
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Fuzzing for Neural Test Generation_.
