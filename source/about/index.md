@@ -7,33 +7,44 @@ layout: about
 
 # About Me
 
-Greetings! My name is 贺一峰 (He, Yifeng).
-I am a second year Ph.D. student at [UC Davis](https://www.ucdavis.edu).
+Hey there! I'm 贺一峰 (He, Yifeng), a second-year Ph.D. student at [UC Davis](https://www.ucdavis.edu).
 My advisor is Professor [Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
-Previously, I obtained my Bachelor of Science degree (with Honors) from UC Davis,
-double majored in Applied Math and Computer Science.
-During undergrad, I was the president of [HackerHub](https://hackerhub-ucdavis.github.io/)(UCDavis Club).
-My current study interests are artificial intelligence (AI) and software engineering (SE).
-My research topics include AI for SE, SE for AI, SE for (AI for SE).
-For AI, my main research topic is (large) language model.
-For SE, my main research topics are security, software testing/verification/analysis, and (safe/secured/functional) programming languages. 
+I got my B.S. (with Honors) from UC Davis too,
+double majoring in Applied Math and Computer Science.
+During undergrad, I also served as president of [HackerHub](https://hackerhub-ucdavis.github.io/),
+a student-run tech club on campus.
 
-<!-- Apart from academics, my interests cover more topics. -->
-I like video games. My favorite games are Pokemon (recently: Sword :(, Violet, and Arceus:)), 
-The Witcher 3, Clash of Clans (World top #169 in April 2018!), 
-and Genshin Impact (haven't play much since 4.4, I blame miHoYo for this).
-I also like cozy-style role-playing games like Whimel Academy to reset my mind after research, experiments, and paper writing..
+These days, I spend most of my time thinking about how AI and software engineering can help each other out.
+More specifically, my research interests are:
+
+- using AI to improve software engineering, with focus on testing and security,
+- making AI itself more secure — both foundation models and agents,
+- building better AI models for software engineering,
+- safe and secure programming languages (bonus points if they’re functional and useful for AI).
+
+I'm also into video games.
+Some of my all-time favorites include Pokémon (recently played Sword 🙃, Violet, and Arceus 😊),
+The Witcher 3,
+Clash of Clans (hit world rank #169 back in April 2018!),
+and Genshin Impact (though I haven’t touched it since 4.4, thanks miHoYo 😅).
+Other games I've enjoyed or recommend:
+The Legend of Zelda series,
+Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon),
+and [Whimel Academy](https://store.steampowered.com/app/2377250/Whimel_Academy/).
+
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
+
 I also enjoy powerlifting.
 I have trained for a little over two years.
 My (training) personal records are Squat 405lb (184kg), Bench Press 245lb (111kg), Deadlift 455lb (206kg)
 summing up to 1105lb (501kg) @ 85kg body weight.
-
+I also dabble in photography.
+If you're curious, feel free to check out some of my shots on [Instagram](https://www.instagram.com/yfhe0602/).
 
 # Curriculum vitae [pdf](./yfhe-cv.pdf)
 
 - Cell: (530) 302-6806
-- Email: yfhe at ucdavis 
+- Email: yfhe at ucdavis
 - WWW: [https://yfhe.net/](https://yfhe.net/)
 - [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
@@ -69,14 +80,12 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 [slides](/publications/he2024unitsyn_slides.pdf),
 [poster](/publications/he2024unitsyn_poster.pdf).
 
-
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
 [doi](https://aclanthology.org/2024.emnlp-industry.21/),
 [pdf](https://aclanthology.org/2024.emnlp-industry.21.pdf),
 [poster](/publications/huang2024code_poster.pdf).
-
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
@@ -100,8 +109,6 @@ Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
 https://arxiv.org/abs/2409.13122
 
-
-
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Fuzzing for Neural Test Generation_.
 https://arxiv.org/abs/2406.08665
@@ -109,7 +116,6 @@ https://arxiv.org/abs/2406.08665
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 https://arxiv.org/abs/2406.07714
-
 
 ## Honors and Awards
 

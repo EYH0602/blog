@@ -847,7 +847,7 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/EYH0602", tip: "GitHub" }
     - { class: "iconfont icon-facebook-fill", link: "https://www.facebook.com/ethan.he.334", tip: "Facebook" }
     - { class: "iconfont icon-twitter-fill", link: "https://x.com/yfhe62", tip: "X"}
-    - { class: "iconfont icon-instagram-fill", link: "https://www.instagram.com/ethan0he1/", tip: "Instagram" }
+    - { class: "iconfont icon-instagram-fill", link: "https://www.instagram.com/yfhe0602", tip: "Instagram" }
     - { class: "iconfont icon-linkedin-fill", link: "https://www.linkedin.com/in/yifeng-he-11470b17b/", tip: "LinkedIn" }
     - { class: "iconfont icon-discord-fill", link: https://discordapp.com/users/yfhe", tip: "Discord" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/images/WeChatQR.jpg" }
