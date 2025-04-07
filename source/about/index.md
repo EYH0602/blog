@@ -66,10 +66,9 @@ University of California, Davis (2019 -- 2023)
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 [doi](),
-[pdf](),
+[pdf](https://arxiv.org/pdf/2406.08689),
 [code](https://github.com/SecurityLab-UCD/ai-agent-security),
-[slides](),
-[arXiv (with more figures!)](https://arxiv.org/abs/2406.08689).
+[slides](/publications/he2025aiagent_slides.pdf).
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
