@@ -69,6 +69,7 @@ International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 [pdf](https://arxiv.org/pdf/2406.08689),
 [code](https://github.com/SecurityLab-UCD/ai-agent-security),
 [slides](/publications/he2025aiagent_slides.pdf).
+  * media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/)
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
