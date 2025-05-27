@@ -66,10 +66,12 @@ University of California, Davis (2019 -- 2023)
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 [doi](),
-[pdf](https://arxiv.org/pdf/2406.08689),
+[pdf](/publications/he2025aiagent.pdf),
+[arXiv (recommended version with more figures!)](https://arxiv.org/pdf/2406.08689),
 [code](https://github.com/SecurityLab-UCD/ai-agent-security),
 [slides](/publications/he2025aiagent_slides.pdf).
-  * media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/)
+  * media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
+  [MLSecOps Podcast](https://mlsecops.com/podcast/ai-agent-security-threats-defenses-for-modern-deployments).
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
@@ -119,9 +121,9 @@ https://arxiv.org/abs/2406.07714
 
 ## Honors and Awards
 
-**Citation For Outstanding Performance**, Dept. Mathematics, UC Davis
+**Citation For Outstanding Performance**, Department of Mathematics, UC Davis
 
-**Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022, College of L&S, UC Davis
+**Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022, College of Letter \& Science, UC Davis
 
 ## Teaching
 
@@ -129,20 +131,26 @@ https://arxiv.org/abs/2406.07714
   - TA, Spring 2023
   - TA, Fall 2023
 
-## Internship
+## Industry Experience
 
-**ByteDance**, Beijing, China 04/2021 - 08/2021
-
-Software Engineering Intern in Income Platform Team
+**ByteDance (Toutiao)**, Creator Income Platform.
+*Software Development Engineer Intern.*
+04/2021 - 07/2021
 
 - Used microservice tech to connect parts of the author income settlement bushiness
-- Transformed author-relation data architecture design from relational database (SQL) to graph database (Gremlin) to allow better efficiency for the business model
-- Refactored the income calculation control process with visitor design pattern using Python 3
-- Created a data cleaner script with ORM to maintain the size and readability of online data settlement table
-- Created the offline flow of Medium Video Encouragement Project for weekly data calculation
+- Transformed author-relation data architecture design from relational database (SQL) to graph database (Gremlin) to
+- low better efficiency for the business model
+- Refactored the income calculation control process with in Python 3
+
+**ByteDance (Xigua Video)**, Creator Experience Team. 
+*Software Development Engineer Intern.*
+07/2021 - 08/2021
+
+- Created a data cleaner with ORM to maintain the size and readability of online data settlement table
+- Created the offline flow of Medium-Length Video Encouragement Project for weekly data calculation
 - Built the interface for frontend of web and mobile app to display the data visualization
 
-## Projects
+## Past Toy Projects
 
 **CourseReco** 06/2022 - 09/2022
 
