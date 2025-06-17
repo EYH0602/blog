@@ -70,7 +70,8 @@ International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 [arXiv (recommended version with more figures!)](https://arxiv.org/pdf/2406.08689),
 [code](https://github.com/SecurityLab-UCD/ai-agent-security),
 [slides](/publications/he2025aiagent_slides.pdf).
-  * media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
+
+- media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
   [MLSecOps Podcast](https://mlsecops.com/podcast/ai-agent-security-threats-defenses-for-modern-deployments).
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
@@ -119,6 +120,13 @@ Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 https://arxiv.org/abs/2406.07714
 
+## Services
+
+**Program Committee Member** / **Reviewer** for:
+* International Conference on Multimedia (MM) 2025
+* International Conference on Learning Representations (ICLR) 2025 
+* Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
+
 ## Honors and Awards
 
 **Citation For Outstanding Performance**, Department of Mathematics, UC Davis
@@ -128,13 +136,12 @@ https://arxiv.org/abs/2406.07714
 ## Teaching
 
 - ECS 36C Data Structure
-  - TA, Spring 2023
-  - TA, Fall 2023
+  - Teaching Assistant. Fall 2023, Spring 2023, Fall 2024.
 
 ## Industry Experience
 
 **ByteDance (Toutiao)**, Creator Income Platform.
-*Software Development Engineer Intern.*
+_Software Development Engineer Intern._
 04/2021 - 07/2021
 
 - Used microservice tech to connect parts of the author income settlement bushiness
@@ -142,8 +149,8 @@ https://arxiv.org/abs/2406.07714
 - low better efficiency for the business model
 - Refactored the income calculation control process with in Python 3
 
-**ByteDance (Xigua Video)**, Creator Experience Team. 
-*Software Development Engineer Intern.*
+**ByteDance (Xigua Video)**, Creator Experience Team.
+_Software Development Engineer Intern._
 07/2021 - 08/2021
 
 - Created a data cleaner with ORM to maintain the size and readability of online data settlement table
