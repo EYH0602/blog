@@ -50,13 +50,9 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ## Education
 
-**Ph.D. in Computer Science**
+**Ph.D. in Computer Science**, UC Davis (2023 -- present)
 
-University of California, Davis (2023 -- present)
-
-**B.S. in Computer Science and Applied Mathematics**
-
-University of California, Davis (2019 -- 2023)
+**B.S. in Computer Science and Applied Mathematics** with Honors, UC Davis (2019 -- 2023)
 
 ## Publications
 
@@ -123,9 +119,10 @@ https://arxiv.org/abs/2406.07714
 ## Services
 
 **Program Committee Member** / **Reviewer** for:
-* International Conference on Multimedia (MM) 2025
-* International Conference on Learning Representations (ICLR) 2025 
-* Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
+
+- International Conference on Multimedia (MM) 2025
+- International Conference on Learning Representations (ICLR) 2025
+- Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
 
 ## Honors and Awards
 
