@@ -122,6 +122,7 @@ https://arxiv.org/abs/2406.07714
 
 - International Conference on Multimedia (MM) 2025
 - International Conference on Learning Representations (ICLR) 2025
+- International Conference on Software Engineering Advances (ICSEA) 2025
 - Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
 
 ## Honors and Awards
