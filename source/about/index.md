@@ -61,7 +61,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
-[doi](),
+[doi](https://doi.org/10.1109/RAIE66699.2025.00013),
 [pdf](/publications/he2025aiagent.pdf),
 [arXiv (recommended version with more figures!)](https://arxiv.org/pdf/2406.08689),
 [code](https://github.com/SecurityLab-UCD/ai-agent-security),
