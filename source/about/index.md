@@ -58,6 +58,15 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Peer-reviewed Papers
 
+**Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
+_FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
+Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
+[doi](),
+[pdf](),
+[arXiv](https://arxiv.org/abs/2406.08665),
+[code](https://github.com/SecurityLab-UCD/FuzzAug),
+[poster]().
+
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
@@ -81,7 +90,7 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
-Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
+Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
 [doi](https://aclanthology.org/2024.emnlp-industry.21/),
 [pdf](https://aclanthology.org/2024.emnlp-industry.21.pdf),
 [poster](/publications/huang2024code_poster.pdf).
@@ -108,10 +117,6 @@ Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
 https://arxiv.org/abs/2409.13122
 
-**Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
-_FuzzAug: Data Augmentation by Fuzzing for Neural Test Generation_.
-https://arxiv.org/abs/2406.08665
-
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 https://arxiv.org/abs/2406.07714
@@ -124,6 +129,7 @@ https://arxiv.org/abs/2406.07714
 - International Conference on Learning Representations (ICLR) 2025
 - International Conference on Software Engineering Advances (ICSEA) 2025
 - Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
+- Conference of the ACM Special Interest Group on Data Communication, Artifact Evaluation (SIGCOMM) 2025
 
 ## Honors and Awards
 
