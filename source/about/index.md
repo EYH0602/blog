@@ -58,6 +58,15 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Peer-reviewed Papers
 
+**Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
+_TF-Bench: Evaluating Program Semantics Reasoning with Type Inference in System F_.
+Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
+[doi](),
+[pdf](),
+[arXiv](),
+[code](),
+[poster]().
+
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
 Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
