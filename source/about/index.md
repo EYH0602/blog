@@ -7,7 +7,7 @@ layout: about
 
 # About Me
 
-Hey there! I'm 贺一峰 (He, Yifeng), a second-year Ph.D. student at [UC Davis](https://www.ucdavis.edu).
+Hey there! I'm 贺一峰 (He, Yifeng), a thrid-year Ph.D. candidate at [UC Davis](https://www.ucdavis.edu).
 My advisor is Professor [Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
 I got my B.S. (with Honors) from UC Davis too,
 double majoring in Applied Math and Computer Science.
@@ -29,8 +29,8 @@ Clash of Clans (hit world rank #169 back in April 2018!),
 and Genshin Impact (though I haven’t touched it since 4.4, thanks miHoYo 😅).
 Other games I've enjoyed or recommend:
 The Legend of Zelda series,
-Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon),
-and [Whimel Academy](https://store.steampowered.com/app/2377250/Whimel_Academy/).
+Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon.
+<!-- and [Whimel Academy](https://store.steampowered.com/app/2377250/Whimel_Academy/). -->
 
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
 
@@ -61,20 +61,14 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _TF-Bench: Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
-[doi](),
-[pdf](),
-[arXiv](),
-[code](),
-[poster]().
+[arXiv](https://arxiv.org/abs/2509.23686),
+[code](https://github.com/SecurityLab-UCD/TF-Bench).
 
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
 Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
-[doi](),
-[pdf](),
 [arXiv](https://arxiv.org/abs/2406.08665),
-[code](https://github.com/SecurityLab-UCD/FuzzAug),
-[poster]().
+[code](https://github.com/SecurityLab-UCD/FuzzAug).
 
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
