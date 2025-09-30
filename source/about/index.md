@@ -7,7 +7,7 @@ layout: about
 
 # About Me
 
-Hey there! I'm 贺一峰 (He, Yifeng), a thrid-year Ph.D. candidate at [UC Davis](https://www.ucdavis.edu).
+Hey there! I'm 贺一峰 (He, Yifeng), a third-year Ph.D. candidate at [UC Davis](https://www.ucdavis.edu).
 My advisor is Professor [Hao Chen](https://www.cs.ucdavis.edu/~hchen/).
 I got my B.S. (with Honors) from UC Davis too,
 double majoring in Applied Math and Computer Science.
