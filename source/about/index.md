@@ -30,6 +30,7 @@ and Genshin Impact (though I haven’t touched it since 4.4, thanks miHoYo 😅)
 Other games I've enjoyed or recommend:
 The Legend of Zelda series,
 Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon.
+
 <!-- and [Whimel Academy](https://store.steampowered.com/app/2377250/Whimel_Academy/). -->
 
 <!-- I also love music (from an audiophile perspective) and [photography](https://www.instagram.com/ethan0he1/)! -->
@@ -61,6 +62,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _TF-Bench: Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
+[pdf (recommended version by LuaLaTeX)](/publications/he2025tfbench.pdf),
 [arXiv](https://arxiv.org/abs/2509.23686),
 [code](https://github.com/SecurityLab-UCD/TF-Bench).
 
