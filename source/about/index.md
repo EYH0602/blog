@@ -60,7 +60,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 ### Peer-reviewed Papers
 
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
-_TF-Bench: Evaluating Program Semantics Reasoning with Type Inference in System F_.
+_Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
 [pdf (recommended version by LuaLaTeX)](/publications/he2025tfbench.pdf),
 [arXiv](https://arxiv.org/abs/2509.23686),
@@ -131,7 +131,7 @@ https://arxiv.org/abs/2406.07714
 **Program Committee Member** / **Reviewer** for:
 
 - International Conference on Multimedia (MM) 2025
-- International Conference on Learning Representations (ICLR) 2025
+- International Conference on Learning Representations (ICLR) 2025, 2026
 - International Conference on Software Engineering Advances (ICSEA) 2025
 - Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
 - Conference of the ACM Special Interest Group on Data Communication, Artifact Evaluation (SIGCOMM) 2025
