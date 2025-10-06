@@ -29,7 +29,7 @@ Clash of Clans (hit world rank #169 back in April 2018!),
 and Genshin Impact (though I haven’t touched it since 4.4, thanks miHoYo 😅).
 Other games I've enjoyed or recommend:
 The Legend of Zelda series,
-Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon.
+Palworld (was obsessed for a while… then drifted back to egg hatching in Pokémon).
 
 <!-- and [Whimel Academy](https://store.steampowered.com/app/2377250/Whimel_Academy/). -->
 
@@ -42,7 +42,7 @@ summing up to 1105lb (501kg) @ 85kg body weight.
 I also dabble in photography.
 If you're curious, feel free to check out some of my shots on [Instagram](https://www.instagram.com/yfhe0602/).
 
-# Curriculum vitae [pdf](./yfhe-cv.pdf)
+# Curriculum vitae [[PDF]](./yfhe-cv.pdf)
 
 - Cell: (530) 302-6806
 - Email: yfhe at ucdavis
@@ -62,55 +62,55 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
-[pdf (recommended version by LuaLaTeX)](/publications/he2025tfbench.pdf),
-[arXiv](https://arxiv.org/abs/2509.23686),
-[code](https://github.com/SecurityLab-UCD/TF-Bench).
+[[PDF (recommended version by LuaLaTeX)]](/publications/he2025tfbench.pdf),
+[[arXiv]](https://arxiv.org/abs/2509.23686),
+[[code]](https://github.com/SecurityLab-UCD/TF-Bench).
 
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
 Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
-[arXiv](https://arxiv.org/abs/2406.08665),
-[code](https://github.com/SecurityLab-UCD/FuzzAug).
+[[arXiv]](https://arxiv.org/abs/2406.08665),
+[[code]](https://github.com/SecurityLab-UCD/FuzzAug).
 
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
-[doi](https://doi.org/10.1109/RAIE66699.2025.00013),
-[pdf](/publications/he2025aiagent.pdf),
-[arXiv (recommended version with more figures!)](https://arxiv.org/pdf/2406.08689),
-[code](https://github.com/SecurityLab-UCD/ai-agent-security),
-[slides](/publications/he2025aiagent_slides.pdf).
+[[DOI]](https://doi.org/10.1109/RAIE66699.2025.00013),
+[[PDF]](/publications/he2025aiagent.pdf),
+[[arXiv (recommended version with more figures!)]](https://arxiv.org/pdf/2406.08689),
+[[code]](https://github.com/SecurityLab-UCD/ai-agent-security),
+[[slides]](/publications/he2025aiagent_slides.pdf).
 
-- media coverage: [The Washington Post](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
-  [MLSecOps Podcast](https://mlsecops.com/podcast/ai-agent-security-threats-defenses-for-modern-deployments).
+- media coverage: [[The Washington Post]](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
+  [[MLSecOps Podcast]](https://mlsecops.com/podcast/ai-agent-security-threats-defenses-for-modern-deployments).
 
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis (ISSTA), 2024.
-[doi](https://doi.org/10.1145/3650212.3680342),
-[pdf](/publications/he2024unitsyn.pdf),
-[code](https://github.com/SecurityLab-UCD/UniTSyn),
-[slides](/publications/he2024unitsyn_slides.pdf),
-[poster](/publications/he2024unitsyn_poster.pdf).
+[[DOI]](https://doi.org/10.1145/3650212.3680342),
+[[PDF]](/publications/he2024unitsyn.pdf),
+[[code]](https://github.com/SecurityLab-UCD/UniTSyn),
+[[slides]](/publications/he2024unitsyn_slides.pdf),
+[[poster]](/publications/he2024unitsyn_poster.pdf).
 
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
-[doi](https://aclanthology.org/2024.emnlp-industry.21/),
-[pdf](https://aclanthology.org/2024.emnlp-industry.21.pdf),
-[poster](/publications/huang2024code_poster.pdf).
+[[DOI]](https://aclanthology.org/2024.emnlp-industry.21/),
+[[PDF]](https://aclanthology.org/2024.emnlp-industry.21.pdf),
+[[poster]](/publications/huang2024code_poster.pdf).
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023.
-[doi](https://doi.org/10.18653/v1/2023.findings-acl.678),
-[pdf](https://aclanthology.org/2023.findings-acl.678.pdf),
-[code](https://github.com/rabbitjy/FuzzTuning).
+[[DOI]](https://doi.org/10.18653/v1/2023.findings-acl.678),
+[[PDF]](https://aclanthology.org/2023.findings-acl.678.pdf),
+[[code]](https://github.com/rabbitjy/FuzzTuning).
 
 **Yifeng He**,
 _Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
 International Conference on Civil Aviation Safety and Information Technology (ICCASIT), 2022.
-[doi](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
+[[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 ### Preprints
 
