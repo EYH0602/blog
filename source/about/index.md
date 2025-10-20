@@ -20,7 +20,8 @@ More specifically, my research interests are:
 - using AI to improve software engineering, with focus on testing and security,
 - making AI itself more secure — both foundation models and agents,
 - building better AI models for software engineering,
-- safe and secure programming languages (bonus points if they’re functional and useful for AI).
+- safe and secure programming languages (bonus points if useful for AI).
+  - PS: useful PL for AI is a very unclear topic, and should be researched on.
 
 I'm also into video games.
 Some of my all-time favorites include Pokémon (recently played Sword 🙃, Violet, and Arceus 😊),
