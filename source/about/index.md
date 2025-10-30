@@ -136,11 +136,12 @@ https://arxiv.org/abs/2406.07714
 
 **Program Committee Member** / **Reviewer** for:
 
-- International Conference on Multimedia (MM) 2025
-- International Conference on Learning Representations (ICLR) 2025, 2026
-- International Conference on Software Engineering Advances (ICSEA) 2025
-- Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC) 2025
-- Conference of the ACM Special Interest Group on Data Communication, Artifact Evaluation (SIGCOMM) 2025
+- International Conference on Learning Representations (ICLR): 2026, 2025
+- International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA): 2026
+- International Conference on Multimedia (MM): 2025
+- International Conference on Software Engineering Advances (ICSEA): 2025
+- Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC): 2025
+- Conference of the ACM Special Interest Group on Data Communication, Artifact Evaluation (SIGCOMM): 2025
 
 ## Honors and Awards
 
