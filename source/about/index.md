@@ -72,6 +72,8 @@ Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 202
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
 Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
+[[DOI]](https://aclanthology.org/2025.findings-emnlp.847/),
+[[PDF]](/publications/he2025fuzzaug.pdf),
 [[arXiv]](https://arxiv.org/abs/2406.08665),
 [[code]](https://github.com/SecurityLab-UCD/FuzzAug),
 [[video]](https://youtu.be/ZyHeoMmkJEM),
