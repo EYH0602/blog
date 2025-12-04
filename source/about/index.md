@@ -63,7 +63,8 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
-[[PDF (recommended version by LuaLaTeX)]](/publications/he2025tfbench.pdf),
+[[OpenReview]](https://openreview.net/forum?id=IA9RmaP0aw),
+[[PDF (recommended)]](/publications/he2025tfbench.pdf),
 [[arXiv]](https://arxiv.org/abs/2509.23686),
 [[code]](https://github.com/SecurityLab-UCD/TF-Bench),
 [[slides]](/publications/he2025tfbench_slides.pdf),
@@ -85,7 +86,7 @@ _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 [[DOI]](https://doi.org/10.1109/RAIE66699.2025.00013),
 [[PDF]](/publications/he2025aiagent.pdf),
-[[arXiv (recommended version with more figures!)]](https://arxiv.org/pdf/2406.08689),
+[[arXiv (recommended)]](https://arxiv.org/pdf/2406.08689),
 [[code]](https://github.com/SecurityLab-UCD/ai-agent-security),
 [[slides]](/publications/he2025aiagent_slides.pdf).
 
