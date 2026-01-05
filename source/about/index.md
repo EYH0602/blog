@@ -60,6 +60,13 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Peer-reviewed Papers
 
+
+Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
+_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
+International Conference on Automation of Software Test (AST), 2026.
+[[arXiv]](https://arxiv.org/abs/2406.07714),
+[[code]](https://github.com/SecurityLab-UCD/LLAMAFUZZ).
+
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
@@ -131,9 +138,6 @@ Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
 https://arxiv.org/abs/2409.13122
 
-Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
-_LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
-https://arxiv.org/abs/2406.07714
 
 ## Services
 
