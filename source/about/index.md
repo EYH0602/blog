@@ -84,7 +84,8 @@ Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP)
 [[PDF]](/publications/he2025fuzzaug.pdf),
 [[arXiv]](https://arxiv.org/abs/2406.08665),
 [[code]](https://github.com/SecurityLab-UCD/FuzzAug),
-[[video]](https://youtu.be/ZyHeoMmkJEM),
+[[video (YouTube)]](https://youtu.be/ZyHeoMmkJEM),
+[[video (bilibili)]](https://www.bilibili.com/video/BV1AJyiBHE4Y)
 [[slides]](/publications/he2025fuzzaug_slides.pdf),
 [[poster]](/publications/he2025fuzzaug_poster.pdf).
 
