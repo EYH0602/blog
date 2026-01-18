@@ -75,7 +75,9 @@ Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 202
 [[arXiv]](https://arxiv.org/abs/2509.23686),
 [[code]](https://github.com/SecurityLab-UCD/TF-Bench),
 [[slides]](/publications/he2025tfbench_slides.pdf),
-[[poster]](/publications/he2025tfbench_poster.pdf).
+[[poster]](/publications/he2025tfbench_poster.pdf),
+
+- media coverage: [[ResearchTrend.AI]](https://youtu.be/FsAS8nNXQkw?si=G46h3mhwuUSerjqg).
 
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
