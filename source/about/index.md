@@ -58,8 +58,17 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ## Publications
 
-### Peer-reviewed Papers
+### Featured Publications
 
+Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
+_SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 2026.
+[[arXiv]](https://arxiv.org/abs/2602.12670),
+[[website]](https://www.skillsbench.ai/),
+[[code]](https://github.com/benchflow-ai/skillsbench).
+
+- media coverage: [[Garry Tan on X]](https://x.com/garrytan/status/2023831150884503978),
+  [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
+  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe).
 
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
@@ -126,22 +135,7 @@ Findings of Association for Computational Linguistics (ACL), 2023.
 [[PDF]](https://aclanthology.org/2023.findings-acl.678.pdf),
 [[code]](https://github.com/rabbitjy/FuzzTuning).
 
-**Yifeng He**,
-_Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
-International Conference on Civil Aviation Safety and Information Technology (ICCASIT), 2022.
-[[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
-
-### Preprints
-
-Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
-_SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_.
-[[arXiv]](https://arxiv.org/abs/2602.12670),
-[[website]](https://www.skillsbench.ai/),
-[[code]](https://github.com/benchflow-ai/skillsbench).
-
-- media coverage: [[Garry Tan on X]](https://x.com/garrytan/status/2023831150884503978),
-  [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
-  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe).
+### Others :)
 
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
 _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
@@ -151,6 +145,11 @@ _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
 Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
 [[arXiv]](https://arxiv.org/abs/2409.13122).
+
+**Yifeng He**,
+_Big Data and Deep Learning Techniques Applied in Intelligent Recommender Systems_,
+International Conference on Civil Aviation Safety and Information Technology (ICCASIT), 2022.
+[[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 
 ## Services
