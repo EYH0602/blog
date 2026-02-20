@@ -135,11 +135,12 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
 _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
-https://arxiv.org/abs/2410.02710
+[[arXiv]](https://arxiv.org/abs/2410.02710),
+[[code]](https://github.com/SecurityLab-UCD/SafeDiff).
 
 Jicheng Wang, **Yifeng He**, Hao Chen.
 _RepoGenReflex: Enhancing Repository-Level Code Completion with Verbal Reinforcement and Retrieval-Augmented Generation_.
-https://arxiv.org/abs/2409.13122
+[[arXiv]](https://arxiv.org/abs/2409.13122).
 
 
 ## Services
