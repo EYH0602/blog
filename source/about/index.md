@@ -152,6 +152,13 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 [[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 
+## Current Side Projects
+
+**SkillsHub** -- Homebrew for AI Agent Skills.
+Install, manage, and share skills across AI coding agents with a unified CLI.
+[[website]](https://www.skillshubco.com/),
+[[code]](https://github.com/EYH0602/skillshub).
+
 ## Services
 
 **Program Committee Member** / **Reviewer** for:
