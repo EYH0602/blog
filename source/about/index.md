@@ -133,6 +133,16 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 ### Preprints
 
+Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
+_SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_.
+[[arXiv]](https://arxiv.org/abs/2602.12670),
+[[website]](https://www.skillsbench.ai/),
+[[code]](https://github.com/benchflow-ai/skillsbench).
+
+- media coverage: [[Garry Tan on X]](https://x.com/garrytan/status/2023831150884503978),
+  [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
+  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe).
+
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
 _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
 [[arXiv]](https://arxiv.org/abs/2410.02710),
