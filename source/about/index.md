@@ -70,7 +70,8 @@ _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 202
   [[HuggingFace Papers]](https://x.com/HuggingPapers/status/2025573893466169639),
   [[DAIR.AI]](https://x.com/dair_ai/status/2025707116653339077),
   [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
-  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe).
+  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe),
+  [[The Register]](https://www.theregister.com/2026/02/19/ai_agents_cant_teach_themselves/).
 
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
