@@ -66,7 +66,9 @@ _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 202
 [[website]](https://www.skillsbench.ai/),
 [[code]](https://github.com/benchflow-ai/skillsbench).
 
-- media coverage: [[Garry Tan on X]](https://x.com/garrytan/status/2023831150884503978),
+- media coverage: [[Garry Tan]](https://x.com/garrytan/status/2023831150884503978),
+  [[HuggingFace Papers]](https://x.com/HuggingPapers/status/2025573893466169639),
+  [[DAIR.AI]](https://x.com/dair_ai/status/2025707116653339077),
   [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
   [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe).
 
