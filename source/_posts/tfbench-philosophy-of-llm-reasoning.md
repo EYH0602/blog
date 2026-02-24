@@ -169,5 +169,3 @@ The bridge from category theory to type theory to LLM evaluation is not an accid
 - H. Curry. "Functionality in Combinatory Logic." *Proceedings of the National Academy of Sciences* 20(11), 1934.
 - W. Howard. "The Formulae-as-Types Notion of Construction." *To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus, and Formalism*, 1980.
 - P. Wadler. "Propositions as Types." *Communications of the ACM* 58(12), 2015.
-
-**Background**: [Elaine Landry, UC Davis Department of Philosophy](https://philosophy.ucdavis.edu/people/elaine-landry)
