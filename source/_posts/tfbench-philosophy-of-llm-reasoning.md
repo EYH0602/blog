@@ -48,7 +48,7 @@ I was inspired by [Professor Elaine Landry](https://philosophy.ucdavis.edu/peopl
 
 The mathematician does not need to commit to whether numbers "really exist" in some metaphysical realm. She takes her axioms *as if* they were true, and reasons downward from them to a conclusion. The method is the *hypothetical method*: start from assumptions, apply derivation rules, arrive at results. Truth comes first; existence follows as a consequence.
 
-This is distinct from Platonism (mathematical objects exist independently and truth is fixed by that existence), from formalism (mathematics is just symbol manipulation), and from standard structuralism (which gets tangled in metaphysical debates about whether structures exist *ante rem* or *in re*). Landry's position is **methodological**: it describes what we *do*, not what things *are*. As she puts it: "mathematics is a language; it talks about objects without being about them."
+This is distinct from Platonism (mathematical objects exist independently and truth is fixed by that existence) and from formalism (mathematics is just symbol manipulation). It is also a version of mathematical structuralism --- but a *methodological* one, as opposed to the metaphysical versions that dominate the literature (Shapiro's *ante rem* structuralism, where structures exist independently, or Hellman's modal structuralism, where they exist as possibilities). Those positions get tangled in debates about the ontological status of structures themselves. Landry sidesteps this entirely: her as-ifism describes what mathematicians *do*, not what things *are*. As she puts it: "mathematics is a language; it talks about objects without being about them."
 
 She traces this reading back to Plato himself, arguing in her Cambridge Elements book [*Plato Was Not a Mathematical Platonist*](https://doi.org/10.1017/9781009313797) that the standard story about Plato is wrong. Plato's mathematician uses the hypothetical method; the philosopher uses the dialectical method. These are different methods with different epistemologies. Confusing them is, Landry argues, the original sin of 2,400 years of philosophy of mathematics --- a conflation of metaphysics with method that persists today.
 
@@ -56,9 +56,9 @@ She traces this reading back to Plato himself, arguing in her Cambridge Elements
 
 Here is where this becomes directly relevant to evaluating AI.
 
-After the foundational crisis, mathematicians needed a way to organize mathematical discourse without falling into the same traps. Category theory emerged as a candidate --- but not, on Landry's account, as yet another metaphysical foundation. Instead, she views category theory as a **methodological metalanguage**: a framework for talking about structured systems (sets, groups, topological spaces, deductive systems) without committing to what those systems ultimately *are*.
+Within the structuralism debate, a central question persists: if mathematical objects are just positions in structures, what language do we use to talk about the structures themselves --- without falling back into metaphysical commitments about what structures *are*? Category theory emerged as a candidate answer --- but not, on Landry's account, as yet another metaphysical foundation. Instead, she views category theory as a **methodological metalanguage**: a framework for talking about structured systems (sets, groups, topological spaces, deductive systems) without committing to what those systems ultimately *are*.
 
-The category axioms --- whether EM axioms for sets, ETCS axioms for set-structured categories, or CCAF axioms for categories themselves --- are taken *as if* they were first principles. They are hypotheses set up for the purpose of solving mathematical problems. We act as if category theory were a foundation for mathematical structuralism, while recognizing that, metaphysically speaking, it is not. What matters is the *method*: reasoning from structure alone.
+The category axioms --- whether EM axioms for sets, ETCS axioms for set-structured categories, or CCAF axioms for categories themselves --- are taken *as if* they were first principles. They are hypotheses set up for the purpose of solving mathematical problems. We act as if category theory were a foundation for mathematical structuralism, while recognizing that, metaphysically speaking, it is not. This is Landry's **methodological structural as-ifism**: what matters is the *method* --- reasoning from structure alone --- not whether structures "really exist."
 
 This insight --- that mathematical reasoning operates on **structure**, not on **names** or metaphysical commitments --- is the key to everything that follows.
 
@@ -161,6 +161,7 @@ The bridge from category theory to type theory to LLM evaluation is not an accid
 
 **Professor Landry's work**:
 - E. Landry. [*Plato Was Not a Mathematical Platonist*](https://doi.org/10.1017/9781009313797). Cambridge Elements in the Philosophy of Mathematics, 2023.
+- E. Landry. "How to be a Structuralist All The Way Down." *Synthese* 179, 2011.
 - E. Landry. "Recollection and the Mathematician's Method in Plato's Meno." *Philosophia Mathematica* 20(2), 2012.
 - E. Landry and J.-P. Marquis. "Categories in context: Historical, foundational and philosophical." *Philosophia Mathematica* 13(1), 2005.
 
