@@ -18,7 +18,7 @@ Drop the name. Call it `f3`. The reasoning collapses.
 
 Change the symbols. Rename the types from `Int` and `Bool` to `T1` and `T2`. The reasoning collapses.
 
-Same logic, same structure, same types flowing through it. **Nothing changed except the labels.** That is the core finding of [TF-Bench](https://yfhe.net/publications/he2025tfbench.pdf), our benchmark published at the [NeurIPS 2025 Datasets and Benchmarks Track](https://openreview.net/forum?id=IA9RmaP0aw). But this post is not about the benchmark. It is about the idea behind it --- an idea borrowed from the philosophy of mathematics, routed through category theory and type theory, that reframes what "reasoning" means and why we are measuring it wrong.
+Same logic, same structure, same types flowing through it. **Nothing changed except the labels.** That is the core finding of [TF-Bench](https://yfhe.net/publications/he2025tfbench.pdf), our benchmark published at [NeurIPS 2025](https://openreview.net/forum?id=IA9RmaP0aw). But this post is not about the benchmark. It is about the idea behind it --- an idea borrowed from the philosophy of mathematics, routed through category theory and type theory, that reframes what "reasoning" means and why we are measuring it wrong.
 
 The AI community has a reasoning problem. Not a technical one --- a conceptual one. OpenAI's o1, DeepSeek-R1, Claude with extended thinking --- test-time compute has become the new scaling paradigm. The models can think step by step. They can plan. They produce chains of inference that look strikingly human. Everyone is calling it reasoning.
 
