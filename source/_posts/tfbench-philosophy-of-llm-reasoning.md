@@ -117,29 +117,13 @@ Call it **the name test**: strip away the natural language cues and see what sur
 
 ## The Experiment
 
-We built 188 type inference tasks from Haskell's standard Prelude --- monomorphic, parametric polymorphic, and bounded quantification functions. Each task provides the function implementation and all type dependencies. The model must infer the complete type signature.
+We ran the name test. We built type inference tasks from Haskell's standard Prelude, then created **TF-Bench$_{\text{pure}}$**: every function name becomes `f1`, `f2`, `f3`. Every type name becomes `T1`, `T2`. The logical structure is preserved exactly. The cognitive semantics are gone.
 
-Then we ran the name test.
+If the model is reasoning, performance should survive.
 
-We created **TF-Bench$_{\text{pure}}$**: every function name becomes `f1`, `f2`, `f3`. Every type name becomes `T1`, `T2`. Type variables are standardized. The logical structure is preserved exactly. The cognitive semantics are gone. Every transformation is verified semantics-preserving through compilation.
+It collapses. Across 64 models, the pattern is consistent. Strip the names, and the "reasoning" largely disappears. The [paper](https://yfhe.net/publications/he2025tfbench.pdf) has the full results and metrics.
 
-If the model is reasoning, performance should survive. If it is pattern-matching on names, performance collapses.
-
-It collapses.
-
-Claude-3.7-sonnet: **90.42% → 55.85%.** Nearly 35 points gone. GPT-O3, OpenAI's flagship reasoning model: **81.91% → 52.66%.** Across 64 models, the pattern is consistent. Strip the names, and the "reasoning" largely disappears.
-
-We formalized this with two metrics:
-
-**Robustness Score (RS)** = Acc$_{\text{pure}}$ / Acc. How much performance survives without cognitive semantics. A perfect reasoner scores 100.
-
-**Reasoning Effectiveness (RE)** = $\Delta_{\text{pure}}$ / $\Delta$. When you turn on test-time reasoning, how much of the improvement is genuine deduction versus better exploitation of NL cues? RE > 1 means TTC genuinely improves reasoning. RE < 1 means it mostly helps with pattern matching.
-
-The RE results surprised me. Gemini-2.5-flash hits RE = 3.90. Claude-3.7-sonnet hits RE = 3.41. Their TTC methods *do* improve genuine reasoning. But some models fine-tuned on code show RE < 1 --- meaning the fine-tuning *hurt* deductive reasoning while improving surface-level performance.
-
-Here is the finding I did not expect: **math fine-tuning transfers. Code fine-tuning sometimes does not.** Models fine-tuned on math consistently improve on both TF-Bench and TF-Bench$_{\text{pure}}$. Models fine-tuned on code sometimes improve on TF-Bench but *decline* on TF-Bench$_{\text{pure}}$. Math training builds abstract reasoning; code training sometimes just teaches better pattern matching on names.
-
-This makes sense through the Curry-Howard lens. Mathematical reasoning and type-theoretic reasoning are structurally the same activity. Train on one, and it transfers to the other.
+One finding worth highlighting here: **math fine-tuning transfers. Code fine-tuning sometimes does not.** This makes sense through the Curry-Howard lens --- mathematical reasoning and type-theoretic reasoning are structurally the same activity. Train on one, and it transfers. But code training sometimes just teaches better pattern matching on names.
 
 ## What This Means
 
