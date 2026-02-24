@@ -72,7 +72,9 @@ _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 202
   [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
   [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe),
   [[The Register]](https://www.theregister.com/2026/02/19/ai_agents_cant_teach_themselves/),
-  [[AI Week in Review (Substack)]](https://patmcguinness.substack.com/p/ai-week-in-review-250221).
+  [[AI Week in Review (Substack)]](https://patmcguinness.substack.com/p/ai-week-in-review-250221),
+  [[InfoWorld]](https://www.infoworld.com/article/4135335/ai-agents-still-need-humans-to-teach-them-2.html),
+  [[Theo - t3.gg]](https://youtu.be/GcNu6wrLTJc?si=KWKx-fq4wWNcAiD5).
 
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
