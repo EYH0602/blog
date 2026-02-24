@@ -1,6 +1,6 @@
 ---
 title: "The Reasoning Gap"
-date: 2025-02-24 12:00:00
+date: 2026-02-24 
 tags:
   - research
   - philosophy
