@@ -12,6 +12,8 @@ category: Research
 
 # The Reasoning Gap
 
+![The Reasoning Gap](/images/the_reasoning_gap.png)
+
 Take a function called `map`. Ask a frontier LLM to infer its type. It nails it --- 90% accuracy.
 
 Drop the name. Call it `f3`. The reasoning collapses.
