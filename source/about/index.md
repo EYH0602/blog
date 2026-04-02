@@ -178,7 +178,11 @@ Install, manage, and share skills across AI coding agents with a unified CLI.
 - International Conference on Multimedia (MM): 2025
 - International Conference on Software Engineering Advances (ICSEA): 2025
 - Association for Computational Linguistics LLM Security Workshop (ACL-LLMSEC): 2025
-- Conference of the ACM Special Interest Group on Data Communication, Artifact Evaluation (SIGCOMM): 2025
+
+**Artifact Evaluation Committee** for:
+
+- IEEE Symposium on Security and Privacy (S&P): 2026
+- Conference of the ACM Special Interest Group on Data Communication (SIGCOMM): 2025
 
 ## Honors and Awards
 
