@@ -215,7 +215,8 @@ _Software Development Engineer Intern._
 - Created the offline flow of Medium-Length Video Encouragement Project for weekly data calculation
 - Built the interface for frontend of web and mobile app to display the data visualization
 
-## Past Toy Projects
+<details>
+<summary><b>Past Toy Projects</b></summary>
 
 **CourseReco** 06/2022 - 09/2022
 
@@ -248,7 +249,10 @@ _Software Development Engineer Intern._
 - Stored data into local database automatically, wrote into excel for data analysis by option
 - Generated text or graph visualization report from data analyze results
 
-## Activities
+</details>
+
+<details>
+<summary><b>Activities</b></summary>
 
 **HackerHub Club**, UC Davis 07/2020 - 06/2023
 
@@ -257,3 +261,5 @@ Co-founder, President, Technical Officer
 - Design and maintain a course recommendation system, CourseReco, for UC Davis students
 - Organize and lead the Code Jam Competition on data visualization, AI, augmented reality and virtual reality, and machine learning
 - Coach in introductory programming workshops, including Assembly, functional programming, recommender system, generative adversarial network, etc.
+
+</details>
