@@ -167,6 +167,10 @@ Install, manage, and share skills across AI coding agents with a unified CLI.
 
 ## Services
 
+**Workshop Organizer** for:
+
+- The First Workshop on Agent Skills (Agent Skills '26), 2026. [[website]](https://agentskills-workshop.github.io/)
+
 **Program Committee Member** / **Reviewer** for:
 
 - International Conference on Learning Representations (ICLR): 2026, 2025
