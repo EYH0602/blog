@@ -160,7 +160,7 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 ## Services
 
-**Workshop Organizer** for:
+**Organizer** for:
 
 - The First Workshop on Agent Skills (Agent Skills '26), 2026. [[website]](https://agentskills-workshop.github.io/)
 
