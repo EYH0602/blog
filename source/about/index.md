@@ -158,13 +158,6 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 [[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
 
-## Current Side Projects
-
-**SkillsHub** -- Homebrew for AI Agent Skills.
-Install, manage, and share skills across AI coding agents with a unified CLI.
-[[website]](https://www.skillshubco.com/),
-[[code]](https://github.com/EYH0602/skillshub).
-
 ## Services
 
 **Workshop Organizer** for:
@@ -190,6 +183,13 @@ Install, manage, and share skills across AI coding agents with a unified CLI.
 **Citation For Outstanding Performance**, Department of Mathematics, UC Davis
 
 **Dean's Honor List**, Fall 2019, Spring 2020, Spring 2021, Spring 2022, College of Letter \& Science, UC Davis
+
+## Current Side Projects
+
+**SkillsHub** -- Homebrew for AI Agent Skills.
+Install, manage, and share skills across AI coding agents with a unified CLI.
+[[website]](https://www.skillshubco.com/),
+[[code]](https://github.com/EYH0602/skillshub).
 
 ## Teaching
 
