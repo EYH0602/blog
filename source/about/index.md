@@ -60,6 +60,15 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Featured Publications
 
+**Yifeng He**, Ziye Tang, Hao Chen.
+_Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
+Findings of Association for Computational Linguistics (ACL), 2026.
+[[DOI]](),
+[[PDF]](/publications/he2026contentfuzz.pdf),
+[[arXiv]](),
+[[code]](https://github.com/EYH0602/ContentFuzz),
+[[poster]]().
+
 Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
 _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 2026.
 [[arXiv]](https://arxiv.org/abs/2602.12670),
