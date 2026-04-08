@@ -63,6 +63,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 **Yifeng He**, Ziye Tang, Hao Chen.
 _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
+[[arXiv]](https://arxiv.org/abs/2604.05461),
 [[PDF]](/publications/he2026contentfuzz.pdf),
 [[code]](https://github.com/EYH0602/ContentFuzz).
 
