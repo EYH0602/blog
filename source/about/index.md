@@ -173,6 +173,8 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 **Program Committee Member** / **Reviewer** for:
 
+- ACM Conference on AI and Agentic Systems (CAIS), Main & Demo: 2026
+- Conference on Language Modeling (COLM): 2026
 - International Conference on Learning Representations (ICLR): 2026, 2025
 - Neural Information Processing Systems (NeurIPS): 2026
 - International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA): 2026
