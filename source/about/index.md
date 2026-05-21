@@ -60,6 +60,11 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Featured Publications
 
+**Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
+_Code Generation by Differential Test Time Scaling_.
+[[arXiv]](https://arxiv.org/abs/2605.20473),
+[[code]](https://github.com/SecurityLab-UCD/DiffCodeGen).
+
 **Yifeng He**, Ziye Tang, Hao Chen.
 _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
