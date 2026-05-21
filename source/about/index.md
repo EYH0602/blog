@@ -188,7 +188,9 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 **Organizing Committee** / **Co-Chair** for:
 
-- The First Workshop on Agent Skills (Agent Skills '26), 2026. [[website]](https://agentskills-workshop.github.io/)
+- The First Workshop on Agent Skills (Agent Skills '26), 2026. 
+[[website]](https://agentskills-workshop.github.io/),
+[[OpenReview, checkout our accepted papers!]](https://openreview.net/group?id=ACM.org/CAIS/2026/Workshop/AgentSkills).
 
 **Program Committee Member** / **Reviewer** for:
 
