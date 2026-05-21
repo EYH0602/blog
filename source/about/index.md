@@ -65,6 +65,11 @@ _Code Generation by Differential Test Time Scaling_.
 [[arXiv]](https://arxiv.org/abs/2605.20473),
 [[code]](https://github.com/SecurityLab-UCD/DiffCodeGen).
 
+Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
+_ContractBench: Can LLM Agents Preserve Observation Contracts?_.
+[[arXiv]](https://arxiv.org/abs/2605.17281),
+[[code]](https://github.com/JeremyJC67/contractbench).
+
 **Yifeng He**, Ziye Tang, Hao Chen.
 _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
