@@ -186,7 +186,7 @@ International Conference on Civil Aviation Safety and Information Technology (IC
 
 ## Services
 
-**Organizing Committee** for:
+**Organizing Committee** / **Co-Chair** for:
 
 - The First Workshop on Agent Skills (Agent Skills '26), 2026. [[website]](https://agentskills-workshop.github.io/)
 
