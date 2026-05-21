@@ -60,6 +60,8 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Featured Publications
 
+#### 2026
+
 **Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
 _Code Generation by Differential Test Time Scaling_.
 [[arXiv]](https://arxiv.org/abs/2605.20473),
@@ -99,6 +101,9 @@ International Conference on Automation of Software Test (AST), 2026.
 [[arXiv]](https://arxiv.org/abs/2406.07714),
 [[code]](https://github.com/SecurityLab-UCD/LLAMAFUZZ).
 
+
+#### 2025
+
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
@@ -135,6 +140,8 @@ International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 - media coverage: [[The Washington Post]](https://www.washingtonpost.com/technology/2025/01/05/agents-ai-chatbots-google-mariner/),
   [[MLSecOps Podcast]](https://mlsecops.com/podcast/ai-agent-security-threats-defenses-for-modern-deployments).
 
+#### 2024
+
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis (ISSTA), 2024.
@@ -150,6 +157,8 @@ Conference on Empirical Methods in Natural Language Processing: Industry Track (
 [[DOI]](https://aclanthology.org/2024.emnlp-industry.21/),
 [[PDF]](https://aclanthology.org/2024.emnlp-industry.21.pdf),
 [[poster]](/publications/huang2024code_poster.pdf).
+
+#### 2023
 
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
