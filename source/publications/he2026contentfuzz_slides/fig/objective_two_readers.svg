@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Two readers, two verdicts: human sees the same claim, classifier flips its stance</title>
+  <desc id="desc">A rewritten post is evaluated by a human reader (verdict: same claim) and a stance classifier (verdict: stance flips with confidence drop).</desc>
+  <defs>
+    <marker id="arr-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#022851"/>
+    </marker>
+    <marker id="arr-gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C4820E"/>
+    </marker>
+    <marker id="arr-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d32"/>
+    </marker>
+    <marker id="arr-red" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b3261e"/>
+    </marker>
+  </defs>
+  <style>
+    .post-label   { font-family: "XCharter","Charter","Georgia",serif; font-weight: 700; letter-spacing: 0.06em; font-size: 18px; fill: #3b4f6b; }
+    .post-text    { font-family: "XCharter","Charter","Georgia",serif; font-style: italic; font-size: 24px; fill: #022851; }
+    .rewrite-lbl  { font-family: "XCharter","Charter","Georgia",serif; font-style: italic; font-weight: 700; font-size: 22px; fill: #C4820E; }
+    .ev-title     { font-family: "XCharter","Charter","Georgia",serif; font-weight: 700; letter-spacing: 0.04em; font-size: 22px; }
+    .ev-verdict   { font-family: "XCharter","Charter","Georgia",serif; font-weight: 700; font-size: 30px; }
+    .ev-line      { font-family: "XCharter","Charter","Georgia",serif; font-style: italic; font-size: 19px; fill: #3b4f6b; }
+    .ev-key       { font-family: "XCharter","Charter","Georgia",serif; font-size: 22px; fill: #022851; }
+  </style>
+
+  <!-- ================== TOP: original → rewrite → rewritten ================== -->
+  <!-- Original post -->
+  <rect x="40" y="15" width="450" height="150" rx="6" fill="#fdfbf3" stroke="#022851" stroke-width="2"/>
+  <text x="62" y="50" class="post-label">ORIGINAL POST</text>
+  <text x="62" y="95" class="post-text">"I eagerly await</text>
+  <text x="62" y="130" class="post-text">humanity's extinction."</text>
+
+  <!-- LLM rewrite arrow -->
+  <text x="600" y="70" text-anchor="middle" class="rewrite-lbl">LLM rewrite</text>
+  <path d="M 500 95 H 700" stroke="#C4820E" stroke-width="4" fill="none" marker-end="url(#arr-gold)"/>
+
+  <!-- Rewritten post -->
+  <rect x="710" y="15" width="450" height="150" rx="6" fill="#fdfbf3" stroke="#022851" stroke-width="2"/>
+  <text x="732" y="50" class="post-label">REWRITTEN POST</text>
+  <text x="732" y="95" class="post-text">"I cannot wait for</text>
+  <text x="732" y="130" class="post-text">humanity's extinction."</text>
+
+  <!-- ================== Fork from rewritten down to two evaluators ================== -->
+  <!-- Down stem from rewritten center -->
+  <path d="M 935 168 V 215" stroke="#022851" stroke-width="3" fill="none"/>
+  <!-- Split bar -->
+  <path d="M 290 215 H 935" stroke="#022851" stroke-width="3" fill="none"/>
+  <!-- Down to human (left) -->
+  <path d="M 290 215 V 255" stroke="#022851" stroke-width="3" fill="none" marker-end="url(#arr-blue)"/>
+  <!-- Down to classifier (right) -->
+  <path d="M 935 215 V 255" stroke="#022851" stroke-width="3" fill="none" marker-end="url(#arr-blue)"/>
+
+  <!-- ================== HUMAN READER (left, green) ================== -->
+  <rect x="50" y="270" width="480" height="240" rx="6" fill="#f1f7f1" stroke="#2e7d32" stroke-width="2.5"/>
+  <text x="72" y="308" class="ev-title" fill="#2e7d32">HUMAN READER</text>
+  <line x1="72" y1="320" x2="510" y2="320" stroke="#2e7d32" stroke-width="1" opacity="0.4"/>
+
+  <text x="72" y="362" class="ev-key">Verdict:</text>
+  <text x="200" y="362" class="ev-verdict" fill="#2e7d32">same claim ✓</text>
+
+  <text x="72" y="410" class="ev-line">• entailment preserved (NLI)</text>
+  <text x="72" y="440" class="ev-line">• BERTScore ≥ 0.92</text>
+  <text x="72" y="470" class="ev-line">• no semantic drift</text>
+
+  <!-- ================== STANCE CLASSIFIER (right, red) ================== -->
+  <rect x="695" y="270" width="480" height="240" rx="6" fill="#fcf1f0" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="717" y="308" class="ev-title" fill="#b3261e">STANCE CLASSIFIER</text>
+  <line x1="717" y1="320" x2="1155" y2="320" stroke="#b3261e" stroke-width="1" opacity="0.4"/>
+
+  <text x="717" y="362" class="ev-key">Stance:</text>
+  <text x="845" y="362" class="ev-verdict" fill="#b3261e">Against → Favor</text>
+
+  <text x="717" y="410" class="ev-line">• routing decision flips</text>
+  <text x="717" y="440" class="ev-line">• confidence: 0.91 → 0.45</text>
+  <text x="717" y="470" class="ev-line">• crosses decision boundary</text>
+</svg>

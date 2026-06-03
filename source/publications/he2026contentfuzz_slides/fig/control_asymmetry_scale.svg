@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Control asymmetry: platform-heavy scale with the post as the creator's lever</title>
+  <desc id="desc">A tilted balance scale weighted down on the platform side, empty on the creator side, with a post icon dropping in as the creator's only lever.</desc>
+  <defs>
+    <marker id="arr-gold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#C4820E"/>
+    </marker>
+  </defs>
+  <style>
+    .lbl-bad   { font-family: "XCharter","Charter","Georgia",serif; fill: #b3261e; font-weight: 700; }
+    .lbl-good  { font-family: "XCharter","Charter","Georgia",serif; fill: #2e7d32; font-weight: 700; }
+    .lbl-gold  { font-family: "XCharter","Charter","Georgia",serif; fill: #C4820E; font-weight: 700; }
+    .lbl-blue  { font-family: "XCharter","Charter","Georgia",serif; fill: #022851; }
+    .item      { font-family: "XCharter","Charter","Georgia",serif; fill: #022851; font-weight: 600; }
+    .sub       { font-family: "XCharter","Charter","Georgia",serif; fill: #3b4f6b; font-style: italic; }
+  </style>
+
+  <!-- Ground / base -->
+  <line x1="500" y1="335" x2="700" y2="335" stroke="#022851" stroke-width="2.5"/>
+
+  <!-- Fulcrum triangle -->
+  <polygon points="600,205 555,325 645,325" fill="#022851"/>
+  <circle cx="600" cy="205" r="5" fill="#022851"/>
+
+  <!-- Tilted beam: left side low (heavy), right side high (light) -->
+  <line x1="200" y1="275" x2="1000" y2="135" stroke="#022851" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- ===== LEFT (Platform) — heavy, low ===== -->
+  <line x1="200" y1="275" x2="200" y2="295" stroke="#022851" stroke-width="2"/>
+  <path d="M 110 295 Q 200 380 290 295" fill="#fcf1f0" stroke="#b3261e" stroke-width="2.5"/>
+
+  <!-- Stacked control items on the heavy pan -->
+  <g>
+    <rect x="135" y="195" width="130" height="26" rx="4" fill="#ffffff" stroke="#b3261e" stroke-width="1.8"/>
+    <text x="200" y="214" text-anchor="middle" class="item" font-size="16">Re-ranking</text>
+
+    <rect x="135" y="225" width="130" height="26" rx="4" fill="#ffffff" stroke="#b3261e" stroke-width="1.8"/>
+    <text x="200" y="244" text-anchor="middle" class="item" font-size="16">Moderation</text>
+
+    <rect x="135" y="255" width="130" height="26" rx="4" fill="#ffffff" stroke="#b3261e" stroke-width="1.8"/>
+    <text x="200" y="274" text-anchor="middle" class="item" font-size="16">Diversity rules</text>
+  </g>
+
+  <text x="200" y="55" text-anchor="middle" class="lbl-bad" font-size="22">Platform-side</text>
+  <text x="200" y="78" text-anchor="middle" class="sub" font-size="16">all the levers</text>
+
+  <!-- ===== RIGHT (Creator) — empty, high ===== -->
+  <line x1="1000" y1="135" x2="1000" y2="155" stroke="#022851" stroke-width="2"/>
+  <path d="M 910 155 Q 1000 240 1090 155" fill="#f1f7f1" stroke="#2e7d32" stroke-width="2.5"/>
+
+  <!-- Floating "Post" lever descending into creator pan -->
+  <rect x="920" y="55" width="160" height="48" rx="5" fill="#fdf3cf" stroke="#C4820E" stroke-width="2.5"/>
+  <text x="1000" y="78" text-anchor="middle" class="lbl-gold" font-size="18">POST</text>
+  <text x="1000" y="96" text-anchor="middle" class="sub" font-size="14">rewrite the content</text>
+
+  <!-- Arrow from post to right pan -->
+  <path d="M 1000 105 V 148" fill="none" stroke="#C4820E" stroke-width="3.5" stroke-dasharray="6 5" marker-end="url(#arr-gold)"/>
+
+  <text x="1000" y="280" text-anchor="middle" class="lbl-good" font-size="22">Creator-side</text>
+  <text x="1000" y="303" text-anchor="middle" class="sub" font-size="16">empty — until now</text>
+</svg>

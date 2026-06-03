@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>ContentFuzz — Escaping Information Cocoons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Charter&family=XCharter:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+  /* === UC Davis Aggie Theme === */
+  :root {
+    --aggieblue: #022851;       /* RGB 2,40,81  — body text & structure */
+    --aggiegold: #FFBF00;       /* RGB 255,191,0 — table head accent */
+    --medalist:  #C4820E;       /* HTML C4820E   — titles / block titles */
+    --medalist-soft: #E0A93B;
+    --bg:        #ffffff;
+    --ink:       #022851;
+    --ink-dim:   #3b4f6b;
+    --rule:      #d6dde6;
+    --rule-soft: #ecf0f5;
+    --good:      #2e7d32;
+    --bad:       #b3261e;
+    --soft-blue: #eaf0f7;
+    --soft-gold: #fdf3cf;
+  }
+
+  html, body { background: var(--bg); }
+  .reveal {
+    font-family: "XCharter", "Charter", "Source Serif Pro", "Georgia", serif;
+    color: var(--ink);
+    background: var(--bg);
+  }
+  .reveal .slides { text-align: left; }
+  .reveal .slides > section,
+  .reveal .slides > section > section {
+    box-sizing: border-box;
+    padding: 0 44px;
+    width: 100%;
+  }
+  .reveal .slides > section > h2:first-child,
+  .reveal .slides > section > section > h2:first-child { margin-top: 0; }
+
+  .reveal h1, .reveal h2, .reveal h3 {
+    font-family: "XCharter", "Charter", "Source Serif Pro", "Georgia", serif;
+    color: var(--medalist);
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    text-transform: none;
+  }
+  .reveal h1 { font-size: 2.3em; }
+  .reveal h2 {
+    font-size: 1.75em;
+    margin: 0 0 0.5em 0;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid var(--rule);
+  }
+  .reveal h3 { font-size: 1.15em; color: var(--medalist); margin: 0 0 0.35em 0; }
+  .reveal p, .reveal li {
+    color: var(--ink);
+    font-size: 0.92em;
+    line-height: 1.5;
+  }
+  .reveal em { color: var(--medalist); font-style: italic; font-weight: 600; }
+  .reveal strong { color: var(--aggieblue); font-weight: 700; }
+  .reveal code {
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    color: var(--aggieblue);
+    background: var(--rule-soft);
+    padding: 0 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+
+  /* Layout helpers */
+  .grid { display: grid; gap: 14px; }
+  .grid.cols-2 { grid-template-columns: 1fr 1fr; }
+  .grid.cols-3 { grid-template-columns: 1fr 1fr 1fr; }
+  .grid.cols-2-1 { grid-template-columns: 2fr 1fr; }
+  .grid.cols-1-2 { grid-template-columns: 1fr 2fr; }
+  .grid.problem-layout { grid-template-columns: 1.2fr 1fr; }
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+  .row { display: flex; gap: 14px; align-items: stretch; }
+  .center { text-align: center; }
+  .small { font-size: 0.74em; color: var(--ink-dim); }
+  .tag {
+    display: inline-block; padding: 2px 8px; border-radius: 2px;
+    background: var(--aggiegold); color: var(--aggieblue);
+    font-size: 0.65em; font-weight: 700; letter-spacing: 0.04em;
+  }
+
+  /* Panels — beamer block style */
+  .panel {
+    background: #ffffff;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 14px 18px;
+  }
+  .panel.accent  { border-left: 4px solid var(--medalist); }
+  .panel.accent2 { border-left: 4px solid var(--aggieblue); }
+  .panel.warn    { border-left: 4px solid var(--medalist); background: #fdf6e8; }
+  .panel.bad     { border-left: 4px solid var(--bad); background: #fcf1f0; }
+  .panel.good    { border-left: 4px solid var(--good); background: #f1f7f1; }
+  .panel h3 { margin-top: 0; }
+  .panel h3.block { /* beamer block title style */
+    color: var(--medalist);
+    font-weight: 700;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+  .panel.emphasis-text p {
+    font-size: 1.04em;
+    line-height: 1.45;
+  }
+  .diagram-figure {
+    display: block;
+    width: 100%;
+    max-height: 430px;
+    object-fit: contain;
+    background: #ffffff;
+  }
+  .metric-equation {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+    color: var(--aggieblue);
+    background: var(--rule-soft);
+    border-radius: 4px;
+    padding: 6px 13px;
+    font-size: 1.36em;
+    line-height: 1.1;
+  }
+  .confidence-panel p {
+    margin-bottom: 8px;
+    font-size: 0.98em;
+  }
+  .confidence-track {
+    position: relative;
+    height: 22px;
+    margin: 18px 2px 10px 2px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background:
+      linear-gradient(90deg, transparent 0%, transparent 70%, rgba(179, 38, 30, 0.18) 70%, rgba(179, 38, 30, 0.18) 88%, transparent 88%, transparent 100%),
+      linear-gradient(90deg, #f1f7f1 0%, #fdf3cf 58%, #fcf1f0 100%);
+  }
+  .confidence-track::before,
+  .confidence-track::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    width: 2px;
+    height: 32px;
+    background: var(--aggieblue);
+  }
+  .confidence-track::before { left: 0; }
+  .confidence-track::after { left: 78%; background: var(--bad); }
+  .confidence-dots {
+    display: flex;
+    justify-content: space-between;
+    color: var(--aggieblue);
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    font-size: 0.68em;
+    line-height: 1.2;
+  }
+  .confidence-labels {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: var(--ink-dim);
+    font-size: 0.74em;
+    line-height: 1.2;
+  }
+  .confidence-labels span:nth-child(4) { text-align: center; color: var(--medalist); font-weight: 700; }
+  .confidence-labels span:last-child { text-align: right; }
+
+  /* Reveal chrome */
+  .reveal .slide-number,
+  .reveal .progress { color: var(--aggieblue); }
+  .reveal .progress { background: var(--rule-soft); }
+  .reveal .progress span { background: var(--medalist); }
+  .reveal .controls { color: var(--aggieblue); }
+
+  /* CS logo bottom-right (mimics beamer background template) */
+  .cs-logo {
+    position: fixed;
+    bottom: 12px;
+    right: 18px;
+    height: 26px;
+    opacity: 0.85;
+    z-index: 30;
+    pointer-events: none;
+  }
+
+  /* Title slide */
+  .title-slide { text-align: center; padding: 12px 0; }
+  .title-slide h1 {
+    font-size: 2.05em;
+    margin-bottom: 0.15em;
+    color: var(--medalist);
+  }
+  .title-slide .subtitle {
+    font-size: 0.95em;
+    color: var(--aggieblue);
+    max-width: 820px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  .title-slide .authors {
+    margin-top: 28px;
+    font-size: 1.05em;
+    color: var(--aggieblue);
+  }
+  .title-slide .venue {
+    margin-top: 10px;
+    font-size: 0.62em;
+    color: var(--ink-dim);
+    letter-spacing: 0.05em;
+  }
+  .title-rule {
+    width: 200px; height: 3px; background: var(--aggiegold);
+    margin: 14px auto 22px auto;
+  }
+
+  /* Diagram nodes */
+  .node {
+    background: #ffffff;
+    border: 1.5px solid var(--aggieblue);
+    border-radius: 4px;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 0.84em;
+    color: var(--aggieblue);
+  }
+  .node.accent {
+    background: var(--soft-gold);
+    border-color: var(--medalist);
+    color: var(--medalist);
+    font-weight: 600;
+  }
+  .arrow {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--aggieblue); font-size: 0.7em; font-weight: 700;
+  }
+
+  /* Iteration log — modeled on listings */
+  .log-row {
+    background: #fbfbfb;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.74em;
+    color: var(--aggieblue);
+  }
+  .log-row .meta { color: var(--aggieblue); font-weight: 700; margin-bottom: 4px; }
+  .log-row .content { color: #111; }
+  .log-row.flip { border-color: var(--medalist); background: #fdf6e8; }
+  .log-row.flip .meta { color: var(--medalist); }
+  .boundary {
+    text-align: center;
+    color: var(--bad);
+    font-size: 0.55em;
+    margin: 6px 0;
+    letter-spacing: 0.25em;
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  /* Compare boxes */
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .compare .box { padding: 10px 14px; border-radius: 4px; font-size: 0.86em; }
+  .compare .box.bad  { background: #fcf1f0; border: 1px solid #e6b9b5; color: var(--aggieblue); }
+  .compare .box.good { background: #f1f7f1; border: 1px solid #b9d5bb; color: var(--aggieblue); }
+  .compare .box .label {
+    font-size: 0.78em; color: var(--medalist);
+    font-weight: 700; margin-bottom: 4px; letter-spacing: 0.02em;
+  }
+
+  /* Table — beamer/booktabs style with aggiegold header */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.86em;
+    color: var(--aggieblue);
+    background: #ffffff;
+  }
+  thead tr {
+    background: var(--aggiegold);
+  }
+  th {
+    padding: 10px 12px;
+    color: var(--aggieblue);
+    font-weight: 700;
+    text-align: center;
+    border: none;
+  }
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--rule);
+    text-align: center;
+    color: var(--aggieblue);
+  }
+  tbody tr:last-child td { border-bottom: 2px solid var(--aggieblue); }
+  tr.highlight td { background: var(--soft-gold); font-weight: 600; }
+
+  .footer { display: none; }
+</style>
+</head>
+<body>
+<img class="cs-logo" src="logos/cs_logo.png" alt="UC Davis CS" />
+
+<div class="reveal"><div class="slides">
+
+<!-- SLIDE 1 — TITLE -->
+<section>
+  <div class="title-slide">
+    <h1>Content Fuzzing for Escaping Information Cocoons<br/>on Digital Social Media</h1>
+    <div class="title-rule"></div>
+    <div class="authors">
+      <span style="font-size:1.15em;"><strong>Yifeng He</strong> &nbsp;·&nbsp; Ziye Tang &nbsp;·&nbsp; Hao Chen</span>
+    </div>
+    <img src="logos/ALC2026_logo_11487c_v5.png" alt="ACL 2026"
+         style="display:block; margin:28px auto 0 auto; height:90px;" />
+  </div>
+</section>
+
+<!-- SLIDE 2 — THE PROBLEM -->
+<section>
+  <div style="text-align:center; margin-bottom:18px;">
+    <img src="fig/stance_isolation_graphic.svg"
+         alt="Stance classifier routing posts into affinity cocoons"
+         style="display:block; margin:0 auto; width:92%; max-height:430px;" />
+  </div>
+  <div class="grid cols-2">
+    <div class="panel accent emphasis-text">
+      <h3 class="block">Core concept</h3>
+      <p>Social-media recommenders route posts based on machine-classified stance to maximize engagement.</p>
+    </div>
+    <div class="panel warn emphasis-text">
+      <h3 class="block">The result</h3>
+      <p>Users are trapped in homogeneous feedback loops. Content circulates only within like-minded affinity clusters, reinforcing bias and starving the network of cross-cutting discourse.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 3 — CONTROL ASYMMETRY -->
+<section>
+  <h2>The control asymmetry in cocoon mitigation</h2>
+  <div class="compare">
+    <div class="box bad" style="font-size:1em;">
+      <div class="label" style="font-size:0.88em;">Platform-side controls</div>
+      <strong>Current solutions</strong> — diversity-aware re-ranking, moderation — are <em>entirely platform-controlled</em>. The algorithm dictates visibility.
+    </div>
+    <div class="box good" style="font-size:1em;">
+      <div class="label" style="font-size:0.88em;">Creator-side controls</div>
+      A <strong>content creator</strong> with <em>high-quality, cross-cutting content</em> currently has zero leverage. They cannot pull platform levers.
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:10px;">
+    <img src="fig/control_asymmetry_scale.svg"
+         alt="Asymmetric balance scale: platform-heavy, creator-empty, with the post as the creator's lever"
+         style="display:block; margin:0 auto; width:78%; max-height:300px;" />
+  </div>
+  <div class="panel accent" style="margin-top:10px;">
+    <p style="font-size:1.02em;">We reframe cocoon mitigation not as an algorithmic adjustment, but as a <em>content-side rewrite problem</em>: an LLM rewrites the post until its routing decision flips. <strong>The post itself is the lever.</strong></p>
+  </div>
+</section>
+
+<!-- SLIDE 4 — OBJECTIVE -->
+<section>
+  <h2>The objective: meaning-preserving stance flips</h2>
+  <div style="text-align:center; margin-bottom:12px;">
+    <img src="fig/objective_two_readers.svg"
+         alt="Same rewritten post seen by a human (same claim) and by a stance classifier (Against to Favor flip)"
+         style="display:block; margin:0 auto; width:88%; max-height:380px;" />
+  </div>
+  <div class="grid cols-2">
+    <div class="panel accent">
+      <p style="font-size:0.98em; margin:0;"><strong>Definition.</strong> Rewrite the post so the machine-classified stance flips, while the human-interpreted meaning remains identical.</p>
+    </div>
+    <div class="panel accent2">
+      <p style="font-size:0.98em; margin:0;"><strong>Mechanism.</strong> We adapt software fuzzing — a gray-box, feedback-guided search technique — treating the recommender as the system under test.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 5 — ARCHITECTURE -->
+<section>
+  <h2>The ContentFuzz architectural loop</h2>
+  <div style="text-align:center; margin-bottom:12px;">
+    <img src="fig/contentfuzz.png" alt="ContentFuzz architecture"
+         style="display:block; margin:0 auto; width:92%; max-height:420px; background:white; padding:6px;" />
+  </div>
+  <div class="grid cols-3">
+    <div class="panel accent">
+      <h3 class="block">Gray-box loop</h3>
+      <p style="font-size:0.92em; margin:0;">No weights or gradients required — only the confidence score the analyzer already emits. That single observable channel is what makes this gray-box, in the classic fuzzing sense.</p>
+    </div>
+    <div class="panel accent2">
+      <h3 class="block">Feedback policy</h3>
+      <p style="font-size:0.92em; margin:0;"><strong>Confidence drops</strong> → re-added to the seed pool.<br/>
+         <strong>Stance flips</strong> → returned as escapes.</p>
+    </div>
+    <div class="panel">
+      <h3 class="block">Mutator</h3>
+      <p style="font-size:0.92em; margin:0;">Gemini-2.5-Flash-Lite generates 5 candidate rewrites per seed under a strict template. Sampling temperature is reweighted by per-bucket success rate — no manual tuning.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 6 — UNIFIED FEEDBACK -->
+<section>
+  <h2>Unifying the feedback signal across architectures</h2>
+  <div class="grid cols-2">
+    <div class="panel">
+      <h3 class="block">Encoder classifiers (BERT / RoBERTa)</h3>
+      <p>Softmax probability of the predicted label:<span class="metric-equation">\(P_{\theta}(\hat{k}\mid x)\)</span></p>
+    </div>
+    <div class="panel">
+      <h3 class="block">Generative LLMs (Gemini / COLA)</h3>
+      <p>Exponentiated joint logprobs of the stance answer:<span class="metric-equation">\(\exp\!\left(\sum_i \ell_i\right)\)</span></p>
+    </div>
+  </div>
+  <div class="panel accent2 confidence-panel" style="margin-top:14px;">
+    <h3 class="block">Confidence gradient</h3>
+    <p>Confidence is a <strong>continuous fitness signal</strong>: each rewrite can move partway toward the decision boundary, and flips often occur around <strong>0.4-0.5</strong> rather than at zero.</p>
+    <div class="confidence-track" aria-hidden="true"></div>
+    <div class="confidence-dots" aria-hidden="true">
+      <span>1.00</span><span>0.80</span><span>0.60</span><span>0.50</span><span>0.40</span>
+    </div>
+    <div class="confidence-labels">
+      <span>deep in routing region</span>
+      <span></span>
+      <span></span>
+      <span>boundary region / possible flip</span>
+      <span>lower confidence can continue</span>
+    </div>
+  </div>
+  <p style="margin-top:12px;">By tracking this single exposed metric, ContentFuzz ranks partial progress and guides the LLM mutator blindly toward the boundary region — <em>without knowing the model's weights.</em></p>
+</section>
+
+<!-- SLIDE 7 — HEADLINE RESULTS -->
+<section>
+  <h2>Diagnostic results: robustness across architectures</h2>
+  <table>
+    <thead>
+      <tr><th>Analyzer</th><th>Escape Success Rate (ESR)</th><th>Semantic Integrity (BERTScore)</th><th>Fluency Ratio (PPLr)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>BERT</td><td>up to 0.91</td><td>≥ 0.75</td><td>≤ 0.32</td></tr>
+      <tr><td>RoBERTa</td><td>up to 0.87</td><td>≥ 0.75</td><td>≤ 0.31</td></tr>
+      <tr class="highlight"><td>Zero-shot LLM</td><td>0.65 – 0.77</td><td>≥ 0.75</td><td>≤ 0.75</td></tr>
+      <tr><td>COLA</td><td>0.41 – 0.75</td><td>≥ 0.76</td><td>≤ 0.54</td></tr>
+    </tbody>
+  </table>
+  <div class="grid cols-3" style="margin-top:14px;">
+    <div class="panel accent"><h3 class="block">Performance</h3><p>ContentFuzz achieves up to <em>91% escape rate</em>.</p></div>
+    <div class="panel accent2"><h3 class="block">Integrity</h3><p>BERTScore ≥ 0.75 globally. NLI confirms semantic contradictions stay <em>under 2%</em>.</p></div>
+    <div class="panel good"><h3 class="block">Fluency</h3><p>PPLr below 1.0 — rewrites are often <em>more fluent</em> than the originals.</p></div>
+  </div>
+</section>
+
+<!-- SLIDE 8b — BERTSCORE vs ITER -->
+<section>
+  <h2>Deeper search does not buy escapes with semantic drift</h2>
+  <div style="text-align:center; margin-bottom:12px;">
+    <img src="fig/bertscore_vs_iter.png" alt="BERTScore vs iteration"
+         style="display:block; margin:0 auto; width:78%; max-height:420px; background:white; padding:6px;" />
+  </div>
+  <div class="grid cols-2">
+    <div class="panel accent">
+      <h3 class="block">Flat across the search</h3>
+      <p style="font-size:0.92em; margin:0;">BERTScore against the original post sits near <strong>0.86</strong> from iteration 1 to 280. The fitted slope is essentially zero (β ≈ −7&times;10<sup>−5</sup>, p = 0.21) — no detectable drift.</p>
+    </div>
+    <div class="panel accent2">
+      <h3 class="block">Why it matters</h3>
+      <p style="font-size:0.92em; margin:0;">Successful rewrites stay close to the original argument in meaning space. Only the analyzer's <em>routing decision</em> changes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 9 — VS ADVERSARIAL -->
+<section>
+  <h2>Content fuzzing vs adversarial token replacement</h2>
+  <div class="grid cols-2">
+    <div class="panel bad">
+      <h3 class="block">Traditional adversarial attacks <span class="tag">prior work</span></h3>
+      <p>BERT-Attack, Reinforce-Attack: replace tokens mechanically.</p>
+      <p><strong style="color:var(--bad);">Perplexity spikes to ≈ 1246</strong> — destroys text fluency.</p>
+    </div>
+    <div class="panel good">
+      <h3 class="block">ContentFuzz <span class="tag">ours</span></h3>
+      <p>Paragraph-level paraphrase under a strict template.</p>
+      <p><strong style="color:var(--good);">+51% relative ESR &nbsp;·&nbsp; &gt;90% lower perplexity</strong> vs baselines.</p>
+    </div>
+  </div>
+  <div class="panel accent" style="margin-top:14px;">
+    <strong>The differentiator.</strong> Traditional attacks replace tokens mechanically, destroying human readability. ContentFuzz rewrites the passage entirely, creating stealthy, highly fluent escapes that preserve natural phrasing.
+  </div>
+</section>
+
+<!-- SLIDE 10 — CASE STUDY ITERATIONS -->
+<section>
+  <h2>System logs: crossing the decision boundary</h2>
+  <p style="margin:-4px 0 10px 0; color:var(--muted); font-size:0.92em;">Sem16 · target topic: <strong>Atheism</strong></p>
+  <div class="stack" style="gap:6px;">
+    <div class="log-row">
+      <div class="meta">[Iter 0] &nbsp; Stance: Against &nbsp;·&nbsp; Conf: 1.00</div>
+      <div class="content">"I am human. I look forward to the extinction of humanity with eager anticipation. We deserve nothing less."</div>
+    </div>
+    <div class="log-row">
+      <div class="meta">[Iter 1] &nbsp; Stance: Against &nbsp;·&nbsp; Conf: 0.46</div>
+      <div class="content">"I am human, and I eagerly await humanity's extinction. It's what we deserve."</div>
+    </div>
+    <div class="boundary">— — —  decision boundary  — — —</div>
+    <div class="log-row flip">
+      <div class="meta">[Iter 2] &nbsp; Stance: Favor &nbsp;·&nbsp; Conf: 0.45</div>
+      <div class="content">"I am human, and I cannot wait for humanity's extinction. It's what we deserve."</div>
+    </div>
+  </div>
+  <div class="panel accent" style="margin-top:12px;">
+    <strong>Observation.</strong> Between iterations 1 and 2, the core argument is untouched. Only the surface register ("eagerly await" → "cannot wait") changes, but the algorithm radically alters its routing decision.
+  </div>
+</section>
+
+<!-- SLIDE 11 — TWO CASES -->
+<section>
+  <h2>Preserving fact, bypassing the filter</h2>
+  <div class="grid cols-2">
+    <div class="panel">
+      <h3 class="block">VAST · 3D Printing</h3>
+      <div class="compare" style="margin-top:6px;">
+        <div class="box bad"><div class="label">[Against] Original</div>… manufacturing industries use <em>thousands of plastics</em> and metal alloys, few of which can be printed.</div>
+        <div class="box good"><div class="label">[Favor] Fuzzed</div>The industry utilizes <em>a huge range of plastics and metal alloys</em>, but only a small percentage can currently be used with 3D printing.</div>
+      </div>
+    </div>
+    <div class="panel">
+      <h3 class="block">Sem16 · Feminist Movement</h3>
+      <div class="compare" style="margin-top:6px;">
+        <div class="box bad"><div class="label">[Favor] Original</div>Expel them, male millionaires from society! All Rights for women and children! <em>Aggressive tone.</em></div>
+        <div class="box good"><div class="label">[Against] Fuzzed</div>Let's champion the Feminist Movement by advocating for the rights of women and children… <em>Formal tone.</em></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel accent" style="margin-top:12px;">
+    <strong>Observation.</strong> Whether analyzing technical limitations or ideological advocacy, models routinely flip their classification based purely on the text's <em>packaging</em>, not its propositions.
+  </div>
+</section>
+
+<!-- SLIDE 12 — CROSS-MODEL TRANSFER -->
+<section>
+  <h2>The vulnerability is systemic, not isolated</h2>
+  <div class="grid cols-2" style="grid-template-columns: 1.3fr 1fr;">
+    <div style="text-align:center;">
+      <img src="fig/cross_model.png" alt="Cross-model transferability heatmap"
+           style="max-width:100%; max-height:430px; background:white; padding:6px;" />
+      <p class="small" style="margin-top:6px;">Rows: source analyzer used during fuzzing &nbsp;·&nbsp; Columns: target analyzer at evaluation.</p>
+    </div>
+    <div class="stack">
+      <div class="panel accent">
+        <h3 class="block">Insight</h3>
+        <p>Off-diagonal cells reach <strong>0.6 – 0.88</strong> escape rate on entirely unseen analyzers. Rewrites are not overfit to a single classifier.</p>
+      </div>
+      <div class="panel accent2">
+        <h3 class="block">Architecture link</h3>
+        <p>Models sharing underlying architectures (encoders) exhibit the highest cross-model transferability — the failure mode is a property of the architecture family, not a single weight checkpoint.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 13 — TAKEAWAYS -->
+<section>
+  <h2>Breaking the cocoon from the inside out</h2>
+  <div class="grid cols-3">
+    <div class="panel accent">
+      <h3 class="block">1 · Creator agency</h3>
+      <p>Escaping algorithmic filter bubbles is no longer exclusively a platform-side problem. Creators now have a mathematical lever to reach across boundaries.</p>
+    </div>
+    <div class="panel accent2">
+      <h3 class="block">2 · A diagnostic tool</h3>
+      <p>ContentFuzz exposes the brittleness of recommender pipelines, proving they filter on surface syntax rather than deep semantics.</p>
+    </div>
+    <div class="panel good">
+      <h3 class="block">3 · NLP fuzzing works</h3>
+      <p>Software fuzzing methodologies transfer seamlessly to LLMs when grounded by a small, architecture-agnostic confidence signal.</p>
+    </div>
+  </div>
+  <div class="grid cols-2" style="margin-top:16px; grid-template-columns: 1fr 1fr;">
+    <div class="panel" style="display:flex; align-items:center; gap:14px;">
+      <img src="qr_arxiv.svg" alt="arXiv QR" style="width:120px; height:120px; background:white; padding:6px; flex-shrink:0;" />
+      <div>
+        <h3 class="block" style="margin:0 0 4px 0;">Paper</h3>
+        <p style="margin:0;"><code>arxiv.org/abs/2604.05461</code></p>
+      </div>
+    </div>
+    <div class="panel" style="display:flex; align-items:center; gap:14px;">
+      <img src="qr_github.svg" alt="GitHub QR" style="width:120px; height:120px; background:white; padding:6px; flex-shrink:0;" />
+      <div>
+        <h3 class="block" style="margin:0 0 4px 0;">Code</h3>
+        <p style="margin:0;"><code>github.com/EYH0602/ContentFuzz</code></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    controls: true,
+    progress: true,
+    center: true,
+    transition: 'slide',
+    width: 1080,
+    height: 780,
+    margin: 0.06,
+    minScale: 0.2,
+    maxScale: 2.0,
+  });
+</script>
+</body>
+</html>

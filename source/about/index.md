@@ -77,7 +77,9 @@ _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
 [[arXiv]](https://arxiv.org/abs/2604.05461),
 [[PDF]](/publications/he2026contentfuzz.pdf),
-[[code]](https://github.com/EYH0602/ContentFuzz).
+[[code]](https://github.com/EYH0602/ContentFuzz),
+[[slides]](/publications/he2026contentfuzz_slides/),
+[[poster]](/publications/he2026contentfuzz_poster.pdf).
 
 Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
 _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 2026.
