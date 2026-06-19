@@ -230,6 +230,12 @@ Install, manage, and share skills across AI coding agents with a unified CLI.
 
 ## Industry Experience
 
+**Aamzon Web Services**, Kiro Science.
+_Applied Scientist Intern._
+06/2026 - 09/2026
+
+- Make agents smarter on analyzing code.
+
 **ByteDance (Toutiao)**, Creator Income Platform.
 _Software Development Engineer Intern._
 04/2021 - 07/2021
