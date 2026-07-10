@@ -5,6 +5,13 @@ tags: about
 layout: about
 ---
 
+<style>
+#diffcodegen, #contractbench, #contentfuzz, #llamafuzz, #tfbench,
+#fuzzaug, #aiagent, #unitsyn, #coderep, #understanding-programs, #steerdiff {
+  scroll-margin-top: 100px;
+}
+</style>
+
 # About Me
 
 Hey there! I'm 贺一峰 (He, Yifeng), a third-year Ph.D. candidate at [UC Davis](https://www.ucdavis.edu).
@@ -18,18 +25,18 @@ These days, I spend most of my time thinking about how AI and software engineeri
 More specifically, my research interests are:
 
 - building and evaluating AI for software engineering, testing, and security.
-  ([arXiv 2026](https://arxiv.org/abs/2605.17281),
-  [AST 2026](https://arxiv.org/abs/2406.07714), 
-  [NeurIPS 2025](https://openreview.net/forum?id=IA9RmaP0aw),
-  [EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.847/),
-  [ISSTA 2024](https://doi.org/10.1145/3650212.3680342),
-  [EMNLP 2024](https://aclanthology.org/2024.emnlp-industry.21/),
-  [ACL 2023](https://doi.org/10.18653/v1/2023.findings-acl.678))
-- software engineering for AI. ([arXiv 2026](https://arxiv.org/abs/2605.20473))
-- using AI to test anything beyond software :) ([ACL 2026](https://aclanthology.org/2026.findings-acl.547/))
+  ([arXiv 2026](#contractbench),
+  [AST 2026](#llamafuzz),
+  [NeurIPS 2025](#tfbench),
+  [EMNLP 2025](#fuzzaug),
+  [ISSTA 2024](#unitsyn),
+  [EMNLP 2024](#coderep),
+  [ACL 2023](#understanding-programs))
+- software engineering for AI. ([arXiv 2026](#diffcodegen))
+- using AI to test anything beyond software :) ([ACL 2026](#contentfuzz))
 - making AI itself more secure — both foundation models and agents.
-  ([RAIE 2025](https://arxiv.org/pdf/2406.08689),
-  [arXiv 2024](https://arxiv.org/abs/2410.02710))
+  ([RAIE 2025](#aiagent),
+  [arXiv 2024](#steerdiff))
 - safe and secure programming languages (bonus points if useful for AI)
   - PS: useful PL for AI is a very unclear topic, and should be researched on. I need to work on this LOL.
 
@@ -72,16 +79,19 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 #### 2026
 
+<a id="diffcodegen"></a>
 **Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
 _Code Generation by Differential Test Time Scaling_.
 [[arXiv]](https://arxiv.org/abs/2605.20473),
 [[code]](https://github.com/SecurityLab-UCD/DiffCodeGen).
 
+<a id="contractbench"></a>
 Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
 _ContractBench: Can LLM Agents Preserve Observation Contracts?_.
 [[arXiv]](https://arxiv.org/abs/2605.17281),
 [[code]](https://github.com/JeremyJC67/contractbench).
 
+<a id="contentfuzz"></a>
 **Yifeng He**, Ziye Tang, Hao Chen.
 _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
@@ -107,6 +117,7 @@ _SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 202
   [[InfoWorld]](https://www.infoworld.com/article/4135335/ai-agents-still-need-humans-to-teach-them-2.html),
   [[Theo - t3.gg]](https://youtu.be/GcNu6wrLTJc?si=KWKx-fq4wWNcAiD5).
 
+<a id="llamafuzz"></a>
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 International Conference on Automation of Software Test (AST), 2026.
@@ -116,6 +127,7 @@ International Conference on Automation of Software Test (AST), 2026.
 
 #### 2025
 
+<a id="tfbench"></a>
 **Yifeng He**, Luning Yang, Christopher Castro Gaw Gonzalo, Hao Chen.
 _Evaluating Program Semantics Reasoning with Type Inference in System F_.
 Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 2025.
@@ -128,6 +140,7 @@ Neural Information Processing Systems Datasets & Benchmarks Track (NeurIPS), 202
 
 - media coverage: [[ResearchTrend.AI]](https://youtu.be/FsAS8nNXQkw?si=G46h3mhwuUSerjqg).
 
+<a id="fuzzaug"></a>
 **Yifeng He**, Jicheng Wang, Yuyang Rong, Hao Chen.
 _FuzzAug: Data Augmentation by Coverage-guided Fuzzing for Neural Test Generation_.
 Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP), 2025.
@@ -140,6 +153,7 @@ Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP)
 [[slides]](/publications/he2025fuzzaug_slides.pdf),
 [[poster]](/publications/he2025fuzzaug_poster.pdf).
 
+<a id="aiagent"></a>
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
 International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
@@ -154,6 +168,7 @@ International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
 
 #### 2024
 
+<a id="unitsyn"></a>
 **Yifeng He**, Jiabo Huang, Yuyang Rong, Yiwen Guo, Ethan Wang, Hao Chen.
 _UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing_,
 International Symposium on Software Testing and Analysis (ISSTA), 2024.
@@ -163,6 +178,7 @@ International Symposium on Software Testing and Analysis (ISSTA), 2024.
 [[slides]](/publications/he2024unitsyn_slides.pdf),
 [[poster]](/publications/he2024unitsyn_poster.pdf).
 
+<a id="coderep"></a>
 Jiabo Huang, Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Code Representation Pre-training with Complements from Program Executions_.
 Conference on Empirical Methods in Natural Language Processing: Industry Track (EMNLP), 2024.
@@ -172,6 +188,7 @@ Conference on Empirical Methods in Natural Language Processing: Industry Track (
 
 #### 2023
 
+<a id="understanding-programs"></a>
 Jianyu Zhao, Yuyang Rong, Yiwen Guo, **Yifeng He**, Hao Chen.
 _Understanding Programs by Exploiting (Fuzzing) Test Cases_,
 Findings of Association for Computational Linguistics (ACL), 2023.
@@ -181,6 +198,7 @@ Findings of Association for Computational Linguistics (ACL), 2023.
 
 ### Others :)
 
+<a id="steerdiff"></a>
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
 _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
 [[arXiv]](https://arxiv.org/abs/2410.02710),
