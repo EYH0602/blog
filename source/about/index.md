@@ -25,14 +25,14 @@ These days, I spend most of my time thinking about how AI and software engineeri
 More specifically, my research interests are:
 
 - building and evaluating AI for software engineering, testing, and security.
-  ([arXiv 2026](#contractbench),
-  [AST 2026](#llamafuzz),
+  ([AST 2026](#llamafuzz),
   [NeurIPS 2025](#tfbench),
   [EMNLP 2025](#fuzzaug),
   [ISSTA 2024](#unitsyn),
   [EMNLP 2024](#coderep),
-  [ACL 2023](#understanding-programs))
-- software engineering for AI. ([arXiv 2026](#diffcodegen))
+  [ACL 2023](#understanding-programs),
+  [arXiv 2026 (1)](#contractbench))
+- software engineering for AI. ([arXiv 2026 (2)](#diffcodegen))
 - using AI to test anything beyond software :) ([ACL 2026](#contentfuzz))
 - making AI itself more secure — both foundation models and agents.
   ([RAIE 2025](#aiagent),
