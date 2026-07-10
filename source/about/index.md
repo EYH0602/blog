@@ -18,6 +18,7 @@ These days, I spend most of my time thinking about how AI and software engineeri
 More specifically, my research interests are:
 
 - using AI to improve software engineering, with focus on testing and security,
+- using AI to test anything :),
 - making AI itself more secure — both foundation models and agents,
 - building better AI models for software engineering,
 - safe and secure programming languages (bonus points if useful for AI).
@@ -75,7 +76,7 @@ _ContractBench: Can LLM Agents Preserve Observation Contracts?_.
 **Yifeng He**, Ziye Tang, Hao Chen.
 _Content Fuzzing for Escaping Information Cocoons on Digital Social Media_.
 Findings of Association for Computational Linguistics (ACL), 2026.
-[[arXiv]](https://arxiv.org/abs/2604.05461),
+[[DOI]](https://aclanthology.org/2026.findings-acl.547/),
 [[PDF]](/publications/he2026contentfuzz.pdf),
 [[code]](https://github.com/EYH0602/ContentFuzz),
 [[slides]](/publications/he2026contentfuzz_slides/),
