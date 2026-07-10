@@ -62,9 +62,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 # Curriculum vitae [[PDF]](./yfhe-cv.pdf)
 
-- Cell: (530) 302-6806
 - Email: yfhe at ucdavis
-- WWW: [https://yfhe.net/](https://yfhe.net/)
 - [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
 ## Education
