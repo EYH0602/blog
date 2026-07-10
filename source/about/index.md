@@ -17,12 +17,21 @@ a student-run tech club on campus.
 These days, I spend most of my time thinking about how AI and software engineering can help each other out.
 More specifically, my research interests are:
 
-- using AI to improve software engineering, with focus on testing and security,
-- using AI to test anything :),
-- making AI itself more secure — both foundation models and agents,
-- building better AI models for software engineering,
-- safe and secure programming languages (bonus points if useful for AI).
-  - PS: useful PL for AI is a very unclear topic, and should be researched on.
+- building and evaluating AI for software engineering, testing, and security.
+  ([arXiv 2026](https://arxiv.org/abs/2605.17281),
+  [AST 2026](https://arxiv.org/abs/2406.07714), 
+  [NeurIPS 2025](https://openreview.net/forum?id=IA9RmaP0aw),
+  [EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.847/),
+  [ISSTA 2024](https://doi.org/10.1145/3650212.3680342),
+  [EMNLP 2024](https://aclanthology.org/2024.emnlp-industry.21/),
+  [ACL 2023](https://doi.org/10.18653/v1/2023.findings-acl.678))
+- software engineering for AI. ([arXiv 2026](https://arxiv.org/abs/2605.20473))
+- using AI to test anything beyond software :) ([ACL 2026](https://aclanthology.org/2026.findings-acl.547/))
+- making AI itself more secure — both foundation models and agents.
+  ([RAIE 2025](https://arxiv.org/pdf/2406.08689),
+  [arXiv 2024](https://arxiv.org/abs/2410.02710))
+- safe and secure programming languages (bonus points if useful for AI)
+  - PS: useful PL for AI is a very unclear topic, and should be researched on. I need to work on this LOL.
 
 I'm also into video games.
 Some of my all-time favorites include Pokémon (recently played Sword 🙃, Violet, and Arceus 😊),
