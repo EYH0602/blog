@@ -24,15 +24,16 @@ a student-run tech club on campus.
 These days, I spend most of my time thinking about how AI and software engineering can help each other out.
 More specifically, my research interests are:
 
-- building and evaluating AI for software engineering, testing, and security.
+- building and evaluating AI for software engineering, testing, and security —
+  and using software engineering to build better AI in return.
   ([AST 2026](#llamafuzz),
   [NeurIPS 2025](#tfbench),
   [EMNLP 2025](#fuzzaug),
   [ISSTA 2024](#unitsyn),
   [EMNLP 2024](#coderep),
   [ACL 2023](#understanding-programs),
-  [arXiv 2026 (1)](#contractbench))
-- software engineering for AI. ([arXiv 2026 (2)](#diffcodegen))
+  [arXiv 2026 (1)](#contractbench),
+  [arXiv 2026 (2)](#diffcodegen))
 - testing things beyond code :) ([ACL 2026](#contentfuzz))
 - making AI itself more secure — both foundation models and agents.
   ([RAIE 2025](#aiagent),
