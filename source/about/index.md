@@ -33,7 +33,7 @@ More specifically, my research interests are:
   [ACL 2023](#understanding-programs),
   [arXiv 2026 (1)](#contractbench))
 - software engineering for AI. ([arXiv 2026 (2)](#diffcodegen))
-- using AI to test anything beyond software :) ([ACL 2026](#contentfuzz))
+- testing things beyond code :) ([ACL 2026](#contentfuzz))
 - making AI itself more secure — both foundation models and agents.
   ([RAIE 2025](#aiagent),
   [arXiv 2024](#steerdiff))
