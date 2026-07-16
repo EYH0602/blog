@@ -27,7 +27,7 @@ Catching it requires inferring *intent* from semantics (natural language or code
 That is the whole argument. Two other beliefs bracket it, and I will make them along the way, but they are the premise and the corollary, not the point:
 
 - *Premise:* a generated test is only worth anything if it encodes what the code was supposed to do and can fail when the code does something else — not a test contorted around the current implementation just to make it pass. Compiling, running, covering lines, passing — all necessary, none of them the goal.
-- *Corollary:* the field's real open problem is that we still define these bugs by absence ("no crash," "silent," "machine un-auditable"). We need a sound, positive definition of what a functional bug is — and until we have one, the LLM is a stopgap oracle standing in for a specification we have not yet learned to write down.
+- *Corollary:* automated bug detection presupposes a definition of the bug you are hunting — you cannot mechanically find what you cannot state. So the field's real open problem is that we still define functional bugs by absence ("no crash," "silent," "machine un-auditable"). We need a sound, positive definition of what a functional bug is — and until we have one, the LLM is a stopgap oracle standing in for a specification we have not yet learned to write down.
 
 The rest of this post is why I believe the central claim, and how three years of my own work has been circling it.
 
