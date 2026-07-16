@@ -18,13 +18,18 @@ The trend of using LLMs for test generation really started picking up around 202
 
 ## The claim
 
-Here it is, up front, in three sentences.
+Here it is, up front, in one sentence:
 
-1. A generated test is only worth anything if it encodes *what the code was supposed to do* and can fail when the code does something else. Compiling, running, covering lines, passing — all necessary, none of them the goal.
-2. Generative AI is *necessary*, not merely convenient, for software testing, because there is a class of bug — functional and logical bugs — that emits no mechanical signal (no crash, no sanitizer trip) and is therefore invisible to fuzzing and differential testing by construction. Catching it requires inferring *intent* from natural language, which is exactly what LLMs are for.
-3. The field's real open problem is that we still define these bugs by absence ("no crash," "silent," "machine un-auditable"). We need a *sound, positive definition* of what a functional bug is — and until we have one, the LLM is a stopgap oracle standing in for a specification we have not yet learned to write down.
+> **Generative AI is *necessary*, not merely convenient, for software testing — because there is a class of bug, i.e. functional and logical bugs,
+that emits no mechanical signal (no crash, no sanitizer trip) and is therefore invisible to traditional testing (fuzzing, differential testing, ...) by construction. 
+Catching it requires inferring *intent* from semantics (natural language or code), which is exactly what LLMs are for.**
 
-The rest of this post is why I believe each of these, and how three years of my own work has been circling them.
+That is the whole argument. Two other beliefs bracket it, and I will make them along the way, but they are the setup and the sequel, not the point:
+
+- *Setup:* a generated test is only worth anything if it encodes what the code was supposed to do and can fail when the code does something else. Compiling, running, covering lines, passing — all necessary, none of them the goal.
+- *Sequel:* the field's real open problem is that we still define these bugs by absence ("no crash," "silent," "machine un-auditable"). We need a sound, positive definition of what a functional bug is — and until we have one, the LLM is a stopgap oracle standing in for a specification we have not yet learned to write down.
+
+The rest of this post is why I believe the central claim, and how three years of my own work has been circling it.
 
 ## How the field got here
 
