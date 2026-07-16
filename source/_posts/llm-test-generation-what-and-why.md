@@ -12,9 +12,9 @@ category: research
 
 # What (and why) do we care about on LLM-based test generation
 
-If you have known me long enough — back to when I had just started my PhD — you probably remember my research focus as automated software testing with AI. These days my [interests](https://yfhe.net/about/) have drifted a little wider (AI for software engineering and security, and using software engineering to build better AI). I still work in the testing direction, but at the steady pace of roughly one paper a year: UniTSyn (ISSTA 2024), FuzzAug (EMNLP 2025), and LISA (ISSRE 2026).
+If you have known me long enough — back to when I had just started my PhD — you probably remember my research focus as automated software testing with AI. These days my [interests](https://yfhe.net/about/) have drifted a little wider (AI agent in general), but I do still work in this testing direction.
 
-The trend of using LLMs for test generation really started picking up around 2023, with work like [CAT-LM](https://squareslab.github.io/materials/raoCATLM.pdf) (ASE 2023) and TeCo training models on test code, and UniTSyn was an early entry in the direction of aligning tests with the functions they test. So what follows is a personal opinion, from someone who has worked in this direction since near its beginning. People ask why I keep circling this same topic. The honest answer is that I have been chasing a single claim, and each paper is one more attempt to make it true. This post is that claim, stated as plainly as I can.
+The trend of using LLMs for test generation really started picking up around 2023, with work like [CAT-LM](https://squareslab.github.io/materials/raoCATLM.pdf) (ASE 2023) and [TeCo](https://arxiv.org/abs/2302.10166) (ICSE 2023) training models on test code, and UniTSyn was an early entry in the direction of aligning tests with the functions they test. So what follows is a personal opinion, from someone who has worked in this direction since near its beginning. People ask why I keep circling this same topic. The honest answer is that I have been chasing a single claim, and each paper is one more attempt to make it true. This post is that claim, stated as plainly as I can.
 
 ## The wrong enemy
 
