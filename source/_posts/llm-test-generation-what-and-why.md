@@ -14,7 +14,29 @@ category: research
 
 If you have known me long enough — back to when I had just started my PhD — you probably remember my research focus as automated software testing with AI. These days my [interests](https://yfhe.net/about/) have drifted a little wider (AI agent in general), but I do still work in this testing direction.
 
-The trend of using LLMs for test generation really started picking up around 2023, with work like [CAT-LM](https://squareslab.github.io/materials/raoCATLM.pdf) (ASE 2023) and [TeCo](https://arxiv.org/abs/2302.10166) (ICSE 2023) training models on test code, and UniTSyn was an early entry in the direction of aligning tests with the functions they test. So what follows is a personal opinion, from someone who has worked in this direction since near its beginning. People ask why I keep circling this same topic. The honest answer is that I have been chasing a single claim, and each paper is one more attempt to make it true. This post is that claim, stated as plainly as I can.
+The trend of using LLMs for test generation really started picking up around 2023, with work like [CAT-LM (ASE 2023)](https://squareslab.github.io/materials/raoCATLM.pdf) and [TeCo (ICSE 2023)](https://arxiv.org/abs/2302.10166) training models on test code, and UniTSyn was an early entry in the direction of aligning tests with the functions they test. So what follows is a personal opinion, from someone who has worked in this direction since near its beginning. All these years I have been thinking about and chasing a single claim, and each of my papers is one more attempt to make it true. This post is that claim, stated as plainly as I can.
+
+## The claim
+
+Here it is, up front, in three sentences.
+
+1. A generated test is only worth anything if it encodes *what the code was supposed to do* and can fail when the code does something else. Compiling, running, covering lines, passing — all necessary, none of them the goal.
+2. Generative AI is *necessary*, not merely convenient, for software testing, because there is a class of bug — functional and logical bugs — that emits no mechanical signal (no crash, no sanitizer trip) and is therefore invisible to fuzzing and differential testing by construction. Catching it requires inferring *intent* from natural language, which is exactly what LLMs are for.
+3. The field's real open problem is that we still define these bugs by absence ("no crash," "silent," "machine un-auditable"). We need a *sound, positive definition* of what a functional bug is — and until we have one, the LLM is a stopgap oracle standing in for a specification we have not yet learned to write down.
+
+The rest of this post is why I believe each of these, and how three years of my own work has been circling them.
+
+## How the field got here
+
+It helps to see the shape of the last few years, because the ambition has kept scaling up and it colors what "good" is supposed to mean.
+
+It started small. The earliest LLM-testing work did **test completion** — given a half-written test, predict the next statement or the next assertion (TeCo). Then came **assertion generation** — given a focal method and a test prefix, fill in the oracle. Both are narrow: the human still writes the scaffolding, the model fills a blank.
+
+The next step was **whole test function and test file generation** — hand the model a function and get back a complete, compilable test. This is where most benchmarks still live (TestGenEval, SWT-Bench), and where the training-data problem I worked on became acute: to write a whole test the model has to actually understand what the function does, not just pattern-match a nearby assertion. UniTSyn and FuzzAug are both about making that possible, by feeding the model tests that are correctly paired with their focal functions and by diversifying the inputs those tests exercise.
+
+Most recently the frame has widened again, to **agentic and continuous testing** — systems that explore a whole library, generate sequences of calls, run them, repair failures, and hunt for real bugs on their own, closer to what OSS-Fuzz does for crashes but aimed at functional correctness. LISA sits here: an automated, iterative pipeline that generates API sequences, inserts oracles, verifies them against a reference build, and reports bug candidates.
+
+Each rung up that ladder raises the same question in a louder voice: as the machine takes over more of the loop, *what is the thing it is actually supposed to produce?* That is the question this post is about.
 
 ## The wrong enemy
 
