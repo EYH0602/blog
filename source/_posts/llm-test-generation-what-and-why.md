@@ -67,26 +67,18 @@ Everything I care about follows from that one sentence.
 
 ## What makes the AI necessary, not just convenient, for software testing?
 
-This is the question the whole field should be forced to answer, because most papers quietly answer a weaker one.
-
-The common pitch for LLM test generation is a **productivity** pitch: it is cheaper than writing tests by hand, more maintainable than search-based generators like EvoSuite, more readable than a fuzzer's byte soup. All true. All beside the point. A productivity argument invites an easy rebuttal: so is a better fuzzer, so is a better template engine. If AI is only *convenient*, it is competing on a crowded axis where it might lose.
-
-The argument I actually believe is a **capability** argument, and it turns on one word: **signal**.
+This is the question the whole field should be forced to answer, because most papers quietly answer a weaker one — the **productivity** pitch (cheaper than by hand, more maintainable than EvoSuite, more readable than a fuzzer's byte soup) that, as I argued at the top, competes on a crowded axis where it can lose. The argument I actually believe is a **capability** argument, and it turns on one word: **signal**.
 
 Every traditional automated testing method can only find bugs that emit a signal it can mechanically detect.
 
 - **Fuzzing** needs a crash, a hang, or a sanitizer trip (ASan, UBSan, MSan). Its oracle is "did the process misbehave at the machine level." A function that returns `2` when it should return `1` runs perfectly, corrupts no memory, exits zero. Fuzzing sprints right past it.
 - **Differential testing** needs a reference implementation to disagree with. Most library code has no golden twin, and where a twin exists, both copies often share the same wrong assumption. It just converts the oracle problem into "go find me a second oracle," which usually does not exist.
 
-Both techniques are, for functional correctness, fundamentally **un-oracled**. They detect deviation from a mechanical invariant (memory safety, crash-freedom, cross-implementation agreement). They never detect deviation from *intent*.
+Both techniques are, for functional correctness, fundamentally **un-oracled**. They detect deviation from a mechanical invariant (memory safety, crash-freedom, cross-implementation agreement); they never detect deviation from *intent*. The functional and logical bugs — the SQLite `0 OR 2 → 2` I opened with, **machine un-auditable** in LISA's own words — produce no mechanical signal at all. The reason libFuzzer never reaches this class is not a shortage of compute; the class is *defined by the absence of the signal fuzzing depends on*. The limitation is not the tool, it is the category.
 
-Now the class of bugs that produces no mechanical signal at all: the functional and logical bugs. The SQLite `0 OR 2 → 2` bug I opened with is exactly one of these — I hit it in LISA, and in LISA's own words this class is **machine un-auditable**. The reason libFuzzer never reaches it is not a shortage of compute; it is that the class is *defined by the absence of the signal fuzzing depends on*. No fuzzer improvement reaches it. The limitation is not the tool, it is the category.
+So what can catch it? Something that knows the code was supposed to return a boolean — knowledge that does not live in the binary but in the documentation, the API name, the surrounding code, the comments: natural language written by and for humans. The oracle has to be *inferred from intent*, and intent lives in exactly the medium generative models were built to read. That is why the AI is necessary and not merely convenient — and why the gap is structural, not a temporary shortfall in the tooling.
 
-So what can catch it? Something that knows the code was supposed to return a boolean. That knowledge does not live in the binary. It lives in the documentation, the API name, the surrounding code, the comments — natural language written by and for humans. The oracle has to be *inferred from intent*, and intent lives in exactly the medium generative models were built to read.
-
-That is why the AI is necessary and not merely convenient. There is a class of bug that no amount of fuzzing compute can reach, defined precisely by the missing signal, and closing it requires inferring intent from natural language. This is not a temporary gap in the tooling. It is structural.
-
-One caveat I insist on, because overclaiming here is cheap and wrong: **AI does not replace fuzzing, it covers a disjoint region.** In LISA's own results OSS-Fuzz caught a libpng crash that LISA missed. Sanitizer-detectable bugs belong to fuzzing. Signal-less logic bugs belong to generative oracles. The two scopes are complementary. The honest and still-strong claim is that AI is necessary for a region fuzzing *cannot enter*, not that it wins everywhere.
+One caveat I insist on, because overclaiming here is cheap and wrong: **AI does not replace fuzzing and other traditional software testing, it covers a disjoint region.** Sanitizer-detectable bugs belong to dynamic testing; signal-less logic bugs belong to generative oracles. The honest and still-strong claim is that AI is necessary for a region fuzzing *cannot enter*, not that it wins everywhere.
 
 ## What I actually care about in a generated test
 
