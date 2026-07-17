@@ -40,6 +40,10 @@ More specifically, my research interests are:
   [arXiv 2024](#steerdiff))
 - safe and secure programming languages (bonus points if useful for AI)
   - PS: useful PL for AI is a very unclear topic, and should be researched on. I need to work on this LOL.
+- AI for art, especially music. 
+  - I am mostly interested in using AI to understand the commons and differences between *genres*, and generate music with *genre transfer*.
+  - See my early work [here](https://yfhe.net/2022/06/12/MusicGenre/).
+  - Please reach out if you are interested in collaborating on this topic!
 
 I'm also into video games.
 Some of my all-time favorites include Pokémon (recently played Sword 🙃, Violet, and Arceus 😊),
@@ -63,7 +67,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 # Curriculum vitae [[PDF]](./yfhe-cv.pdf)
 
-- Email: yfhe at ucdavis
+- Email: yfhe.cs at gmail 
 - [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
 ## Education
