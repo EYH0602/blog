@@ -1,5 +1,5 @@
 ---
-title: "What (and Why) do we care about on LLM-based test generation"
+title: "What (and Why) We Care About in LLM-Based Test Generation"
 date: 2026-07-16 13:37:00
 tags:
   - LLM
@@ -10,7 +10,7 @@ tags:
 category: research
 ---
 
-# What (and why) do we care about on LLM-based test generation
+# What (and Why) We Care About in LLM-Based Test Generation
 
 *TL;DR: AI-based testing should target the bugs traditional testing cannot find — not the ones it already catches, more cheaply.*
 
@@ -28,9 +28,7 @@ I have been circling this one claim for three years, since the start of my PhD i
 
 Here it is, up front, in one sentence:
 
-> **Generative AI is *necessary*, not merely convenient, for software testing — because there is a class of bug, i.e. functional and logical bugs,
-that emits no mechanical signal (no crash, no sanitizer trip) and is therefore invisible to traditional testing (fuzzing, differential testing, ...) by construction. 
-Catching it requires inferring *intent* from semantics (natural language or code), which is exactly what LLMs are for.**
+> **Generative AI is *necessary*, not merely convenient, for software testing. Functional and logical bugs emit no mechanical signal — no crash, no sanitizer trip — so traditional methods like fuzzing and differential testing are blind to them by construction. Catching them requires inferring *intent* from semantics, and that is exactly what LLMs are for.**
 
 Two other beliefs bracket it — the premise and the corollary, not the point:
 
@@ -49,7 +47,7 @@ The tell is that industry has already quietly seen through the illusion. Meta's 
 
 The academic benchmarks are starting to follow. [TestGenEval (ICLR 2025)](https://arxiv.org/abs/2410.00752) is the first at scale to report **mutation score** alongside coverage, and the numbers are damning: GPT-4o hits 35.2% coverage and 18.8% mutation score. Read those together — the tests run through a third of the code and catch fewer than a fifth of deliberately planted faults. The vast majority of generated assertions are too weak to notice even a simple code change. And mutation score, though far better correlated with real fault detection than coverage ([Just et al., FSE 2014](https://dl.acm.org/doi/10.1145/2635868.2635929)), is still a proxy: mutants are mechanical perturbations, while the bugs we care about are semantic — a wrong algorithm, a misunderstood spec, a silently incorrect optimization like SQLite's `0 OR 2 → 2`. The field still lacks a benchmark that directly measures whether a generated suite can uncover real, historical, functional bugs in the wild.
 
-The goal of testing, from the start and beyond, is to ensure *the code does what it is supposed to do*. A test that passes and covers lines but does not encode the intended behavior is a test that cannot fail when the code does something else. Everything I care about follows from that one sentence.
+The goal of testing has never changed: ensure *the code does what it is supposed to do*. Coverage and pass rate can both look perfect while that goal goes entirely unmet. Everything I care about follows from that one sentence.
 
 ## Why no amount of compute solves this
 
