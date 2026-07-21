@@ -201,6 +201,10 @@ Findings of Association for Computational Linguistics (ACL), 2023.
 
 ### Others :)
 
+**Yifeng He**, Yinzhe Zhao, Jicheng Wang, Hao Chen.
+_Is Progressive Disclosure All You Need for Long-Context Agents?_.
+[[arXiv]](https://arxiv.org/abs/2607.17598).
+
 <a id="steerdiff"></a>
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
 _SteerDiff: Steering towards Safe Text-to-Image Diffusion Models_.
