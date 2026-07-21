@@ -87,7 +87,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 #### 2026
 
 <a id="lisa"></a>
-Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen._LLM-Based Invariant Testing for Software Functional Bugs_.
+Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. _LLM-Based Invariant Testing for Software Functional Bugs_.
 International Symposium on Software Reliability Engineering (ISSRE), 2026.
 [[DOI]](),
 [[arXiv]](),
