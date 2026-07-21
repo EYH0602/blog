@@ -6,7 +6,7 @@ layout: about
 ---
 
 <style>
-#diffcodegen, #contractbench, #contentfuzz, #llamafuzz, #tfbench,
+#lisa, #diffcodegen, #contractbench, #contentfuzz, #llamafuzz, #tfbench,
 #fuzzaug, #aiagent, #unitsyn, #coderep, #understanding-programs, #steerdiff {
   scroll-margin-top: 100px;
 }
@@ -26,7 +26,8 @@ More specifically, my research interests are:
 
 - building and evaluating AI for software engineering, testing, and security —
   and using software engineering to build better AI in return.
-  ([AST 2026](#llamafuzz),
+  ([ISSRE 2026](#lisa),
+  [AST 2026](#llamafuzz),
   [NeurIPS 2025](#tfbench),
   [EMNLP 2025](#fuzzaug),
   [ISSTA 2024](#unitsyn),
@@ -81,6 +82,15 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 ### Featured Publications
 
 #### 2026
+
+<a id="lisa"></a>
+Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. (\* equal contribution)
+_LLM-Based Invariant Testing for Software Functional Bugs_.
+International Symposium on Software Reliability Engineering (ISSRE), 2026.
+[[DOI]](),
+[[arXiv]](),
+[[PDF]](/publications/he2026lisa.pdf),
+[[code]](https://github.com/SecurityLab-UCD/CNTG).
 
 <a id="diffcodegen"></a>
 **Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
