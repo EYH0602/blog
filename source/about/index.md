@@ -86,6 +86,8 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 #### 2026
 
+
+
 <a id="lisa"></a>
 Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. _LLM-Based Invariant Testing for Software Functional Bugs_.
 International Symposium on Software Reliability Engineering (ISSRE), 2026.
@@ -94,11 +96,13 @@ International Symposium on Software Reliability Engineering (ISSRE), 2026.
 [[PDF]](/publications/he2026lisa.pdf),
 [[code]](https://github.com/SecurityLab-UCD/CNTG).
 
-<a id="diffcodegen"></a>
-**Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
-_Code Generation by Differential Test Time Scaling_.
-[[arXiv]](https://arxiv.org/abs/2605.20473),
-[[code]](https://github.com/SecurityLab-UCD/DiffCodeGen).
+<a id="skill"></a>
+**Yifeng He**, Yinzhe Zhao, Jicheng Wang, Hao Chen.
+_Is Progressive Disclosure All You Need for Long-Context Agents?_.
+[[arXiv]](https://arxiv.org/abs/2607.17598).
+
+- media coverage: 
+  [[DAIR.AI]](https://x.com/dair_ai/status/2081437966866505856),
 
 <a id="contractbench"></a>
 Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
@@ -213,9 +217,11 @@ Findings of Association for Computational Linguistics (ACL), 2023.
 
 ### Others :)
 
-**Yifeng He**, Yinzhe Zhao, Jicheng Wang, Hao Chen.
-_Is Progressive Disclosure All You Need for Long-Context Agents?_.
-[[arXiv]](https://arxiv.org/abs/2607.17598).
+<a id="diffcodegen"></a>
+**Yifeng He**, Ethan Wang, Jicheng Wang, Xuanxin Ouyang, Hao Chen.
+_Code Generation by Differential Test Time Scaling_.
+[[arXiv]](https://arxiv.org/abs/2605.20473),
+[[code]](https://github.com/SecurityLab-UCD/DiffCodeGen).
 
 <a id="steerdiff"></a>
 Hongxiang Zhang, **Yifeng He**, Hao Chen.
