@@ -6,7 +6,7 @@ layout: about
 ---
 
 <style>
-#lisa, #diffcodegen, #contractbench, #contentfuzz, #llamafuzz, #tfbench,
+#lisa, #autoresearch, #diffcodegen, #contractbench, #contentfuzz, #llamafuzz, #tfbench,
 #fuzzaug, #aiagent, #unitsyn, #coderep, #understanding-programs, #steerdiff {
   scroll-margin-top: 100px;
 }
@@ -35,7 +35,8 @@ More specifically, my research interests are:
   [ACL 2023](#understanding-programs),
   [arXiv 2026 (1)](#contractbench),
   [arXiv 2026 (2)](#diffcodegen))
-- testing things beyond code :) ([ACL 2026](#contentfuzz))
+- testing things beyond code :) ([ACL 2026](#contentfuzz),
+  [arXiv 2026](#autoresearch))
 - making AI itself more secure — both foundation models and agents.
   ([RAIE 2025](#aiagent),
   [arXiv 2024](#steerdiff))
@@ -86,7 +87,10 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 #### 2026
 
-
+<a id="autoresearch"></a>
+**Yifeng He**, Jicheng Wang, Yinzhe Zhao, Jiachen Liu, Hao Chen.
+_Agentic Auto-Research is Fuzz Testing_.
+[[arXiv]](https://arxiv.org/abs/2608.09855).
 
 <a id="lisa"></a>
 Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. _LLM-Based Invariant Testing for Software Functional Bugs_.
