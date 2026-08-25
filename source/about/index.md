@@ -24,6 +24,8 @@ a student-run tech club on campus.
 These days, I spend most of my time thinking about how AI and software engineering can help each other out.
 More specifically, my research interests are:
 
+- analyzing and improving agent-native research from a software aspect. 
+  ([arXiv 2026](#autoresearch))
 - building and evaluating AI for software engineering, testing, and security —
   and using software engineering to build better AI in return.
   ([ISSRE 2026](#lisa),
@@ -35,8 +37,7 @@ More specifically, my research interests are:
   [ACL 2023](#understanding-programs),
   [arXiv 2026 (1)](#contractbench),
   [arXiv 2026 (2)](#diffcodegen))
-- testing things beyond code :) ([ACL 2026](#contentfuzz),
-  [arXiv 2026](#autoresearch))
+- testing things beyond code :) ([ACL 2026](#contentfuzz))
 - making AI itself more secure — both foundation models and agents.
   ([RAIE 2025](#aiagent),
   [arXiv 2024](#steerdiff))
@@ -88,9 +89,12 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 #### 2026
 
 <a id="autoresearch"></a>
-**Yifeng He**, Jicheng Wang, Yinzhe Zhao, Jiachen Liu, Hao Chen.
-_Agentic Auto-Research is Fuzz Testing_.
-[[arXiv]](https://arxiv.org/abs/2608.09855).
+**Yifeng He**, Jicheng Wang, Yinzhe Zhao, Chengyang Shi, Jiachen Liu, Hao Chen.
+_The Greatness of Science Cannot Be Planned: Agentic Auto-Research is Fuzz Testing_.
+[[arXiv]](https://arxiv.org/abs/2608.09855),
+[[blog]](https://www.agenticresearch.sh/blog/the-goal-of-science-is-not-to-win),
+[[code]](https://github.com/ARA-Labs/Agent-Native-Research-Artifact/tree/main/skills/research-fuzzer),
+[[trajectories]](https://huggingface.co/datasets/AgentNativeResearchLab/discoverphysics-three-species-fuzz-testing-pair).
 
 <a id="lisa"></a>
 Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. _LLM-Based Invariant Testing for Software Functional Bugs_.
