@@ -29,6 +29,7 @@ More specifically, my research interests are:
 - building and evaluating AI for software engineering, testing, and security —
   and using software engineering to build better AI in return.
   ([ISSRE 2026](#lisa),
+  [LMPL 2026](#invpt),
   [AST 2026](#llamafuzz),
   [NeurIPS 2025](#tfbench),
   [EMNLP 2025](#fuzzaug),
@@ -117,6 +118,15 @@ Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
 _ContractBench: Can LLM Agents Preserve Observation Contracts?_.
 [[arXiv]](https://arxiv.org/abs/2605.17281),
 [[code]](https://github.com/JeremyJC67/contractbench).
+
+<a id="invpt"></a>
+**Yifeng He**, Yundi Xu, Christopher Castro Gaw Gonzalo, Zili Wang, Hao Chen.
+_Invariant Pretraining for Robust Code Representations_.
+International Workshop on Language Models and Programming Languages (LMPL), 2026.
+[[DOI]](https://doi.org/10.1145/3843750.3843840),
+[[PDF]](),
+[[arXiv]](https://arxiv.org/abs/2608.15412),
+[[code]](https://github.com/SecurityLab-UCD/InvPT),
 
 <a id="contentfuzz"></a>
 **Yifeng He**, Ziye Tang, Hao Chen.
