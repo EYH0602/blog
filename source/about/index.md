@@ -124,7 +124,7 @@ _ContractBench: Can LLM Agents Preserve Observation Contracts?_.
 _Invariant Pretraining for Robust Code Representations_.
 International Workshop on Language Models and Programming Languages (LMPL), 2026.
 [[DOI]](https://doi.org/10.1145/3843750.3843840),
-[[PDF]](/publications/he2026pretrain.pdf),
+[[PDF]](/publications/he2026invpt.pdf),
 [[arXiv]](https://arxiv.org/abs/2608.15412),
 [[code]](https://github.com/SecurityLab-UCD/InvPT),
 
