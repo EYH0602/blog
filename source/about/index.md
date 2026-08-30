@@ -102,7 +102,7 @@ Ruogu Yang\*, **Yifeng He**\*, Yundi Xu, Yuqing Wei, Hao Chen. _LLM-Based Invari
 International Symposium on Software Reliability Engineering (ISSRE), 2026.
 [[DOI]](),
 [[arXiv]](https://arxiv.org/abs/2607.18711),
-[[PDF]](/publications/he2026lisa.pdf),
+[[PDF]](/publications/yang2026lisa.pdf),
 [[code]](https://github.com/SecurityLab-UCD/CNTG).
 
 <a id="skill"></a>
