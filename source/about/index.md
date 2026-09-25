@@ -88,6 +88,12 @@ _(\* equal contribution)_
 
 #### 2026
 
+<a id="lara"></a>
+Yifeng He, Jiachen Liu.
+_Beyond Natural Language: An Agent-Native Language for Autonomous Science_, 2026.
+[[arXiv]](https://arxiv.org/abs/2609.25421),
+[[code]](https://github.com/ARA-Labs/Lara)
+
 <a id="contractbench"></a>
 Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
 _ContractBench: Can LLM Agents Preserve Observation Contracts?_,
