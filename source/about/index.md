@@ -24,7 +24,7 @@ a student-run tech club on campus.
 These days, I spend most of my time thinking about how AI and software engineering can help each other out.
 More specifically, my research interests are:
 
-- analyzing and improving agent-native research from a software aspect. 
+- analyzing and improving agent-native research from a software aspect.
   ([arXiv 2026](#autoresearch))
 - building and evaluating AI for software engineering, testing, and security —
   and using software engineering to build better AI in return.
@@ -44,8 +44,8 @@ More specifically, my research interests are:
   [arXiv 2024](#steerdiff))
 - safe and secure programming languages (bonus points if useful for AI)
   - PS: useful PL for AI is a very unclear topic, and should be researched on. I need to work on this LOL.
-- AI for art, especially music. 
-  - I am mostly interested in using AI to understand the commons and differences between *genres*, and generate music with *genre transfer*.
+- AI for art, especially music.
+  - I am mostly interested in using AI to understand the commons and differences between _genres_, and generate music with _genre transfer_.
   - See my early work [here](https://yfhe.net/2022/06/12/MusicGenre/).
   - Please reach out if you are interested in collaborating on this topic!
 
@@ -71,7 +71,7 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 # Curriculum vitae [[PDF]](./yfhe-cv.pdf)
 
-- Email: yfhe.cs at gmail 
+- Email: yfhe.cs at gmail
 - [Google scholar](https://scholar.google.com/citations?user=zNLAMg0AAAAJ&hl=en)
 
 ## Education
@@ -84,10 +84,36 @@ If you're curious, feel free to check out some of my shots on [Instagram](https:
 
 ### Featured Publications
 
-*(\* equal contribution)*
-
+_(\* equal contribution)_
 
 #### 2026
+
+<a id="contractbench"></a>
+Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
+_ContractBench: Can LLM Agents Preserve Observation Contracts?_,
+Neural Information Processing Systems ED Track (NeurIPS), 2026.
+[[OpenReview]](https://openreview.net/forum?id=5gUgBwrk8B),
+[[arXiv]](https://arxiv.org/abs/2605.17281),
+[[code]](https://github.com/JeremyJC67/contractbench).
+
+<a id="skillsbench"></a>
+Xiangyi Li, Yimin Liu, Wenbo Chen, Shenghan Zheng, **Yifeng He**, ...
+_SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_,
+Neural Information Processing Systems ED Track (NeurIPS), 2026.
+[[OpenReview]](https://openreview.net/forum?id=Utmr8dZbrt),
+[[arXiv]](https://arxiv.org/abs/2602.12670),
+[[website]](https://www.skillsbench.ai/),
+[[code]](https://github.com/benchflow-ai/skillsbench).
+
+- media coverage: [[Garry Tan]](https://x.com/garrytan/status/2023831150884503978),
+  [[HuggingFace Papers]](https://x.com/HuggingPapers/status/2025573893466169639),
+  [[DAIR.AI]](https://x.com/dair_ai/status/2025707116653339077),
+  [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
+  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe),
+  [[The Register]](https://www.theregister.com/2026/02/19/ai_agents_cant_teach_themselves/),
+  [[AI Week in Review (Substack)]](https://patmcguinness.substack.com/p/ai-week-in-review-250221),
+  [[InfoWorld]](https://www.infoworld.com/article/4135335/ai-agents-still-need-humans-to-teach-them-2.html),
+  [[Theo - t3.gg]](https://youtu.be/GcNu6wrLTJc?si=KWKx-fq4wWNcAiD5).
 
 <a id="autoresearch"></a>
 **Yifeng He**, Jicheng Wang, Yinzhe Zhao, Chengyang Shi, Jiachen Liu, Hao Chen.
@@ -107,17 +133,13 @@ International Symposium on Software Reliability Engineering (ISSRE), 2026.
 
 <a id="skill"></a>
 **Yifeng He**, Yinzhe Zhao, Jicheng Wang, Hao Chen.
-_Is Progressive Disclosure All You Need for Long-Context Agents?_.
+_Is Progressive Disclosure All You Need for Long-Context Agents?_,
+Workshop for Research on Agent Language Models (REALM), 2026.
+[[doi]](),
 [[arXiv]](https://arxiv.org/abs/2607.17598).
 
-- media coverage: 
+- media coverage:
   [[DAIR.AI]](https://x.com/dair_ai/status/2081437966866505856),
-
-<a id="contractbench"></a>
-Jicheng Wang, **Yifeng He**, Zili Wang, Hanwen Xing, Arkaprava De, Hao Chen.
-_ContractBench: Can LLM Agents Preserve Observation Contracts?_.
-[[arXiv]](https://arxiv.org/abs/2605.17281),
-[[code]](https://github.com/JeremyJC67/contractbench).
 
 <a id="invpt"></a>
 **Yifeng He**, Yundi Xu, Christopher Castro Gaw Gonzalo, Zili Wang, Hao Chen.
@@ -138,29 +160,12 @@ Findings of Association for Computational Linguistics (ACL), 2026.
 [[slides]](/publications/he2026contentfuzz_slides/),
 [[poster]](/publications/he2026contentfuzz_poster.pdf).
 
-Xiangyi Li, Wenbo Chen, Yimin Liu, Shenghan Zheng, Xiaokun Chen, **Yifeng He**, ...+34 authors.
-_SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks_, 2026.
-[[arXiv]](https://arxiv.org/abs/2602.12670),
-[[website]](https://www.skillsbench.ai/),
-[[code]](https://github.com/benchflow-ai/skillsbench).
-
-- media coverage: [[Garry Tan]](https://x.com/garrytan/status/2023831150884503978),
-  [[HuggingFace Papers]](https://x.com/HuggingPapers/status/2025573893466169639),
-  [[DAIR.AI]](https://x.com/dair_ai/status/2025707116653339077),
-  [[Hacker News]](https://news.ycombinator.com/item?id=47040430),
-  [[Medium (Synthetic Futures)]](https://medium.com/synthetic-futures/skillsbench-the-missing-benchmark-for-ai-agent-skills-that-actually-work-619881fefcfe),
-  [[The Register]](https://www.theregister.com/2026/02/19/ai_agents_cant_teach_themselves/),
-  [[AI Week in Review (Substack)]](https://patmcguinness.substack.com/p/ai-week-in-review-250221),
-  [[InfoWorld]](https://www.infoworld.com/article/4135335/ai-agents-still-need-humans-to-teach-them-2.html),
-  [[Theo - t3.gg]](https://youtu.be/GcNu6wrLTJc?si=KWKx-fq4wWNcAiD5).
-
 <a id="llamafuzz"></a>
 Hongxiang Zhang, Yuyang Rong, **Yifeng He**, Hao Chen.
 _LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing_.
 International Conference on Automation of Software Test (AST), 2026.
 [[arXiv]](https://arxiv.org/abs/2406.07714),
 [[code]](https://github.com/SecurityLab-UCD/LLAMAFUZZ).
-
 
 #### 2025
 
@@ -193,7 +198,7 @@ Conference on Empirical Methods in Natural Language Processing: Findings (EMNLP)
 <a id="aiagent"></a>
 **Yifeng He**, Ethan Wang, Yuyang Rong, Zifei Cheng, Hao Chen.
 _Security of AI Agents_,
-International Workshop on Responsible AI Engineering (ICSE-RAIE), 2025.
+International Workshop on Responsible AI Engineering (RAIE), 2025.
 [[DOI]](https://doi.org/10.1109/RAIE66699.2025.00013),
 [[PDF]](/publications/he2025aiagent.pdf),
 [[arXiv (recommended)]](https://arxiv.org/pdf/2406.08689),
@@ -256,14 +261,13 @@ _Big Data and Deep Learning Techniques Applied in Intelligent Recommender System
 International Conference on Civil Aviation Safety and Information Technology (ICCASIT), 2022.
 [[DOI]](https://doi.org/10.1109/ICCASIT55263.2022.9986837).
 
-
 ## Services
 
 **Organizing Committee** / **Co-Chair** for:
 
-- The First Workshop on Agent Skills (Agent Skills '26), 2026. 
-[[website]](https://agentskills-workshop.github.io/),
-[[OpenReview, checkout our accepted papers!]](https://openreview.net/group?id=ACM.org/CAIS/2026/Workshop/AgentSkills).
+- The First Workshop on Agent Skills (Agent Skills '26), 2026.
+  [[website]](https://agentskills-workshop.github.io/),
+  [[OpenReview, checkout our accepted papers!]](https://openreview.net/group?id=ACM.org/CAIS/2026/Workshop/AgentSkills).
 
 **Program Committee Member** / **Reviewer** for:
 
