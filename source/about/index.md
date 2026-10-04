@@ -155,6 +155,7 @@ International Workshop on Language Models and Programming Languages (LMPL), 2026
 [[PDF]](/publications/he2026invpt.pdf),
 [[arXiv]](https://arxiv.org/abs/2608.15412),
 [[code]](https://github.com/SecurityLab-UCD/InvPT),
+[[slides]](/publications/he2026invpt_slides.pdf).
 
 <a id="contentfuzz"></a>
 **Yifeng He**, Ziye Tang, Hao Chen.
