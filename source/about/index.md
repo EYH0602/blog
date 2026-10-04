@@ -123,7 +123,8 @@ Neural Information Processing Systems ED Track (NeurIPS), 2026.
 
 <a id="autoresearch"></a>
 **Yifeng He**, Jicheng Wang, Yinzhe Zhao, Chengyang Shi, Jiachen Liu, Hao Chen.
-_The Greatness of Science Cannot Be Planned: Agentic Auto-Research is Fuzz Testing_.
+_[Position] The Greatness of Science Cannot Be Planned: Agentic Auto-Research is Fuzz Testing_,
+Verification in the Age of AI Scientists Workshop @ NeurIPS, 2026.
 [[arXiv]](https://arxiv.org/abs/2608.09855),
 [[blog]](https://www.agenticresearch.sh/blog/the-goal-of-science-is-not-to-win),
 [[code]](https://github.com/ARA-Labs/Agent-Native-Research-Artifact/tree/main/skills/research-fuzzer),
@@ -141,7 +142,7 @@ International Symposium on Software Reliability Engineering (ISSRE), 2026.
 **Yifeng He**, Yinzhe Zhao, Jicheng Wang, Hao Chen.
 _Is Progressive Disclosure All You Need for Long-Context Agents?_,
 Workshop for Research on Agent Language Models (REALM), 2026.
-[[doi]](),
+[[DOI]](),
 [[arXiv]](https://arxiv.org/abs/2607.17598).
 
 - media coverage:
