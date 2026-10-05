@@ -143,7 +143,8 @@ International Symposium on Software Reliability Engineering (ISSRE), 2026.
 _Is Progressive Disclosure All You Need for Long-Context Agents?_,
 Workshop for Research on Agent Language Models (REALM), 2026.
 [[DOI]](),
-[[arXiv]](https://arxiv.org/abs/2607.17598).
+[[arXiv]](https://arxiv.org/abs/2607.17598),
+[[poster]](/publications/he2026loongdoc_poster.pdf).
 
 - media coverage:
   [[DAIR.AI]](https://x.com/dair_ai/status/2081437966866505856),
